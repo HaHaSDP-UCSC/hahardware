@@ -1,0 +1,45 @@
+(export (version D)
+  (design
+    (source C:/Users/jzheng13/Documents/HA-HA/pcb/kicad/antenna/patch.sch)
+    (date "2/15/2017 1:37:32 PM")
+    (tool "Eeschema 4.0.5")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source patch.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref P1)
+      (value CONN_01X02)
+      (footprint Connectors_Molex:Molex_SMA_Jack_Edge_Mount)
+      (libsource (lib conn) (part CONN_01X02))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58A4C75B)))
+  (libparts
+    (libpart (lib conn) (part CONN_01X02)
+      (description "Connector, single row, 01x02")
+      (footprints
+        (fp Pin_Header_Straight_1X02)
+        (fp Pin_Header_Angled_1X02)
+        (fp Socket_Strip_Straight_1X02)
+        (fp Socket_Strip_Angled_1X02))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X02))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive)))))
+  (libraries
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
+  (nets
+    (net (code 1) (name /SIG)
+      (node (ref P1) (pin 1)))
+    (net (code 2) (name GND)
+      (node (ref P1) (pin 2)))))
