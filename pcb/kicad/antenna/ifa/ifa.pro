@@ -1,4 +1,4 @@
-update=2/19/2017 6:38:54 PM
+update=2/20/2017 11:28:28 AM
 version=1
 last_client=kicad
 [general]
@@ -55,10 +55,10 @@ LabSize=60
 version=1
 PageLayoutDescrFile=
 LastNetListRead=ifa.net
-PadDrill=0.762
-PadDrillOvalY=0.762
-PadSizeH=1.524
-PadSizeV=1.524
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=5.08
+PadSizeV=2.29
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
