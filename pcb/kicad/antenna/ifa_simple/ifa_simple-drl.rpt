@@ -1,0 +1,23 @@
+Drill report for C:\Users\Jeffrey Zheng\Dropbox\HA-HA\pcb\kicad\antenna\ifa_simple\ifa_simple.kicad_pcb
+Created on 2/21/2017 12:05:27 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ifa_simple.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.25mm  0.010"  (1 hole)
+    T2  0.46mm  0.018"  (2 holes)
+
+    Total plated holes count 3
+
+
+Drill file 'ifa_simple-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
