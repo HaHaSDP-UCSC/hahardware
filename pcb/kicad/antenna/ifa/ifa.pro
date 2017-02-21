@@ -1,4 +1,4 @@
-update=2/20/2017 11:28:28 AM
+update=2/20/2017 3:33:46 PM
 version=1
 last_client=kicad
 [general]
@@ -55,8 +55,8 @@ LabSize=60
 version=1
 PageLayoutDescrFile=
 LastNetListRead=ifa.net
-PadDrill=0
-PadDrillOvalY=0
+PadDrill=0.6
+PadDrillOvalY=0.6
 PadSizeH=5.08
 PadSizeV=2.29
 PcbTextSizeV=1.5
@@ -68,5 +68,5 @@ ModuleTextSizeThickness=0.15
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
+BoardOutlineThickness=1.9812
 ModuleOutlineThickness=0.15
