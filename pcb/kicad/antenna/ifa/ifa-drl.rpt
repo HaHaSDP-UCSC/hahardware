@@ -1,5 +1,5 @@
-Drill report for C:\Users\Jeffrey Zheng\Dropbox\HA-HA\pcb\kicad\antenna\ifa\ifa.kicad_pcb
-Created on 2/21/2017 12:10:17 AM
+Drill report for C:/Users/jzheng13/Documents/HA-HA/pcb/kicad/antenna/ifa/ifa.kicad_pcb
+Created on 2/22/2017 2:17:46 PM
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,10 @@ Copper Layer Stackup:
 Drill file 'ifa.drl' contains
     plated through holes:
     =============================================================
-    T1  0.25mm  0.010"  (2 holes)
+    T1  0.25mm  0.010"  (12 holes)
     T2  0.46mm  0.018"  (2 holes)
 
-    Total plated holes count 4
+    Total plated holes count 14
 
 
 Drill file 'ifa-NPTH.drl' contains

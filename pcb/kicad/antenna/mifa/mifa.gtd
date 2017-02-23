@@ -1,0 +1,831 @@
+$Header
+$Program	GerbTool GT-Designer Service Release 3 (16.2.37)
+	Version	16.0
+	Created	Wed Feb 22 18:15:01 2017
+$End
+$Environment
+	SketchMode	No
+	OverlayMode	No
+	ShowErrors	No
+	ViewComposites	No
+	OrthoSnap	Yes
+	SnapAngle	45.0000
+	ActiveLayer	6
+	CurrentDcode	10
+	PreviousView	-1.823, -0.664, 2.645, 1.837
+	FilmBox	0.735, 0.964, 0xffff00
+	DesignID		0x6871722
+	UniqID		0x5e
+	NetID		0
+	Flags		0
+	NetCompareOk		No
+	GenAutoDrills		No
+$End
+$Netlist
+	DrillLayer	1
+	WellBehaved	No
+	IncludeSinglePointNets	Yes
+	IgnoreSelectGroup	No
+	PreserveNetNames	No
+	GenByVersion	16.0
+	Clean		Yes
+	IsoPadsTagged	No
+$End
+$Views
+$End
+$TabViews
+$End
+$Layer	1
+	File		antennas-F.Cu.gbr
+	LyrName	antennas-F.Cu
+	Visibility	On
+	FlashColor	0xff00
+	DrawColor	0xae00
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.000, 0.000, 0.734, 0.906
+	ID		0x6871726
+	NetID		0
+	Virtual	0
+$End
+$Layer	3
+	File		antennas-F.SilkS.gbr
+	LyrName	antennas-F.SilkS
+	Visibility	On
+	FlashColor	0xffff00
+	DrawColor	0xc4c400
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.510, 0.054, 0.555, 0.199
+	ID		0x6871727
+	NetID		0
+	Virtual	0
+$End
+$Layer	4
+	File		antennas-B.Cu.gbr
+	LyrName	antennas-B.Cu
+	Visibility	On
+	FlashColor	0xff
+	DrawColor	0xae
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.000, 0.000, 0.734, 0.686
+	ID		0x6871723
+	NetID		0
+	Virtual	0
+$End
+$Layer	6
+	File		antennas-B.SilkS.gbr
+	LyrName	antennas-B.SilkS
+	Visibility	On
+	FlashColor	0x80ff
+	DrawColor	0x57ae
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.000, 0.000, 0.000, 0.000
+	ID		0x6871724
+	NetID		0
+	Virtual	0
+$End
+$Layer	7
+	File		antennas-drl_map.gbr
+	LyrName	antennas-drl_map
+	Visibility	On
+	FlashColor	0xffff
+	DrawColor	0xaeae
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	-0.006, -0.006, 0.740, 0.969
+	ID		0x6871725
+	NetID		0
+	Virtual	0
+$End
+$Layer	8
+	File		antennas.drl
+	LyrName	antennas.drl
+	Visibility	On
+	FlashColor	0xff0000
+	DrawColor	0xae0000
+	Type		NC
+	Polarity	Dark
+	Key		0
+	Extents	0.073, 0.253, 0.732, 0.672
+	ID		0x6871728
+	NetID		0
+	Virtual	0
+$End
+$LayerSets
+$End
+$ExportHPGL
+	OutFile	mifa.plt
+	MediaSize	34.000, 22.000
+	Offset		0.000, 0.000
+	Scale		1.0000
+	Border	No 0
+	PenWidth	0.010
+	PenSpeed	60
+	$Pens
+		Layer 1	1	1
+		Layer 3	1	1
+		Layer 4	1	1
+		Layer 7	1	1
+		Layer 8	1	1
+	$End
+	Spread	No
+	$SpreadOffset
+	$End
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+$End
+$ExportPostScript
+	OutFile	mifa.ps
+	MediaSize	8.000, 10.500
+	Offset		0.000, 0.000
+	Scale		1.0000
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+	GreyScale	No
+	Border	No
+$End
+$ImportHPGL
+	PlotSize	Large
+	Rotate		No
+	$PenSizes
+		1	0.0100
+		2	0.0110
+		3	0.0120
+		4	0.0130
+		5	0.0140
+		6	0.0150
+		7	0.0160
+		8	0.0170
+	$End
+$End
+$Text
+	Filename	mifa.txt
+	Height		0.1000
+	Width		0.1000
+	LineSpace	1.0000
+	CharSpace	1.0000
+	Rotate		0
+	Slant		0
+	Mirror		No
+$End
+$ApReport
+	Layer		1
+$End
+$Rotate
+	Degrees	0.00
+	Pivot		Center
+$End
+$Mirror
+	Direction	Horz
+	Pivot		Center
+$End
+$DcodeScale
+	Fixed		No
+	Scale		0.1000, 0.1000
+$End
+$Panelize
+	Panel 0 0 1 1 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0 0.0000 0.0000 0.0000 0 0
+$End
+$Spread
+	AutoSpread		No
+	Rows			1
+	Cols			1
+	TabSize		0.0000, 0.0000
+	Layer			0
+	SortType		Col
+$End
+$Analysis
+	$Setup
+		HiliLayer		0
+		IgnoreSelGrp	Yes
+		WellBehaved		No
+		WindowMode		No
+		MaxErrors		100
+		$Pass
+			Name		"DEFAULT"
+			DrillLayer		0
+			Enabled		Yes
+		$End
+	$End
+	NextErrorId	1
+$End
+$HoleCharts
+$End
+$Snoman
+	RepFile		mifa.sno
+	FromLayer		All
+	ToLayer		0
+	DCode		All
+	Pad2Pad		0.0060
+	Pad2Trace		0.0060
+	Offset			-0.0050
+	MinPercent		0.6000
+	MaxPercent		0.8000
+	WindowMode		No
+$End
+$Teardrop
+	RepFile		mifa.txt
+	Layer		All
+	DCode		All
+	Pad2Trace		0.0060
+	Trace2Trace		0.0060
+	HostOffsetPercent			0.1500
+	TeeLength		0.5000
+	TeeWidth		0.5000
+	WindowMode		No
+	DeleteExisting		No
+$End
+$Drill
+	OutFile	mifa.drl
+	RepFile	mifa.txt
+	Layer		1
+	PreDrill	0.250
+	WindowMode	No
+	NextFirstDrillSequence	998
+	NextLastDrillSequence	1000
+$End
+$Mill
+	Tool		3
+	ConvArcs	Yes
+	Compensate	Yes
+	SkipSlots	Yes
+	Mode		Auto
+	PlungeLength	0.1000
+	PlungeAngle	0
+	OverShoot	0.1000
+	DblPath	No
+	Plunge	red
+	Retract	red
+$End
+$FixSS
+	PadLayer	0
+	SilkLayer	0
+	WindowMode	No
+	Spacing	0.0100
+$End
+$PadRemoval
+	WindowMode	No
+	Layer		All
+	DCode		All
+$End
+$Highlights
+	Query		white
+	Select		white
+	DRC		white
+$End
+$EndHeader
+$NCToolTables
+	$NCToolTable
+		"antennas" Both 0.000000 0.000000 0.000000 0 0 0 N
+		T1 Drill Plated 6d24 0.000000 0.000000 0.000000 0 0 0 0 19 6d24 0 -1 1 0 -1 "0xff" "A"
+		T2 Drill Plated b298 0.000000 0.000000 0.000000 0 0 0 0 2 b298 0 -1 2 0 -1 "0xdf" "B"
+	$End
+$End
+$CustomApertureData
+$End
+$ApertureData
+20
+# Dcode  Shape  Width  Height  Type  Rotation  Mirror  NegDrawMode Properties
+#
+D10 	Round	2710	2710	ThruHole	0	N	Transparent	2710
+D11 	Rectangle	3b150	7c060	SMT	0	N	Transparent	3b150 7c060 1 0 0
+D12 	Round	17ae8	17ae8	ThruHole	0	N	Transparent	17ae8
+D13 	Rectangle	b3b0	15ba8	SMT	0	N	Transparent	b3b0 15ba8 1 0 0
+D14 	Round	94d4	94d4	ThruHole	0	N	Transparent	94d4
+D15 	Round	be8	be8	ThruHole	0	N	Transparent	be8
+D16 	Round	319c	319c	ThruHole	0	N	Transparent	319c
+D17 	Round	3a98	3a98	ThruHole	0	N	Transparent	3a98
+D18 	Round	4e20	4e20	ThruHole	0	N	Transparent	4e20
+D19 	Round	7530	7530	ThruHole	0	N	Transparent	7530
+D20 	Rectangle	37e88	7c060	SMT	0	N	Transparent	37e88 7c060 1 0 0
+$End
+$StringTable
+7
+"$$UID"
+"$$UD"
+"$$EXNET_PADSIZE"
+"$$EXNET_LAYER"
+"$$HCHID"
+"$$HCUID"
+"$$HCTOOLNUMBER"
+$End
+$UserDefinedProperties
+$End
+$PanelData
+	Size	2b9a1c0, 3a22d00
+	ToolingOffset	0, 0
+	Origin	LowerLeft
+	$PanelLayerSets
+	$End
+$End
+$Blocks
+$End
+$LayerData
+L1
+I0
+N0
+F0
+C" #@! TF.FileFunction,Copper,L1,Top,Signal"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 02/22/17 13:03:07"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A20
+D1
+9dda2 4e581
+A11
+32eb2 4e581
+108c92 4e581
+A12
+32eb2 a2541
+108c92 a2541
+A13
+32eb2 97579
+108c92 97579
+A14
+1c28c2 17aecd
+1aff1a 17aecd
+19d572 17aecd
+18abca 17aecd
+178222 17aecd
+16587a 17aecd
+152ed2 17aecd
+14052a 17aecd
+12db82 17aecd
+11b1da 17aecd
+108832 17aecd
+f5e8a 17aecd
+e34e2 17aecd
+d0b3a 168525
+d0b3a 17aecd
+67e6e 168525
+554c6 17aecd
+67e6e 17aecd
+145980 19d081
+A15
+D4
+8 1 0
+600 134de9 N
+600 605 N
+70d4e 605 N
+70d4e 183dad N
+4e7f5 183dad N
+4e579 18312e N
+4ddd5 1825be N
+600 134de9 N
+D2
+70d4e 605 600 605
+600 605 600 134de9
+600 134de9 4ddd5 1825be
+4ddd5 1825be 4e579 18312e
+4e579 18312e 4e7f5 183dad
+4e7f5 183dad 70d4e 183dad
+70d4e 183dad 70d4e 605
+D4
+103 1 0
+79046 10d6b N
+bf962 10d6b N
+bf962 16b3fc N
+a2436 183f13 N
+a2290 184150 N
+a2218 1843a1 N
+a2218 196d49 N
+a2280 196f73 N
+a23c8 197170 N
+a25bb 1972c5 N
+a280c 19733d N
+14b6c4 19733d N
+14b6c4 1a2dc5 N
+a280c 1a2dc5 N
+a25e2 1a2e2d N
+a23e5 1a2f75 N
+a2290 1a3168 N
+a2218 1a33b9 N
+a2218 225751 N
+a2280 22597b N
+a23c8 225b78 N
+a25bb 225ccd N
+a280c 225d45 N
+b2018 225d45 N
+b2242 225cdd N
+b243f 225b95 N
+b2594 2259a2 N
+b260c 225751 N
+b260c 1c8cfd N
+d9f10 1c8cfd N
+d9f10 225751 N
+d9f78 22597b N
+da0c0 225b78 N
+da2b3 225ccd N
+da504 225d45 N
+e9d10 225d45 N
+e9f3a 225cdd N
+ea137 225b95 N
+ea28c 2259a2 N
+ea304 225751 N
+ea304 1c8cfd N
+111c08 1c8cfd N
+111c08 225751 N
+111c70 22597b N
+111db8 225b78 N
+111fab 225ccd N
+1121fc 225d45 N
+121a08 225d45 N
+121c32 225cdd N
+121e2f 225b95 N
+121f84 2259a2 N
+121ffc 225751 N
+121ffc 1c8cfd N
+149900 1c8cfd N
+149900 225751 N
+149968 22597b N
+149ab0 225b78 N
+149ca3 225ccd N
+149ef4 225d45 N
+1a37ac 225d45 N
+1a37ac 2317cd N
+13de78 2317cd N
+13de78 1d4d79 N
+13de10 1d4b4f N
+13dcc8 1d4952 N
+13dad5 1d47fd N
+13d884 1d4785 N
+12e078 1d4785 N
+12de4e 1d47ed N
+12dc51 1d4935 N
+12dafc 1d4b28 N
+12da84 1d4d79 N
+12da84 2317cd N
+106180 2317cd N
+106180 1d4d79 N
+106118 1d4b4f N
+105fd0 1d4952 N
+105ddd 1d47fd N
+105b8c 1d4785 N
+f6380 1d4785 N
+f6156 1d47ed N
+f5f59 1d4935 N
+f5e04 1d4b28 N
+f5d8c 1d4d79 N
+f5d8c 2317cd N
+ce488 2317cd N
+ce488 1d4d79 N
+ce420 1d4b4f N
+ce2d8 1d4952 N
+ce0e5 1d47fd N
+cde94 1d4785 N
+be688 1d4785 N
+be45e 1d47ed N
+be261 1d4935 N
+be10c 1d4b28 N
+be094 1d4d79 N
+be094 2317cd N
+96790 2317cd N
+96790 1843a1 N
+966ea 1840ed N
+96572 183f13 N
+79046 16b3fc N
+79046 10d6b N
+D2
+be094 1d4d79 be10c 1d4b28
+be10c 1d4b28 be261 1d4935
+be261 1d4935 be45e 1d47ed
+be45e 1d47ed be688 1d4785
+be688 1d4785 cde94 1d4785
+cde94 1d4785 ce0e5 1d47fd
+ce0e5 1d47fd ce2d8 1d4952
+ce2d8 1d4952 ce420 1d4b4f
+ce420 1d4b4f ce488 1d4d79
+ce488 1d4d79 ce488 2317cd
+ce488 2317cd f5d8c 2317cd
+f5d8c 2317cd f5d8c 1d4d79
+f5d8c 1d4d79 f5e04 1d4b28
+f5e04 1d4b28 f5f59 1d4935
+f5f59 1d4935 f6156 1d47ed
+f6156 1d47ed f6380 1d4785
+f6380 1d4785 105b8c 1d4785
+105b8c 1d4785 105ddd 1d47fd
+105ddd 1d47fd 105fd0 1d4952
+105fd0 1d4952 106118 1d4b4f
+106118 1d4b4f 106180 1d4d79
+106180 1d4d79 106180 2317cd
+106180 2317cd 12da84 2317cd
+12da84 2317cd 12da84 1d4d79
+12da84 1d4d79 12dafc 1d4b28
+12dafc 1d4b28 12dc51 1d4935
+12dc51 1d4935 12de4e 1d47ed
+12de4e 1d47ed 12e078 1d4785
+12e078 1d4785 13d884 1d4785
+13d884 1d4785 13dad5 1d47fd
+13dad5 1d47fd 13dcc8 1d4952
+13dcc8 1d4952 13de10 1d4b4f
+13de10 1d4b4f 13de78 1d4d79
+13de78 1d4d79 13de78 2317cd
+13de78 2317cd 1a37ac 2317cd
+1a37ac 2317cd 1a37ac 225d45
+1a37ac 225d45 149ef4 225d45
+149ef4 225d45 149ca3 225ccd
+149ca3 225ccd 149ab0 225b78
+149ab0 225b78 149968 22597b
+149968 22597b 149900 225751
+149900 225751 149900 1c8cfd
+149900 1c8cfd 121ffc 1c8cfd
+121ffc 1c8cfd 121ffc 225751
+121ffc 225751 121f84 2259a2
+121f84 2259a2 121e2f 225b95
+121e2f 225b95 121c32 225cdd
+121c32 225cdd 121a08 225d45
+121a08 225d45 1121fc 225d45
+1121fc 225d45 111fab 225ccd
+111fab 225ccd 111db8 225b78
+111db8 225b78 111c70 22597b
+111c70 22597b 111c08 225751
+111c08 225751 111c08 1c8cfd
+111c08 1c8cfd ea304 1c8cfd
+ea304 1c8cfd ea304 225751
+ea304 225751 ea28c 2259a2
+ea28c 2259a2 ea137 225b95
+ea137 225b95 e9f3a 225cdd
+e9f3a 225cdd e9d10 225d45
+e9d10 225d45 da504 225d45
+da504 225d45 da2b3 225ccd
+da2b3 225ccd da0c0 225b78
+da0c0 225b78 d9f78 22597b
+d9f78 22597b d9f10 225751
+d9f10 225751 d9f10 1c8cfd
+d9f10 1c8cfd b260c 1c8cfd
+b260c 1c8cfd b260c 225751
+b260c 225751 b2594 2259a2
+b2594 2259a2 b243f 225b95
+b243f 225b95 b2242 225cdd
+b2242 225cdd b2018 225d45
+b2018 225d45 a280c 225d45
+a280c 225d45 a25bb 225ccd
+a25bb 225ccd a23c8 225b78
+a23c8 225b78 a2280 22597b
+a2280 22597b a2218 225751
+a2218 225751 a2218 1a33b9
+a2218 1a33b9 a2290 1a3168
+a2290 1a3168 a23e5 1a2f75
+a23e5 1a2f75 a25e2 1a2e2d
+a25e2 1a2e2d a280c 1a2dc5
+a280c 1a2dc5 14b6c4 1a2dc5
+14b6c4 1a2dc5 14b6c4 19733d
+14b6c4 19733d a280c 19733d
+a280c 19733d a25bb 1972c5
+a25bb 1972c5 a23c8 197170
+a23c8 197170 a2280 196f73
+a2280 196f73 a2218 196d49
+a2218 196d49 a2218 1843a1
+a2218 1843a1 a2290 184150
+a2290 184150 a2436 183f13
+a2436 183f13 bf962 16b3fc
+bf962 16b3fc bf962 10d6b
+bf962 10d6b 79046 10d6b
+79046 10d6b 79046 16b3fc
+79046 16b3fc 96572 183f13
+96572 183f13 966ea 1840ed
+966ea 1840ed 96790 1843a1
+96790 1843a1 96790 2317cd
+96790 2317cd be094 2317cd
+be094 2317cd be094 1d4d79
+D4
+5 1 0
+c7c5a 183dad N
+c7c5a 605 N
+1c6db0 605 N
+1c6db0 183dad N
+c7c5a 183dad N
+D2
+1c6db0 605 c7c5a 605
+c7c5a 605 c7c5a 183dad
+c7c5a 183dad 1c6db0 183dad
+1c6db0 183dad 1c6db0 605
+L3
+I0
+N0
+F0
+C" #@! TF.FileFunction,Legend,Top"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 02/22/17 13:03:08"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A17
+D2
+155516 23542 1567b0 26d10
+1567b0 26d10 1567b0 2ca12
+1567b0 2ca12 155516 2ef46
+155516 2ef46 15427c 301df
+15427c 301df 151d49 31479
+151d49 31479 14f815 31479
+14f815 31479 14d2e1 301df
+14d2e1 301df 14c047 2ef46
+14c047 2ef46 14adad 2ca12
+14adad 2ca12 149b13 27faa
+149b13 27faa 148879 25a76
+148879 25a76 1475df 247dc
+1475df 247dc 1450ab 23542
+1450ab 23542 142b78 23542
+142b78 23542 140644 247dc
+140644 247dc 13f3aa 25a76
+13f3aa 25a76 13e110 27faa
+13e110 27faa 13e110 2dcac
+13e110 2dcac 13f3aa 31479
+1567b0 3bbe2 13e110 3bbe2
+13e110 3bbe2 14f815 43e18
+14f815 43e18 13e110 4c04d
+13e110 4c04d 1567b0 4c04d
+14f815 567b6 14f815 621b9
+1567b0 54282 13e110 5c4b8
+13e110 5c4b8 1567b0 646ed
+1567b0 795bf 1567b0 6b689
+1567b0 72624 13e110 72624
+13e110 72624 1418de 700f0
+1418de 700f0 143e12 6dbbc
+143e12 6dbbc 1450ab 6b689
+L4
+I0
+N0
+F0
+C" #@! TF.FileFunction,Copper,L2,Bot,Plane"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 02/22/17 13:03:07"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A11
+D1
+32eb2 4e581
+108c92 4e581
+A12
+32eb2 a2541
+108c92 a2541
+A13
+32eb2 97579
+108c92 97579
+A14
+1c28c2 17aecd
+1aff1a 17aecd
+19d572 17aecd
+18abca 17aecd
+178222 17aecd
+16587a 17aecd
+152ed2 17aecd
+14052a 17aecd
+12db82 17aecd
+11b1da 17aecd
+108832 17aecd
+f5e8a 17aecd
+e34e2 17aecd
+d0b3a 168525
+d0b3a 17aecd
+67e6e 168525
+554c6 17aecd
+67e6e 17aecd
+145980 19d081
+A15
+D4
+14 1 0
+600 134de9 N
+600 605 N
+1c6db0 605 N
+1c6db0 1a90fd N
+c7c5a 1a90fd N
+c7c5a 1843a1 N
+c7bf2 184177 N
+c7aaa 183f7a N
+c78b7 183e25 N
+c7666 183dad N
+4e7f5 183dad N
+4e579 18312e N
+4ddd5 1825be N
+600 134de9 N
+D2
+1c6db0 605 600 605
+600 605 600 134de9
+600 134de9 4ddd5 1825be
+4ddd5 1825be 4e579 18312e
+4e579 18312e 4e7f5 183dad
+4e7f5 183dad c7666 183dad
+c7666 183dad c78b7 183e25
+c78b7 183e25 c7aaa 183f7a
+c7aaa 183f7a c7bf2 184177
+c7bf2 184177 c7c5a 1843a1
+c7c5a 1843a1 c7c5a 1a90fd
+c7c5a 1a90fd 1c6db0 1a90fd
+1c6db0 1a90fd 1c6db0 605
+L7
+I0
+N0
+F0
+C" Gerber Fmt 4.5, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 02/22/17 12:57:28"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A17
+D2
+ffffe2c0 ffffe2c5 1c90f0 ffffe2c5
+ffffe2c0 135c83 ffffe2c0 ffffe2c5
+4c4e8 183eab ffffe2c0 135c83
+4c4e8 257111 4c4e8 1843a1
+1c90f0 257111 4c4e8 257111
+1c90f0 ffffe2c5 1c90f0 257111
+A18
+51e34 17e55f 58b58 17783b
+58b58 17e55f 51e34 17783b
+647dc 17e55f 6b500 17783b
+6b500 17e55f 647dc 17783b
+647dc 16bbb7 6b500 164e93
+6b500 16bbb7 647dc 164e93
+cd4a8 17e55f d41cc 17783b
+d41cc 17e55f cd4a8 17783b
+cd4a8 16bbb7 d41cc 164e93
+d41cc 16bbb7 cd4a8 164e93
+dfe50 17e55f e6b74 17783b
+e6b74 17e55f dfe50 17783b
+f27f8 17e55f f951c 17783b
+f951c 17e55f f27f8 17783b
+1051a0 17e55f 10bec4 17783b
+10bec4 17e55f 1051a0 17783b
+117b48 17e55f 11e86c 17783b
+11e86c 17e55f 117b48 17783b
+12a4f0 17e55f 131214 17783b
+131214 17e55f 12a4f0 17783b
+13ce98 17e55f 143bbc 17783b
+143bbc 17e55f 13ce98 17783b
+1422ee 1a0713 149012 1999ef
+149012 1a0713 1422ee 1999ef
+14f840 17e55f 156564 17783b
+156564 17e55f 14f840 17783b
+1621e8 17e55f 168f0c 17783b
+168f0c 17e55f 1621e8 17783b
+174b90 17e55f 17b8b4 17783b
+17b8b4 17e55f 174b90 17783b
+187538 17e55f 18e25c 17783b
+18e25c 17e55f 187538 17783b
+199ee0 17e55f 1a0c04 17783b
+1a0c04 17e55f 199ee0 17783b
+1ac888 17e55f 1b35ac 17783b
+1b35ac 17e55f 1ac888 17783b
+1bf230 17e55f 1c5f54 17783b
+1c5f54 17e55f 1bf230 17783b
+D3
+3888a a2541 32eb2 a2541 3888a a2541 59d8 N
+10e66a a2541 108c92 a2541 10e66a a2541 59d8 N
+L8
+Z"antennas"
+I0
+N0
+F0
+T1
+S999
+D6
+554c6 17aecd N N N N Y -1
+67e6e 17aecd N N N N Y -1
+67e6e 168525 N N N N Y -1
+d0b3a 17aecd N N N N Y -1
+d0b3a 168525 N N N N Y -1
+e34e2 17aecd N N N N Y -1
+f5e8a 17aecd N N N N Y -1
+108832 17aecd N N N N Y -1
+11b1da 17aecd N N N N Y -1
+12db82 17aecd N N N N Y -1
+14052a 17aecd N N N N Y -1
+145980 19d081 N N N N Y -1
+152ed2 17aecd N N N N Y -1
+16587a 17aecd N N N N Y -1
+178222 17aecd N N N N Y -1
+18abca 17aecd N N N N Y -1
+19d572 17aecd N N N N Y -1
+1aff1a 17aecd N N N N Y -1
+1c28c2 17aecd N N N N Y -1
+T2
+32f1a a2517 N N N N Y -1
+108c2a a2517 N N N N Y -1
+$End
+$Dimensions
+0
+$End
+$Redlining
+$End
+$ConstructionLines
+0
+$End
+$NoteBalloons
+0
+$End
+$ExternalNetData
+$End
+$NCOrderLists
+$End
+$NetList
+$End
