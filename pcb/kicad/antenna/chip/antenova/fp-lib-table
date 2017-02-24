@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Chip_Antennas)(type KiCad)(uri "C:\\Users\\Jeffrey Zheng\\Dropbox\\HA-HA\\pcb\\footprints\\Chip_Antennas.pretty")(options "")(descr ""))
+  (lib (name Other)(type KiCad)(uri "C:\\Users\\Jeffrey Zheng\\Dropbox\\HA-HA\\pcb\\footprints\\Other.pretty")(options "")(descr ""))
+)

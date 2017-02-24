@@ -1,0 +1,23 @@
+Drill report for C:\Users\Jeffrey Zheng\Dropbox\HA-HA\pcb\kicad\antenna\chip\antenova\rufa.kicad_pcb
+Created on 2/24/2017 3:06:44 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'rufa.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.25mm  0.010"  (10 holes)
+    T2  0.46mm  0.018"  (2 holes)
+
+    Total plated holes count 12
+
+
+Drill file 'rufa-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
