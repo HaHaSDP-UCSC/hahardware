@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SAMB11G18A
+D QFN48, 256K Flash, 128K RAM, 26MHz, CortexM0
+K ARM 32bit Microcontroller 26MHz CortexM0
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42426-SmartConnect-SAMB11-SOC_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
