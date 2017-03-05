@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XBee-PRO_900HP
+D Through hole, 900MHz Transceiver Module
+K Digi XBee 900MHz Transceiver
+F http://www.digi.com/resources/documentation/digidocs/pdfs/90002173.pdf
+$ENDCMP
+#
+#End Doc Library
