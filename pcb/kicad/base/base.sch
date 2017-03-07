@@ -1,6 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:rf_transceivers
-LIBS:microcontrollers
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -12,6 +10,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
 LIBS:analog_switches
@@ -29,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:rf_transceivers
 LIBS:base-cache
 EELAYER 25 0
 EELAYER END
@@ -174,12 +174,12 @@ $EndComp
 $Comp
 L Antenna AE1
 U 1 1 58BAE3A5
-P 2175 2850
-F 0 "AE1" H 2100 2925 50  0000 R CNN
-F 1 "2.4-2.4835GHz" H 2100 2850 50  0000 R CNN
-F 2 "" H 2175 2850 50  0001 C CNN
-F 3 "" H 2175 2850 50  0001 C CNN
-	1    2175 2850
+P 1675 2850
+F 0 "AE1" H 1600 2925 50  0000 R CNN
+F 1 "2.4-2.4835GHz" H 1600 2850 50  0000 R CNN
+F 2 "" H 1675 2850 50  0001 C CNN
+F 3 "" H 1675 2850 50  0001 C CNN
+	1    1675 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -225,17 +225,6 @@ F 2 "" H 4550 3350 50  0000 C CNN
 F 3 "" H 4550 3350 50  0000 C CNN
 	1    4550 3350
 	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P1
-U 1 1 58BB3608
-P 5350 4800
-F 0 "P1" V 5350 4975 50  0000 C CNN
-F 1 "Test_MUX" V 5450 4800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 5350 4800 50  0001 C CNN
-F 3 "" H 5350 4800 50  0000 C CNN
-	1    5350 4800
-	0    -1   1    0   
 $EndComp
 NoConn ~ 8175 4800
 NoConn ~ 7675 4900
@@ -511,10 +500,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 4600 5850 4600
 Wire Wire Line
-	5300 4600 5325 4600
-Wire Wire Line
-	5400 4600 5375 4600
-Wire Wire Line
 	8175 4900 8175 5700
 Connection ~ 8175 5000
 Connection ~ 8175 5100
@@ -624,10 +609,10 @@ Text Label 5850 875  0    60   ~ 0
 Text Label 2200 3050 0    60   ~ 0
 SIG_2.4G
 $Comp
-L CONN_02X10 P2
+L CONN_02X10 P1
 U 1 1 58BBB586
 P 7925 5250
-F 0 "P2" H 7925 5800 50  0000 C CNN
+F 0 "P1" H 7925 5800 50  0000 C CNN
 F 1 "J-Link SWD" V 7925 5250 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x10_Pitch2.54mm" H 7925 4050 50  0001 C CNN
 F 3 "" H 7925 4050 50  0000 C CNN
@@ -1002,4 +987,28 @@ Wire Wire Line
 	4900 3850 4350 3850
 Wire Wire Line
 	4350 3850 4350 4000
+$Comp
+L CONN_01X02 P2
+U 1 1 58BE1BD4
+P 1975 3100
+F 0 "P2" H 1975 3250 50  0000 C CNN
+F 1 "CONN_01X02" V 2075 3100 50  0000 C CNN
+F 2 "Misc:Molex_SMA_Jack_Edge_Mount" H 1975 3100 50  0001 C CNN
+F 3 "" H 1975 3100 50  0000 C CNN
+	1    1975 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 58BE519F
+P 2175 3150
+F 0 "#PWR023" H 2175 2900 50  0001 C CNN
+F 1 "GND" H 2175 3025 50  0000 C CNN
+F 2 "" H 2175 3150 50  0000 C CNN
+F 3 "" H 2175 3150 50  0000 C CNN
+	1    2175 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5325 4600
+NoConn ~ 5375 4600
 $EndSCHEMATC
