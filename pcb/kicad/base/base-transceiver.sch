@@ -158,9 +158,9 @@ VCC
 Text Notes 3800 2500 0    60   ~ 0
 Antenna needs to be connected\nthrough the on-chip SMA connector.
 Text HLabel 6550 3750 2    30   Input ~ 0
-UART_IN
+UART_DIN
 Text HLabel 6550 3800 2    30   Input ~ 0
-UART_OUT
+UART_DOUT
 Text HLabel 5150 3950 0    30   Input ~ 0
 Reset
 Text HLabel 5150 3050 0    30   Input ~ 0

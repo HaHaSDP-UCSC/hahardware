@@ -402,7 +402,7 @@ U 1 1 58BC1A6A
 P 4550 1975
 F 0 "FB1" H 4625 2025 50  0000 L CNN
 F 1 "BLM03AG121SN1" H 4625 1925 50  0000 L CNN
-F 2 "" V 4480 1975 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" V 4480 1975 50  0001 C CNN
 F 3 "" H 4550 1975 50  0000 C CNN
 	1    4550 1975
 	1    0    0    -1  
@@ -495,10 +495,269 @@ F 3 "" H 5850 3500 50  0000 C CNN
 	1    5850 3500
 	1    0    0    -1  
 $EndComp
+Text Label 5850 1525 2    60   ~ 0
++3.3V
+Text Label 2200 3050 0    60   ~ 0
+SIG_2.4G
+$Comp
+L CONN_02X10 P1
+U 1 1 58BBB586
+P 7925 5250
+F 0 "P1" H 7925 5800 50  0000 C CNN
+F 1 "J-Link SWD" V 7925 5250 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x10_Pitch2.54mm" H 7925 4050 50  0001 C CNN
+F 3 "" H 7925 4050 50  0000 C CNN
+	1    7925 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 58BDCD68
+P 6350 4800
+F 0 "R2" V 6425 4750 50  0000 L CNN
+F 1 "10k" V 6275 4725 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6350 4800 50  0001 C CNN
+F 3 "" H 6350 4800 50  0000 C CNN
+	1    6350 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C19
+U 1 1 58BE0856
+P 6650 4900
+F 0 "C19" H 6725 4950 50  0000 L CNN
+F 1 "C_Small" H 6725 4875 50  0001 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6650 4900 50  0001 C CNN
+F 3 "" H 6650 4900 50  0000 C CNN
+	1    6650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 58BE1A8E
+P 6650 5000
+F 0 "#PWR017" H 6650 4750 50  0001 C CNN
+F 1 "GND" H 6650 4875 50  0000 C CNN
+F 2 "" H 6650 5000 50  0000 C CNN
+F 3 "" H 6650 5000 50  0000 C CNN
+	1    6650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 58BE2BB1
+P 7375 4950
+F 0 "R3" H 7425 5000 50  0000 L CNN
+F 1 "100k" H 7425 4925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7375 4950 50  0001 C CNN
+F 3 "" H 7375 4950 50  0000 C CNN
+	1    7375 4950
+	1    0    0    -1  
+$EndComp
+Text Label 6950 5200 0    30   ~ 0
+SWDCLK
+Text Label 6975 5100 0    30   ~ 0
+SWDIO
+Text Label 7675 4800 2    60   ~ 0
++3.3V
+Text Notes 1950 1825 0    60   ~ 0
+Place C10 as close as possible to pin 4.\nPlace C11 as close as possible to pin 48.\nPlace C12 as close as possible to pin 1.\nPlace C13 as close as possible to pin 2.
+Text Label 7675 5700 2    30   ~ 0
++5V
+Text Label 7675 5400 2    30   ~ 0
+SWO
+Text Label 6750 4250 0    30   ~ 0
+UART_RTS
+Text Label 6750 4200 0    30   ~ 0
+UART_CTS
+Text Label 6750 2600 0    30   ~ 0
+LP_GPIO_22
+Text Label 6750 2550 0    30   ~ 0
+LP_GPIO_23
+Text Label 6750 2950 0    30   ~ 0
+LP_GPIO_8
+Text Label 6750 2900 0    30   ~ 0
+LP_GPIO_9
+Text Label 6750 2800 0    30   ~ 0
+LP_GPIO_18
+Text Label 6750 2750 0    30   ~ 0
+LP_GPIO_19
+Text Label 6750 2700 0    30   ~ 0
+LP_GPIO_20
+Text Label 5625 4925 3    30   ~ 0
+Wake
+Text Notes 4650 5225 0    60   ~ 0
+If Wake function is not used,\nconnect AO_GPIO_0 to GND.
+$Sheet
+S 8950 4150 1200 900 
+U 58C0BD85
+F0 "base-transceiver" 60
+F1 "base-transceiver.sch" 60
+F2 "VCC" I L 8950 4225 60 
+F3 "Reset" I L 8950 4975 60 
+F4 "VREF" I L 8950 4375 60 
+F5 "CTS" I L 8950 4750 60 
+F6 "RTS" I L 8950 4825 60 
+F7 "UART_DIN" I L 8950 4525 60 
+F8 "UART_DOUT" I L 8950 4600 60 
+$EndSheet
+Text Label 8925 4225 2    60   ~ 0
++3.3V
+Text Label 8925 4825 2    30   ~ 0
+UART_RTS
+Text Label 8925 4750 2    30   ~ 0
+UART_CTS
+Text Label 8925 4525 2    30   ~ 0
+UART_TX
+Text Label 8925 4600 2    30   ~ 0
+UART_RX
+$Comp
+L CONN_01X02 P3
+U 1 1 58C3866F
+P 5500 1125
+F 0 "P3" H 5500 1275 50  0000 C CNN
+F 1 "Power Source" V 5600 1125 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 5500 1125 50  0001 C CNN
+F 3 "" H 5500 1125 50  0000 C CNN
+	1    5500 1125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 58C38B83
+P 5700 1175
+F 0 "#PWR018" H 5700 925 50  0001 C CNN
+F 1 "GND" H 5700 1025 50  0000 C CNN
+F 2 "" H 5700 1175 50  0000 C CNN
+F 3 "" H 5700 1175 50  0000 C CNN
+	1    5700 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 58BD31CE
+P 6050 5600
+F 0 "#PWR019" H 6050 5350 50  0001 C CNN
+F 1 "GND" H 6050 5475 50  0000 C CNN
+F 2 "" H 6050 5600 50  0000 C CNN
+F 3 "" H 6050 5600 50  0000 C CNN
+	1    6050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J2
+U 1 1 58BD3D7F
+P 6050 1475
+F 0 "J2" H 6050 1625 50  0000 C CNN
+F 1 "Vbatt_I-test" V 6150 1475 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 6050 1475 50  0001 C CNN
+F 3 "" H 6050 1475 50  0000 C CNN
+	1    6050 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal_GND24_Small Y2
+U 1 1 58BE100B
+P 4650 4625
+F 0 "Y2" V 4475 4725 50  0000 L CNN
+F 1 "26MHz" V 4550 4650 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 4650 4625 50  0001 C CNN
+F 3 "" H 4650 4625 50  0000 C CNN
+	1    4650 4625
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 58BE3DF0
+P 4850 4700
+F 0 "#PWR020" H 4850 4450 50  0001 C CNN
+F 1 "GND" H 4850 4575 50  0000 C CNN
+F 2 "" H 4850 4700 50  0000 C CNN
+F 3 "" H 4850 4700 50  0000 C CNN
+	1    4850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 58BE3F81
+P 4450 4700
+F 0 "#PWR021" H 4450 4450 50  0001 C CNN
+F 1 "GND" H 4450 4575 50  0000 C CNN
+F 2 "" H 4450 4700 50  0000 C CNN
+F 3 "" H 4450 4700 50  0000 C CNN
+	1    4450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C9
+U 1 1 58BE4649
+P 4450 4950
+F 0 "C9" V 4575 4900 50  0000 L CNN
+F 1 "C_Small" H 4460 4870 50  0001 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4450 4950 50  0001 C CNN
+F 3 "" H 4450 4950 50  0000 C CNN
+	1    4450 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C8
+U 1 1 58BE7820
+P 4450 4400
+F 0 "C8" V 4575 4350 50  0000 L CNN
+F 1 "C_Small" H 4460 4320 50  0001 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4450 4400 50  0001 C CNN
+F 3 "" H 4450 4400 50  0000 C CNN
+	1    4450 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Crystal_Small Y1
+U 1 1 58BEA1FE
+P 4625 4000
+F 0 "Y1" H 4625 4100 50  0000 C CNN
+F 1 "32.768kHz" H 4625 3900 50  0000 C CNN
+F 2 "Crystals:Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal" H 4625 4000 50  0001 C CNN
+F 3 "" H 4625 4000 50  0000 C CNN
+	1    4625 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 58BE1BD4
+P 1975 3100
+F 0 "P2" H 1975 3250 50  0000 C CNN
+F 1 "CONN_01X02" V 2075 3100 50  0000 C CNN
+F 2 "Misc:Molex_SMA_Jack_Edge_Mount" H 1975 3100 50  0001 C CNN
+F 3 "" H 1975 3100 50  0000 C CNN
+	1    1975 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 58BE519F
+P 2175 3150
+F 0 "#PWR022" H 2175 2900 50  0001 C CNN
+F 1 "GND" H 2175 3025 50  0000 C CNN
+F 2 "" H 2175 3150 50  0000 C CNN
+F 3 "" H 2175 3150 50  0000 C CNN
+	1    2175 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 4600
+NoConn ~ 5350 4600
+$Comp
+L CONN_01X02 J1
+U 1 1 58BD2CFB
+P 5850 5550
+F 0 "J1" H 5850 5700 50  0000 C CNN
+F 1 "CHIP_EN" V 5950 5550 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 5850 5550 50  0001 C CNN
+F 3 "" H 5850 5550 50  0000 C CNN
+	1    5850 5550
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	3150 3050 4150 3050
-Wire Wire Line
-	5650 4600 5850 4600
 Wire Wire Line
 	8175 4900 8175 5700
 Connection ~ 8175 5000
@@ -509,13 +768,9 @@ Connection ~ 8175 5400
 Connection ~ 8175 5500
 Connection ~ 8175 5600
 Wire Wire Line
-	6250 2400 6250 1875
+	6250 1850 6250 2400
 Wire Wire Line
-	6250 1875 6350 1875
-Wire Wire Line
-	6350 1875 6350 2075
-Wire Wire Line
-	5850 1175 5850 2400
+	6350 1850 6350 2075
 Wire Wire Line
 	6125 1850 6125 2075
 Wire Wire Line
@@ -604,65 +859,6 @@ Connection ~ 4450 2650
 Wire Wire Line
 	4950 2600 4450 2600
 Connection ~ 4450 2600
-Text Label 5850 875  0    60   ~ 0
-+3.3V
-Text Label 2200 3050 0    60   ~ 0
-SIG_2.4G
-$Comp
-L CONN_02X10 P1
-U 1 1 58BBB586
-P 7925 5250
-F 0 "P1" H 7925 5800 50  0000 C CNN
-F 1 "J-Link SWD" V 7925 5250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x10_Pitch2.54mm" H 7925 4050 50  0001 C CNN
-F 3 "" H 7925 4050 50  0000 C CNN
-	1    7925 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R2
-U 1 1 58BDCD68
-P 6350 4800
-F 0 "R2" V 6425 4750 50  0000 L CNN
-F 1 "10k" V 6275 4725 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 6350 4800 50  0001 C CNN
-F 3 "" H 6350 4800 50  0000 C CNN
-	1    6350 4800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C_Small C19
-U 1 1 58BE0856
-P 6650 4900
-F 0 "C19" H 6725 4950 50  0000 L CNN
-F 1 "C_Small" H 6725 4875 50  0001 L CNN
-F 2 "Capacitors_SMD:C_0402" H 6650 4900 50  0001 C CNN
-F 3 "" H 6650 4900 50  0000 C CNN
-	1    6650 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR017
-U 1 1 58BE1A8E
-P 6650 5000
-F 0 "#PWR017" H 6650 4750 50  0001 C CNN
-F 1 "GND" H 6650 4875 50  0000 C CNN
-F 2 "" H 6650 5000 50  0000 C CNN
-F 3 "" H 6650 5000 50  0000 C CNN
-	1    6650 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R3
-U 1 1 58BE2BB1
-P 7375 4950
-F 0 "R3" H 7425 5000 50  0000 L CNN
-F 1 "100k" H 7425 4925 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 7375 4950 50  0001 C CNN
-F 3 "" H 7375 4950 50  0000 C CNN
-	1    7375 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6050 4600 6050 5500
 Wire Wire Line
@@ -677,8 +873,6 @@ Wire Wire Line
 Wire Wire Line
 	6925 4450 6925 5200
 Connection ~ 6050 4800
-Text Label 6950 5200 0    30   ~ 0
-SWDCLK
 Wire Wire Line
 	7375 5100 7375 5050
 Connection ~ 7375 5100
@@ -687,106 +881,12 @@ Wire Wire Line
 Connection ~ 7375 4800
 Wire Wire Line
 	6450 4800 7675 4800
-Text Label 6975 5100 0    30   ~ 0
-SWDIO
 Wire Wire Line
 	6950 5100 7675 5100
 Wire Wire Line
 	6925 5200 7675 5200
 Wire Wire Line
 	6050 5500 7675 5500
-Text Label 7675 4800 2    60   ~ 0
-+3.3V
-Text Notes 1950 1825 0    60   ~ 0
-Place C10 as close as possible to pin 4.\nPlace C11 as close as possible to pin 48.\nPlace C12 as close as possible to pin 1.\nPlace C13 as close as possible to pin 2.
-Text Label 7675 5700 2    30   ~ 0
-+5V
-Text Label 7675 5400 2    30   ~ 0
-SWO
-NoConn ~ 6750 2900
-NoConn ~ 6750 2950
-Text Label 6750 4300 0    30   ~ 0
-LP_GPIO_2
-Text Label 6750 4250 0    30   ~ 0
-LP_GPIO_3
-Text Label 6750 4200 0    30   ~ 0
-LP_GPIO_4
-Text Label 6750 4150 0    30   ~ 0
-LP_GPIO_5
-Text Label 6750 4050 0    30   ~ 0
-LP_GPIO_6
-Text Label 6750 4000 0    30   ~ 0
-LP_GPIO_7
-Text Label 6750 3950 0    30   ~ 0
-LP_GPIO_14
-Text Label 6750 3900 0    30   ~ 0
-LP_GPIO_15
-Text Label 6750 3800 0    30   ~ 0
-LP_GPIO_10
-Text Label 6750 3750 0    30   ~ 0
-LP_GPIO_11
-Text Label 6750 3700 0    30   ~ 0
-LP_GPIO_12
-Text Label 6750 3650 0    30   ~ 0
-LP_GPIO_13
-Text Label 6750 3550 0    30   ~ 0
-LP_GPIO_22
-Text Label 6750 3500 0    30   ~ 0
-LP_GPIO_23
-Text Label 6750 3400 0    30   ~ 0
-LP_GPIO_8
-Text Label 6750 3350 0    30   ~ 0
-LP_GPIO_9
-Text Label 6750 2700 0    30   ~ 0
-LP_GPIO_17
-Text Label 6750 2650 0    30   ~ 0
-LP_GPIO_18
-Text Label 6750 2600 0    30   ~ 0
-LP_GPIO_19
-Text Label 6750 2550 0    30   ~ 0
-LP_GPIO_20
-Text Label 6750 2800 0    30   ~ 0
-LP_GPIO_16
-Text Label 6750 3250 0    30   ~ 0
-GPIO_MS1
-Text Label 6750 3200 0    30   ~ 0
-GPIO_MS2
-Text Label 6750 3150 0    30   ~ 0
-GPIO_MS3
-Text Label 6750 3100 0    30   ~ 0
-GPIO_MS4
-$Comp
-L GND #PWR018
-U 1 1 58C04CD6
-P 7275 3100
-F 0 "#PWR018" H 7275 2850 50  0001 C CNN
-F 1 "GND" H 7275 2975 50  0000 C CNN
-F 2 "" H 7275 3100 50  0000 C CNN
-F 3 "" H 7275 3100 50  0000 C CNN
-	1    7275 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7125 3000 6750 3000
-Wire Wire Line
-	7275 3000 7400 3000
-Text Label 7400 3000 0    30   ~ 0
-Wake
-Text Notes 7575 3050 0    60   ~ 0
-If Wake function is not used,\nconnect AO_GPIO_0 to GND.
-$Sheet
-S 8950 4150 1200 900 
-U 58C0BD85
-F0 "base-transceiver" 60
-F1 "base-transceiver.sch" 60
-F2 "VCC" I L 8950 4225 60 
-F3 "UART_IN" I L 8950 4525 60 
-F4 "UART_OUT" I L 8950 4600 60 
-F5 "Reset" I L 8950 4975 60 
-F6 "VREF" I L 8950 4375 60 
-F7 "CTS" I L 8950 4750 60 
-F8 "RTS" I L 8950 4825 60 
-$EndSheet
 Wire Wire Line
 	8950 4225 8925 4225
 Wire Wire Line
@@ -801,126 +901,6 @@ Wire Wire Line
 	8950 4825 8925 4825
 Wire Wire Line
 	8950 4975 8925 4975
-Text Label 8925 4225 2    60   ~ 0
-+3.3V
-Text Label 8925 4825 2    30   ~ 0
-LP_GPIO_5
-Text Label 8925 4750 2    30   ~ 0
-LP_GPIO_4
-Text Label 8925 4525 2    30   ~ 0
-LP_GPIO_3
-Text Label 8925 4600 2    30   ~ 0
-LP_GPIO_2
-$Comp
-L CONN_01X02 P3
-U 1 1 58C3866F
-P 5550 1325
-F 0 "P3" H 5550 1475 50  0000 C CNN
-F 1 "Vbatt-V_test" V 5650 1325 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 5550 1325 50  0001 C CNN
-F 3 "" H 5550 1325 50  0000 C CNN
-	1    5550 1325
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR019
-U 1 1 58C38B83
-P 5750 1450
-F 0 "#PWR019" H 5750 1200 50  0001 C CNN
-F 1 "GND" H 5750 1300 50  0000 C CNN
-F 2 "" H 5750 1450 50  0000 C CNN
-F 3 "" H 5750 1450 50  0000 C CNN
-	1    5750 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 1375 5750 1450
-Wire Wire Line
-	5750 1275 5850 1275
-Wire Wire Line
-	7275 3100 7125 3100
-Wire Wire Line
-	7125 3100 7125 3000
-$Comp
-L CONN_01X02 P5
-U 1 1 58BD2CFB
-P 5850 5550
-F 0 "P5" H 5850 5700 50  0000 C CNN
-F 1 "CHIP_EN" V 5950 5550 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 5850 5550 50  0001 C CNN
-F 3 "" H 5850 5550 50  0000 C CNN
-	1    5850 5550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR020
-U 1 1 58BD31CE
-P 6050 5600
-F 0 "#PWR020" H 6050 5350 50  0001 C CNN
-F 1 "GND" H 6050 5475 50  0000 C CNN
-F 2 "" H 6050 5600 50  0000 C CNN
-F 3 "" H 6050 5600 50  0000 C CNN
-	1    6050 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P4
-U 1 1 58BD3D7F
-P 6050 1125
-F 0 "P4" H 6050 1275 50  0000 C CNN
-F 1 "Vbatt_I-test" V 6150 1125 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 6050 1125 50  0001 C CNN
-F 3 "" H 6050 1125 50  0000 C CNN
-	1    6050 1125
-	1    0    0    -1  
-$EndComp
-Connection ~ 5850 1275
-Wire Wire Line
-	5850 1075 5850 875 
-$Comp
-L Crystal_GND24_Small Y2
-U 1 1 58BE100B
-P 4650 4625
-F 0 "Y2" V 4475 4725 50  0000 L CNN
-F 1 "26MHz" V 4550 4650 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 4650 4625 50  0001 C CNN
-F 3 "" H 4650 4625 50  0000 C CNN
-	1    4650 4625
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR021
-U 1 1 58BE3DF0
-P 4850 4700
-F 0 "#PWR021" H 4850 4450 50  0001 C CNN
-F 1 "GND" H 4850 4575 50  0000 C CNN
-F 2 "" H 4850 4700 50  0000 C CNN
-F 3 "" H 4850 4700 50  0000 C CNN
-	1    4850 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR022
-U 1 1 58BE3F81
-P 4450 4700
-F 0 "#PWR022" H 4450 4450 50  0001 C CNN
-F 1 "GND" H 4450 4575 50  0000 C CNN
-F 2 "" H 4450 4700 50  0000 C CNN
-F 3 "" H 4450 4700 50  0000 C CNN
-	1    4450 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C9
-U 1 1 58BE4649
-P 4450 4950
-F 0 "C9" V 4575 4900 50  0000 L CNN
-F 1 "C_Small" H 4460 4870 50  0001 L CNN
-F 2 "Capacitors_SMD:C_0402" H 4450 4950 50  0001 C CNN
-F 3 "" H 4450 4950 50  0000 C CNN
-	1    4450 4950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4775 4625 4850 4625
 Wire Wire Line
@@ -933,17 +913,6 @@ Wire Wire Line
 	4550 4950 4950 4950
 Wire Wire Line
 	4650 4950 4650 4725
-$Comp
-L C_Small C8
-U 1 1 58BE7820
-P 4450 4400
-F 0 "C8" V 4575 4350 50  0000 L CNN
-F 1 "C_Small" H 4460 4320 50  0001 L CNN
-F 2 "Capacitors_SMD:C_0402" H 4450 4400 50  0001 C CNN
-F 3 "" H 4450 4400 50  0000 C CNN
-	1    4450 4400
-	0    1    1    0   
-$EndComp
 Connection ~ 4450 4625
 Wire Wire Line
 	4325 4950 4350 4950
@@ -960,17 +929,6 @@ Connection ~ 4650 4400
 Connection ~ 4650 4950
 Wire Wire Line
 	4950 4950 4950 4450
-$Comp
-L Crystal_Small Y1
-U 1 1 58BEA1FE
-P 4625 4000
-F 0 "Y1" H 4625 4100 50  0000 C CNN
-F 1 "32.768kHz" H 4625 3900 50  0000 C CNN
-F 2 "Crystals:Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal" H 4625 4000 50  0001 C CNN
-F 3 "" H 4625 4000 50  0000 C CNN
-	1    4625 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 4200 4900 4200
 Connection ~ 4625 4200
@@ -987,28 +945,60 @@ Wire Wire Line
 	4900 3850 4350 3850
 Wire Wire Line
 	4350 3850 4350 4000
-$Comp
-L CONN_01X02 P2
-U 1 1 58BE1BD4
-P 1975 3100
-F 0 "P2" H 1975 3250 50  0000 C CNN
-F 1 "CONN_01X02" V 2075 3100 50  0000 C CNN
-F 2 "Misc:Molex_SMA_Jack_Edge_Mount" H 1975 3100 50  0001 C CNN
-F 3 "" H 1975 3100 50  0000 C CNN
-	1    1975 3100
-	-1   0    0    -1  
-$EndComp
+Wire Wire Line
+	6350 1850 6250 1850
+Wire Wire Line
+	5850 1525 5850 2400
+Wire Wire Line
+	5850 1075 5850 1425
+Wire Wire Line
+	5850 1075 5700 1075
+Wire Wire Line
+	5625 4600 5850 4600
+NoConn ~ 5525 4600
+NoConn ~ 5575 4600
+Connection ~ 5675 4600
+Wire Wire Line
+	5625 4800 5625 4925
+Text Label 6750 4100 0    30   ~ 0
+UART_TX
+Text Label 6750 4150 0    30   ~ 0
+UART_RX
+Text Label 6750 3300 0    30   ~ 0
+LP_GPIO_13
+Text Label 6750 3350 0    30   ~ 0
+LP_GPIO_12
+Text Label 6750 3400 0    30   ~ 0
+LP_GPIO_11
+Text Label 6750 3450 0    30   ~ 0
+LP_GPIO_10
+Text Label 6750 3550 0    30   ~ 0
+LP_GPIO_7
+Text Label 6750 3600 0    30   ~ 0
+LP_GPIO_6
+Text Label 6750 3700 0    30   ~ 0
+LP_GPIO_5
+Text Label 6750 3750 0    30   ~ 0
+LP_GPIO_4
+Text Label 6750 3800 0    30   ~ 0
+LP_GPIO_3
+Text Label 6750 3850 0    30   ~ 0
+LP_GPIO_2
 $Comp
 L GND #PWR023
-U 1 1 58BE519F
-P 2175 3150
-F 0 "#PWR023" H 2175 2900 50  0001 C CNN
-F 1 "GND" H 2175 3025 50  0000 C CNN
-F 2 "" H 2175 3150 50  0000 C CNN
-F 3 "" H 2175 3150 50  0000 C CNN
-	1    2175 3150
+U 1 1 58C42CEE
+P 6850 3050
+F 0 "#PWR023" H 6850 2800 50  0001 C CNN
+F 1 "GND" H 6850 2925 50  0000 C CNN
+F 2 "" H 6850 3050 50  0000 C CNN
+F 3 "" H 6850 3050 50  0000 C CNN
+	1    6850 3050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5325 4600
-NoConn ~ 5375 4600
+Wire Wire Line
+	6750 3050 6750 3200
+Connection ~ 6750 3150
+Connection ~ 6750 3100
+Wire Wire Line
+	6750 3050 6850 3050
 $EndSCHEMATC
