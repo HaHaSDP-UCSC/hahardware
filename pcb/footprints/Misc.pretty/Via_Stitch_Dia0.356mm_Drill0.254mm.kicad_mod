@@ -1,0 +1,10 @@
+(module Via_Stitch_Dia0.356mm_Drill0.254mm (layer F.Cu) (tedit 58C2419F)
+  (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Via_Stitch_Dia0.356mm_Drill0.254mm (at 0 -0.889) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.356 0.356) (drill 0.254) (layers *.Cu)
+    (zone_connect 2))
+)
