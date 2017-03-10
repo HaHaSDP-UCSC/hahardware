@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:base-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +49,7 @@ Base - Transceiver
 Text Notes 8150 7650 0    60   ~ 0
 March 4, 2017
 Text Notes 10600 7650 0    60   ~ 0
-1.0
+0.1
 $Comp
 L XBee-PRO_900HP U2
 U 1 1 58C1A9C8

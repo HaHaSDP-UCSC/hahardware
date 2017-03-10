@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:base-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +49,7 @@ Base - Central
 Text Notes 8150 7650 0    60   ~ 0
 March 2, 2017
 Text Notes 10600 7650 0    60   ~ 0
-1.0
+0.1
 $Comp
 L GND #PWR01
 U 1 1 58BA111C
@@ -556,50 +555,40 @@ Text Label 7675 5700 2    30   ~ 0
 +5V
 Text Label 7675 5400 2    30   ~ 0
 SWO
-Text Label 6750 4250 0    30   ~ 0
+Text Label 6750 3000 0    30   ~ 0
 UART_RTS
-Text Label 6750 4200 0    30   ~ 0
-UART_CTS
-Text Label 6750 2600 0    30   ~ 0
-LP_GPIO_22
-Text Label 6750 2550 0    30   ~ 0
-LP_GPIO_23
 Text Label 6750 2950 0    30   ~ 0
+UART_CTS
+Text Label 6750 3700 0    30   ~ 0
 LP_GPIO_8
-Text Label 6750 2900 0    30   ~ 0
+Text Label 6750 3650 0    30   ~ 0
 LP_GPIO_9
-Text Label 6750 2800 0    30   ~ 0
-LP_GPIO_18
-Text Label 6750 2750 0    30   ~ 0
-LP_GPIO_19
-Text Label 6750 2700 0    30   ~ 0
-LP_GPIO_20
 Text Label 5625 4925 3    30   ~ 0
 Wake
 Text Notes 4650 5225 0    60   ~ 0
 If Wake function is not used,\nconnect AO_GPIO_0 to GND.
 $Sheet
-S 8950 4150 1200 900 
+S 9475 950  1200 900 
 U 58C0BD85
 F0 "base-transceiver" 60
 F1 "base-transceiver.sch" 60
-F2 "VCC" I L 8950 4225 60 
-F3 "Reset" I L 8950 4975 60 
-F4 "VREF" I L 8950 4375 60 
-F5 "CTS" I L 8950 4750 60 
-F6 "RTS" I L 8950 4825 60 
-F7 "UART_DIN" I L 8950 4525 60 
-F8 "UART_DOUT" I L 8950 4600 60 
+F2 "VCC" I L 9475 1025 60 
+F3 "Reset" I L 9475 1775 60 
+F4 "VREF" I L 9475 1175 60 
+F5 "CTS" I L 9475 1550 60 
+F6 "RTS" I L 9475 1625 60 
+F7 "UART_DIN" I L 9475 1325 60 
+F8 "UART_DOUT" I L 9475 1400 60 
 $EndSheet
-Text Label 8925 4225 2    60   ~ 0
+Text Label 9450 1025 2    60   ~ 0
 +3.3V
-Text Label 8925 4825 2    30   ~ 0
+Text Label 9450 1625 2    30   ~ 0
 UART_RTS
-Text Label 8925 4750 2    30   ~ 0
+Text Label 9450 1550 2    30   ~ 0
 UART_CTS
-Text Label 8925 4525 2    30   ~ 0
+Text Label 9450 1325 2    30   ~ 0
 UART_TX
-Text Label 8925 4600 2    30   ~ 0
+Text Label 9450 1400 2    30   ~ 0
 UART_RX
 $Comp
 L CONN_01X02 P3
@@ -746,28 +735,88 @@ F 3 "" H 5850 5550 50  0000 C CNN
 	1    5850 5550
 	-1   0    0    -1  
 $EndComp
+NoConn ~ 5525 4600
+NoConn ~ 5575 4600
+Text Label 6750 2850 0    30   ~ 0
+UART_TX
+Text Label 6750 2900 0    30   ~ 0
+UART_RX
+Text Label 6750 3450 0    30   ~ 0
+LP_GPIO_13
+Text Label 6750 3500 0    30   ~ 0
+LP_GPIO_12
+Text Label 6750 3550 0    30   ~ 0
+LP_GPIO_11
+Text Label 6750 3600 0    30   ~ 0
+LP_GPIO_10
+Text Label 6750 3750 0    30   ~ 0
+LP_GPIO_7
+Text Label 6750 3800 0    30   ~ 0
+LP_GPIO_6
+$Comp
+L GND #PWR023
+U 1 1 58C42CEE
+P 6850 3150
+F 0 "#PWR023" H 6850 2900 50  0001 C CNN
+F 1 "GND" H 6850 3025 50  0000 C CNN
+F 2 "" H 6850 3150 50  0000 C CNN
+F 3 "" H 6850 3150 50  0000 C CNN
+	1    6850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P4
+U 1 1 58C384E9
+P 7925 3625
+F 0 "P4" H 7925 4075 50  0000 C CNN
+F 1 "CONN_01X08" V 8025 3625 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x08_Pitch2.54mm_Drill0.64mm" H 7925 3625 50  0001 C CNN
+F 3 "" H 7925 3625 50  0000 C CNN
+	1    7925 3625
+	1    0    0    -1  
+$EndComp
+Text Label 7725 3275 2    30   ~ 0
+LP_GPIO_6
+Text Label 7725 3375 2    30   ~ 0
+LP_GPIO_7
+Text Label 7725 3475 2    30   ~ 0
+LP_GPIO_8
+Text Label 7725 3575 2    30   ~ 0
+LP_GPIO_9
+Text Label 7725 3675 2    30   ~ 0
+LP_GPIO_10
+Text Label 7725 3775 2    30   ~ 0
+LP_GPIO_11
+Text Label 7725 3875 2    30   ~ 0
+LP_GPIO_12
+Text Label 7725 3975 2    30   ~ 0
+LP_GPIO_13
+$Comp
+L SAMB11G18A-edit U1
+U 1 1 58C5ED8B
+P 5850 3500
+F 0 "U1" H 5850 3500 50  0000 C CNN
+F 1 "SAMB11G18A-edit" H 6400 2450 50  0000 C CNN
+F 2 "QFN-48-1EP_6x6mm_Pitch0.4mm" H 6800 2375 50  0001 C CIN
+F 3 "" H 5850 3500 50  0000 C CNN
+	1    5850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C65889
+P 6850 2600
+F 0 "#PWR?" H 6850 2350 50  0001 C CNN
+F 1 "GND" H 6850 2475 50  0000 C CNN
+F 2 "" H 6850 2600 50  0000 C CNN
+F 3 "" H 6850 2600 50  0000 C CNN
+	1    6850 2600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3150 3050 3350 3050
+	3150 3050 4150 3050
 Wire Wire Line
-	3350 3050 3950 3050
-Wire Wire Line
-	3950 3050 4150 3050
-Wire Wire Line
-	8175 4900 8175 5000
-Wire Wire Line
-	8175 5000 8175 5100
-Wire Wire Line
-	8175 5100 8175 5200
-Wire Wire Line
-	8175 5200 8175 5300
-Wire Wire Line
-	8175 5300 8175 5400
-Wire Wire Line
-	8175 5400 8175 5500
-Wire Wire Line
-	8175 5500 8175 5600
-Wire Wire Line
-	8175 5600 8175 5700
+	8175 4900 8175 5700
 Connection ~ 8175 5000
 Connection ~ 8175 5100
 Connection ~ 8175 5200
@@ -801,13 +850,7 @@ Wire Wire Line
 	5450 1725 5450 1875
 Connection ~ 5450 1725
 Wire Wire Line
-	5650 1725 5750 1725
-Wire Wire Line
-	5750 1725 5850 1725
-Wire Wire Line
-	5850 1725 5950 1725
-Wire Wire Line
-	5950 1725 6125 1725
+	5650 1725 6125 1725
 Connection ~ 5850 1725
 Connection ~ 5750 1725
 Connection ~ 5950 1725
@@ -825,9 +868,7 @@ Connection ~ 5275 1725
 Wire Wire Line
 	4550 2550 4950 2550
 Wire Wire Line
-	4350 3050 4550 3050
-Wire Wire Line
-	4550 3050 4750 3050
+	4350 3050 4750 3050
 Wire Wire Line
 	4550 3075 4550 3050
 Connection ~ 4550 3050
@@ -837,27 +878,17 @@ Connection ~ 3950 3050
 Wire Wire Line
 	2750 3050 2750 3075
 Wire Wire Line
-	2175 3050 2750 3050
-Wire Wire Line
-	2750 3050 2950 3050
+	2175 3050 2950 3050
 Wire Wire Line
 	3350 3075 3350 3050
 Connection ~ 3350 3050
 Connection ~ 2750 3050
 Wire Wire Line
-	4350 1725 4550 1725
-Wire Wire Line
-	4550 1725 5275 1725
-Wire Wire Line
-	5275 1725 5450 1725
-Wire Wire Line
-	5450 1725 5550 1725
+	4350 1725 5550 1725
 Wire Wire Line
 	4550 1725 4550 1825
 Wire Wire Line
-	4550 2025 4550 2100
-Wire Wire Line
-	4550 2100 4550 2550
+	4550 2025 4550 2550
 Connection ~ 4550 2100
 Wire Wire Line
 	4550 2100 4650 2100
@@ -869,26 +900,16 @@ Wire Wire Line
 Wire Wire Line
 	4300 2225 4300 2400
 Wire Wire Line
-	3950 2225 4125 2225
-Wire Wire Line
-	4125 2225 4300 2225
-Wire Wire Line
-	4300 2225 4450 2225
+	3950 2225 4450 2225
 Connection ~ 4300 2225
 Wire Wire Line
-	3950 1725 3950 2225
-Wire Wire Line
-	3950 2225 3950 2400
+	3950 1725 3950 2400
 Connection ~ 4125 2225
 Connection ~ 3950 2225
 Wire Wire Line
-	4950 2750 4450 2750
+	4450 2750 4950 2750
 Wire Wire Line
-	4450 2750 4450 2650
-Wire Wire Line
-	4450 2650 4450 2600
-Wire Wire Line
-	4450 2600 4450 2225
+	4450 2225 4450 2750
 Wire Wire Line
 	4950 2650 4450 2650
 Connection ~ 4450 2650
@@ -896,9 +917,7 @@ Wire Wire Line
 	4950 2600 4450 2600
 Connection ~ 4450 2600
 Wire Wire Line
-	6050 4600 6050 4800
-Wire Wire Line
-	6050 4800 6050 5500
+	6050 4600 6050 5500
 Wire Wire Line
 	6050 4800 6250 4800
 Wire Wire Line
@@ -915,36 +934,26 @@ Wire Wire Line
 	7375 5100 7375 5050
 Connection ~ 7375 5100
 Wire Wire Line
-	7375 4850 7375 4800
+	7375 4800 7375 4850
 Connection ~ 7375 4800
 Wire Wire Line
-	6450 4800 6650 4800
+	6450 4800 7675 4800
 Wire Wire Line
-	6650 4800 7375 4800
-Wire Wire Line
-	7375 4800 7675 4800
-Wire Wire Line
-	6950 5100 7375 5100
-Wire Wire Line
-	7375 5100 7675 5100
+	6950 5100 7675 5100
 Wire Wire Line
 	6925 5200 7675 5200
 Wire Wire Line
 	6050 5500 7675 5500
 Wire Wire Line
-	8950 4225 8925 4225
+	9475 1025 9450 1025
 Wire Wire Line
-	8950 4375 8925 4375
+	9475 1325 9450 1325
 Wire Wire Line
-	8950 4525 8925 4525
+	9475 1400 9450 1400
 Wire Wire Line
-	8950 4600 8925 4600
+	9475 1550 9450 1550
 Wire Wire Line
-	8950 4750 8925 4750
-Wire Wire Line
-	8950 4825 8925 4825
-Wire Wire Line
-	8950 4975 8925 4975
+	9475 1625 9450 1625
 Wire Wire Line
 	4775 4625 4850 4625
 Wire Wire Line
@@ -952,29 +961,21 @@ Wire Wire Line
 Wire Wire Line
 	4450 4700 4450 4625
 Wire Wire Line
-	4325 4625 4450 4625
+	4325 4625 4525 4625
 Wire Wire Line
-	4450 4625 4525 4625
-Wire Wire Line
-	4550 4950 4650 4950
-Wire Wire Line
-	4650 4950 4950 4950
+	4550 4950 4950 4950
 Wire Wire Line
 	4650 4950 4650 4725
 Connection ~ 4450 4625
 Wire Wire Line
 	4325 4950 4350 4950
 Wire Wire Line
-	4325 4400 4325 4625
-Wire Wire Line
-	4325 4625 4325 4950
+	4325 4400 4325 4950
 Connection ~ 4325 4625
 Wire Wire Line
 	4325 4400 4350 4400
 Wire Wire Line
-	4550 4400 4650 4400
-Wire Wire Line
-	4650 4400 4950 4400
+	4550 4400 4950 4400
 Wire Wire Line
 	4650 4525 4650 4400
 Connection ~ 4650 4400
@@ -982,14 +983,10 @@ Connection ~ 4650 4950
 Wire Wire Line
 	4950 4950 4950 4450
 Wire Wire Line
-	4350 4200 4625 4200
-Wire Wire Line
-	4625 4200 4900 4200
+	4350 4200 4900 4200
 Connection ~ 4625 4200
 Wire Wire Line
-	4725 4000 4900 4000
-Wire Wire Line
-	4900 4000 4950 4000
+	4725 4000 4950 4000
 Wire Wire Line
 	4525 4000 4350 4000
 Connection ~ 4900 4000
@@ -1004,103 +1001,31 @@ Wire Wire Line
 Wire Wire Line
 	6350 1725 6250 1725
 Wire Wire Line
-	5850 1500 5850 1725
-Wire Wire Line
-	5850 1725 5850 2400
+	5850 1500 5850 2400
 Wire Wire Line
 	5850 1050 5850 1400
 Wire Wire Line
 	5850 1050 5700 1050
 Wire Wire Line
-	5625 4600 5675 4600
-Wire Wire Line
-	5675 4600 5850 4600
-NoConn ~ 5525 4600
-NoConn ~ 5575 4600
+	5625 4600 5850 4600
 Connection ~ 5675 4600
 Wire Wire Line
 	5625 4800 5625 4925
-Text Label 6750 4100 0    30   ~ 0
-UART_TX
-Text Label 6750 4150 0    30   ~ 0
-UART_RX
-Text Label 6750 3300 0    30   ~ 0
-LP_GPIO_13
-Text Label 6750 3350 0    30   ~ 0
-LP_GPIO_12
-Text Label 6750 3400 0    30   ~ 0
-LP_GPIO_11
-Text Label 6750 3450 0    30   ~ 0
-LP_GPIO_10
-Text Label 6750 3550 0    30   ~ 0
-LP_GPIO_7
-Text Label 6750 3600 0    30   ~ 0
-LP_GPIO_6
-Text Label 6750 3700 0    30   ~ 0
-LP_GPIO_5
-Text Label 6750 3750 0    30   ~ 0
-LP_GPIO_4
-Text Label 6750 3800 0    30   ~ 0
-LP_GPIO_3
-Text Label 6750 3850 0    30   ~ 0
-LP_GPIO_2
-$Comp
-L GND #PWR023
-U 1 1 58C42CEE
-P 6850 3050
-F 0 "#PWR023" H 6850 2800 50  0001 C CNN
-F 1 "GND" H 6850 2925 50  0000 C CNN
-F 2 "" H 6850 3050 50  0000 C CNN
-F 3 "" H 6850 3050 50  0000 C CNN
-	1    6850 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6750 3050 6750 3100
+	6750 3150 6750 3300
+Connection ~ 6750 3250
+Connection ~ 6750 3200
 Wire Wire Line
-	6750 3100 6750 3150
+	6750 3150 6850 3150
 Wire Wire Line
-	6750 3150 6750 3200
-Connection ~ 6750 3150
-Connection ~ 6750 3100
+	6750 2600 6750 2700
+Connection ~ 6750 2650
 Wire Wire Line
-	6750 3050 6850 3050
-$Comp
-L SAMB11G18A-edit U1
-U 1 1 58C24559
-P 5850 3500
-F 0 "U1" H 5850 3500 50  0000 C CNN
-F 1 "SAMB11G18A-edit" H 6400 2450 50  0000 C CNN
-F 2 "QFN-48-1EP_6x6mm_Pitch0.4mm" H 6800 2375 50  0001 C CIN
-F 3 "" H 5850 3500 50  0000 C CNN
-	1    5850 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X08 P4
-U 1 1 58C384E9
-P 8375 3575
-F 0 "P4" H 8375 4025 50  0000 C CNN
-F 1 "CONN_01X08" V 8475 3575 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x08_Pitch2.54mm_Drill0.64mm" H 8375 3575 50  0001 C CNN
-F 3 "" H 8375 3575 50  0000 C CNN
-	1    8375 3575
-	1    0    0    -1  
-$EndComp
-Text Label 8175 3225 2    60   ~ 0
-LP_GPIO_6
-Text Label 8175 3325 2    60   ~ 0
-LP_GPIO_7
-Text Label 8175 3425 2    60   ~ 0
-LP_GPIO_8
-Text Label 8175 3525 2    60   ~ 0
-LP_GPIO_9
-Text Label 8175 3625 2    60   ~ 0
-LP_GPIO_10
-Text Label 8175 3725 2    60   ~ 0
-LP_GPIO_11
-Text Label 8175 3825 2    60   ~ 0
-LP_GPIO_12
-Text Label 8175 3925 2    60   ~ 0
-LP_GPIO_13
+	6750 2600 6850 2600
+Text Notes 7050 2675 0    60   ~ 0
+Pins 41, 42, and 43 lie above crystal\nplacement. If possible, leave unused.
+Text Notes 7050 2150 0    60   ~ 0
+Any unused pins will be connected to ground.
+Text Notes 7050 4375 0    60   ~ 0
+Pins 5, 6, 10, 11, 36, and 37\ncannot be configured as SPI.\n
 $EndSCHEMATC
