@@ -1,0 +1,707 @@
+$Header
+$Program	GerbTool GT-Designer Service Release 3 (16.2.37)
+	Version	16.0
+	Created	Wed Mar 15 15:48:24 2017
+$End
+$Environment
+	SketchMode	No
+	OverlayMode	No
+	ShowErrors	No
+	ViewComposites	No
+	OrthoSnap	Yes
+	SnapAngle	45.0000
+	ActiveLayer	8
+	CurrentDcode	10
+	PreviousView	-3.423, -1.461, 4.667, 3.067
+	FilmBox	1.700, 1.865, 0xffff00
+	DesignID		0x67550c87
+	UniqID		0x34
+	NetID		0
+	Flags		0
+	NetCompareOk		No
+	GenAutoDrills		No
+$End
+$Netlist
+	DrillLayer	1
+	WellBehaved	No
+	IncludeSinglePointNets	Yes
+	IgnoreSelectGroup	No
+	PreserveNetNames	No
+	GenByVersion	16.0
+	Clean		Yes
+	IsoPadsTagged	No
+$End
+$Views
+$End
+$TabViews
+$End
+$Layer	1
+	File		patch-F.Cu.gbr
+	LyrName	patch-F.Cu
+	Visibility	On
+	FlashColor	0xff
+	DrawColor	0xae
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.163, 0.005, 1.538, 1.702
+	ID		0x67550c8b
+	NetID		0
+	Virtual	0
+$End
+$Layer	2
+	File		patch-F.Mask.gbr
+	LyrName	patch-F.Mask
+	Visibility	On
+	FlashColor	0x80ff
+	DrawColor	0x57ae
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.435, -0.003, 0.890, 0.268
+	ID		0x67550c8c
+	NetID		0
+	Virtual	0
+$End
+$Layer	3
+	File		patch-F.SilkS.gbr
+	LyrName	patch-F.SilkS
+	Visibility	On
+	FlashColor	0xffff
+	DrawColor	0xaeae
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.797, 0.073, 0.963, 0.327
+	ID		0x67550c8d
+	NetID		0
+	Virtual	0
+$End
+$Layer	4
+	File		patch-B.Cu.gbr
+	LyrName	patch-B.Cu
+	Visibility	On
+	FlashColor	0xff00
+	DrawColor	0xae00
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.000, 0.000, 1.700, 1.865
+	ID		0x67550c88
+	NetID		0
+	Virtual	0
+$End
+$Layer	5
+	File		patch-B.Mask.gbr
+	LyrName	patch-B.Mask
+	Visibility	On
+	FlashColor	0xffff00
+	DrawColor	0xc4c400
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.435, -0.003, 0.890, 0.268
+	ID		0x67550c89
+	NetID		0
+	Virtual	0
+$End
+$Layer	6
+	File		patch-B.SilkS.gbr
+	LyrName	patch-B.SilkS
+	Visibility	On
+	FlashColor	0xff0000
+	DrawColor	0xae0000
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.000, 0.000, 0.000, 0.000
+	ID		0x67550c8a
+	NetID		0
+	Virtual	0
+$End
+$Layer	7
+	File		patch-Margin.gbr
+	LyrName	patch-Margin
+	Visibility	On
+	FlashColor	0xff00ff
+	DrawColor	0xae00ae
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	-0.004, -0.004, 1.704, 1.869
+	ID		0x67550c8e
+	NetID		0
+	Virtual	0
+$End
+$Layer	8
+	File		patch.drl
+	LyrName	patch.drl
+	Visibility	On
+	FlashColor	0xc0c0c0
+	DrawColor	0x808080
+	Type		NC
+	Polarity	Dark
+	Key		0
+	Extents	0.481, 0.231, 0.844, 0.249
+	ID		0x67550c8f
+	NetID		0
+	Virtual	0
+$End
+$LayerSets
+$End
+$ExportHPGL
+	OutFile	patch.plt
+	MediaSize	34.000, 22.000
+	Offset		0.000, 0.000
+	Scale		1.0000
+	Border	No 0
+	PenWidth	0.010
+	PenSpeed	60
+	$Pens
+		Layer 1	1	1
+		Layer 2	1	1
+		Layer 3	1	1
+		Layer 4	1	1
+		Layer 5	1	1
+		Layer 7	1	1
+		Layer 8	1	1
+	$End
+	Spread	No
+	$SpreadOffset
+	$End
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+$End
+$ExportPostScript
+	OutFile	patch.ps
+	MediaSize	8.000, 10.500
+	Offset		0.000, 0.000
+	Scale		1.0000
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+	GreyScale	No
+	Border	No
+$End
+$ImportHPGL
+	PlotSize	Large
+	Rotate		No
+	$PenSizes
+		1	0.0100
+		2	0.0110
+		3	0.0120
+		4	0.0130
+		5	0.0140
+		6	0.0150
+		7	0.0160
+		8	0.0170
+	$End
+$End
+$Text
+	Filename	patch.txt
+	Height		0.1000
+	Width		0.1000
+	LineSpace	1.0000
+	CharSpace	1.0000
+	Rotate		0
+	Slant		0
+	Mirror		No
+$End
+$ApReport
+	RepFile	patch.txt
+	Layer		1
+$End
+$Rotate
+	Degrees	0.00
+	Pivot		Center
+$End
+$Mirror
+	Direction	Horz
+	Pivot		Center
+$End
+$DcodeScale
+	Fixed		No
+	Scale		0.1000, 0.1000
+$End
+$Panelize
+	Panel 0 0 1 1 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0 0.0000 0.0000 0.0000 0 0
+$End
+$Spread
+	AutoSpread		No
+	Rows			1
+	Cols			1
+	TabSize		0.0000, 0.0000
+	Layer			0
+	SortType		Col
+$End
+$Analysis
+	$Setup
+		HiliLayer		0
+		IgnoreSelGrp	Yes
+		WellBehaved		No
+		WindowMode		No
+		MaxErrors		100
+		$Pass
+			Name		"DEFAULT"
+			DrillLayer		0
+			Enabled		Yes
+		$End
+	$End
+	NextErrorId	1
+$End
+$HoleCharts
+$End
+$Snoman
+	RepFile		patch.sno
+	FromLayer		All
+	ToLayer		0
+	DCode		All
+	Pad2Pad		0.0060
+	Pad2Trace		0.0060
+	Offset			-0.0050
+	MinPercent		0.6000
+	MaxPercent		0.8000
+	WindowMode		No
+$End
+$Teardrop
+	RepFile		patch.txt
+	Layer		All
+	DCode		All
+	Pad2Trace		0.0060
+	Trace2Trace		0.0060
+	HostOffsetPercent			0.1500
+	TeeLength		0.5000
+	TeeWidth		0.5000
+	WindowMode		No
+	DeleteExisting		No
+$End
+$Drill
+	OutFile	patch.drl
+	RepFile	patch.txt
+	Layer		1
+	PreDrill	0.250
+	WindowMode	No
+	NextFirstDrillSequence	998
+	NextLastDrillSequence	1000
+$End
+$Mill
+	Tool		3
+	ConvArcs	Yes
+	Compensate	Yes
+	SkipSlots	Yes
+	Mode		Auto
+	PlungeLength	0.1000
+	PlungeAngle	0
+	OverShoot	0.1000
+	DblPath	No
+	Plunge	red
+	Retract	red
+$End
+$FixSS
+	PadLayer	0
+	SilkLayer	0
+	WindowMode	No
+	Spacing	0.0100
+$End
+$PadRemoval
+	WindowMode	No
+	Layer		All
+	DCode		All
+$End
+$Highlights
+	Query		white
+	Select		white
+	DRC		white
+$End
+$EndHeader
+$NCToolTables
+	$NCToolTable
+		"patch" Both 0.000000 0.000000 0.000000 0 0 0 N
+		T1 Drill Plated b298 0.000000 0.000000 0.000000 0 0 0 0 2 b298 0 -1 1 0 -1 "0xff" "A"
+	$End
+$End
+$CustomApertureData
+$End
+$ApertureData
+22
+# Dcode  Shape  Width  Height  Type  Rotation  Mirror  NegDrawMode Properties
+#
+D10 	Round	9ec	9ec	ThruHole	0	N	Transparent	9ec
+D11 	Rectangle	41e330	3b1adc	SMT	0	N	Transparent	41e330 3b1adc 1 0 0
+D12 	Rectangle	3b150	9e340	SMT	0	N	Transparent	3b150 9e340 1 0 0
+D13 	Round	17ae8	17ae8	ThruHole	0	N	Transparent	17ae8
+D14 	Round	319c	319c	ThruHole	0	N	Transparent	319c
+D15 	Rectangle	44d90	a7f80	SMT	0	N	Transparent	44d90 a7f80 1 0 0
+D16 	Rectangle	354a94	2e8240	SMT	0	N	Transparent	354a94 2e8240 1 0 0
+D17 	Rectangle	407e0	64c4e	SMT	0	N	Transparent	407e0 64c4e 1 0 0
+D18 	Rectangle	37e88	7c060	SMT	0	N	Transparent	37e88 7c060 1 0 0
+D19 	Round	407e0	407e0	ThruHole	0	N	Transparent	407e0
+D20 	Rectangle	41ac8	85ca0	SMT	0	N	Transparent	41ac8 85ca0 1 0 0
+D21 	Round	3a98	3a98	ThruHole	0	N	Transparent	3a98
+D22 	Round	4e20	4e20	ThruHole	0	N	Transparent	4e20
+$End
+$StringTable
+7
+"$$UID"
+"$$UD"
+"$$EXNET_PADSIZE"
+"$$EXNET_LAYER"
+"$$HCHID"
+"$$HCUID"
+"$$HCTOOLNUMBER"
+$End
+$UserDefinedProperties
+$End
+$PanelData
+$End
+$Blocks
+$End
+$LayerData
+L1
+I0
+N0
+F0
+C" #@! TF.FileFunction,Copper,L1,Top,Signal"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 03/15/17 15:42:36"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A16
+D1
+20f198 2abade
+A17
+19ad3e 105397
+A18
+19ad3e 40fa6
+A12
+12fe4e 52116
+205c2e 52116
+A13
+12fe4e 94f66
+205c2e 94f66
+A19
+D2
+19ad3e 105397 19ad3e 237684
+19ad3e 237684 20f198 2abade
+19ad3e 40fa6 19ad3e 105397
+L2
+I0
+N0
+F0
+C" #@! TF.FileFunction,Soldermask,Top"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 03/15/17 15:42:36"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A20
+D1
+19ad3e 40fa6
+A15
+12fe4e 52116
+205c2e 52116
+L3
+I0
+N0
+F0
+C" #@! TF.FileFunction,Legend,Top"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 03/15/17 15:42:36"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A21
+D2
+1f29dd b7843 1fe3e0 b7843
+1f04aa b08a8 1f86df c8f48
+1f86df c8f48 200914 b08a8
+208b4a bd545 210d7f bd545
+21454d b08a8 208b4a b08a8
+208b4a b08a8 208b4a c8f48
+208b4a c8f48 21454d c8f48
+22b953 b08a8 21da1c b08a8
+2249b7 b08a8 2249b7 c8f48
+2249b7 c8f48 222483 c577a
+222483 c577a 21ff50 c3246
+21ff50 c3246 21da1c c1fad
+25374c 2ef55 23b0ac 2ef55
+23b0ac 2ef55 23b0ac 38424
+23b0ac 38424 23c346 3a958
+23c346 3a958 23d5e0 3bbf2
+23d5e0 3bbf2 23fb14 3ce8b
+23fb14 3ce8b 2432e1 3ce8b
+2432e1 3ce8b 245815 3bbf2
+245815 3bbf2 246aaf 3a958
+246aaf 3a958 247d49 38424
+247d49 38424 247d49 2ef55
+25374c 54292 25374c 4635b
+25374c 4d2f6 23b0ac 4d2f6
+23b0ac 4d2f6 23e87a 4adc2
+23e87a 4adc2 240dae 4888e
+240dae 4888e 242048 4635b
+L4
+I0
+N0
+F0
+C" #@! TF.FileFunction,Copper,L2,Bot,Signal"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 03/15/17 15:42:36"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A11
+D1
+20f198 2abade
+A12
+12fe4e 52116
+205c2e 52116
+A13
+12fe4e 94f66
+205c2e 94f66
+A14
+D4
+5 1 0
+18ce 18ce N
+41ca62 18ce N
+41ca62 482f7e N
+18ce 482f7e N
+18ce 18ce N
+10 1 1
+1163bd 9150f N
+11603f 96647 N
+116caa 9b69e N
+118885 a02fd N
+11d16f a1308 N
+129511 94f66 N
+11d16f 88bc4 N
+118885 89bcf N
+117702 8c615 N
+1163bd 9150f N
+10 1 1
+124ab7 7d99d N
+123aac 82287 N
+12fe4e 8e629 N
+13c1f0 82287 N
+13b1e5 7d99d N
+13879f 7c81a N
+1338a5 7b4d5 N
+12e76d 7b157 N
+129716 7bdc2 N
+124ab7 7d99d N
+10 1 1
+12fe4e 9b8a3 N
+123aac a7c45 N
+124ab7 ac52f N
+1274fd ad6b2 N
+12c3f7 ae9f7 N
+13152f aed76 N
+136586 ae10a N
+13b1e5 ac52f N
+13c1f0 a7c45 N
+12fe4e 9b8a3 N
+10 1 1
+142b2d 88bc4 N
+13678b 94f66 N
+142b2d a1308 N
+147417 a02fd N
+14859a 9d8b7 N
+1498df 989bd N
+149c5e 93885 N
+148ff2 8e82e N
+147417 89bcf N
+142b2d 88bc4 N
+10 1 1
+1ec19d 9150f N
+1ebe1f 96647 N
+1eca8a 9b69e N
+1ee665 a02fd N
+1f2f4f a1308 N
+1ff2f1 94f66 N
+1f2f4f 88bc4 N
+1ee665 89bcf N
+1ed4e2 8c615 N
+1ec19d 9150f N
+10 1 1
+1fa897 7d99d N
+1f988c 82287 N
+205c2e 8e629 N
+211fd0 82287 N
+210fc5 7d99d N
+20e57f 7c81a N
+209685 7b4d5 N
+20454d 7b157 N
+1ff4f6 7bdc2 N
+1fa897 7d99d N
+10 1 1
+205c2e 9b8a3 N
+1f988c a7c45 N
+1fa897 ac52f N
+1fd2dd ad6b2 N
+2021d7 ae9f7 N
+20730f aed76 N
+20c366 ae10a N
+210fc5 ac52f N
+211fd0 a7c45 N
+205c2e 9b8a3 N
+10 1 1
+21890d 88bc4 N
+20c56b 94f66 N
+21890d a1308 N
+21d1f7 a02fd N
+21e37a 9d8b7 N
+21f6bf 989bd N
+21fa3e 93885 N
+21edd2 8e82e N
+21d1f7 89bcf N
+21890d 88bc4 N
+D2
+41ca62 18ce 18ce 18ce
+18ce 18ce 18ce 82287
+18ce 82287 123aac 82287
+123aac 82287 124ab7 7d99d
+124ab7 7d99d 129716 7bdc2
+129716 7bdc2 12e76d 7b157
+12e76d 7b157 1338a5 7b4d5
+1338a5 7b4d5 13879f 7c81a
+13879f 7c81a 13b1e5 7d99d
+13b1e5 7d99d 13c1f0 82287
+13c1f0 82287 1f988c 82287
+1f988c 82287 1fa897 7d99d
+1fa897 7d99d 1ff4f6 7bdc2
+1ff4f6 7bdc2 20454d 7b157
+20454d 7b157 209685 7b4d5
+209685 7b4d5 20e57f 7c81a
+20e57f 7c81a 210fc5 7d99d
+210fc5 7d99d 211fd0 82287
+211fd0 82287 205c2e 8e629
+205c2e 8e629 1f988c 82287
+1f988c 82287 13c1f0 82287
+13c1f0 82287 12fe4e 8e629
+12fe4e 8e629 123aac 82287
+123aac 82287 18ce 82287
+18ce 82287 18ce 96647
+18ce 96647 11603f 96647
+11603f 96647 1163bd 9150f
+1163bd 9150f 117702 8c615
+117702 8c615 118885 89bcf
+118885 89bcf 11d16f 88bc4
+11d16f 88bc4 129511 94f66
+129511 94f66 13678b 94f66
+13678b 94f66 142b2d 88bc4
+142b2d 88bc4 147417 89bcf
+147417 89bcf 148ff2 8e82e
+148ff2 8e82e 149c5e 93885
+149c5e 93885 149a66 96647
+149a66 96647 1ebe1f 96647
+1ebe1f 96647 1ec19d 9150f
+1ec19d 9150f 1ed4e2 8c615
+1ed4e2 8c615 1ee665 89bcf
+1ee665 89bcf 1f2f4f 88bc4
+1f2f4f 88bc4 1ff2f1 94f66
+1ff2f1 94f66 20c56b 94f66
+20c56b 94f66 21890d 88bc4
+21890d 88bc4 21d1f7 89bcf
+21d1f7 89bcf 21edd2 8e82e
+21edd2 8e82e 21fa3e 93885
+21fa3e 93885 21f6bf 989bd
+21f6bf 989bd 21e37a 9d8b7
+21e37a 9d8b7 21d1f7 a02fd
+21d1f7 a02fd 21890d a1308
+21890d a1308 20c56b 94f66
+20c56b 94f66 1ff2f1 94f66
+1ff2f1 94f66 1f2f4f a1308
+1f2f4f a1308 1ee665 a02fd
+1ee665 a02fd 1eca8a 9b69e
+1eca8a 9b69e 1ebe1f 96647
+1ebe1f 96647 149a66 96647
+149a66 96647 1498df 989bd
+1498df 989bd 14859a 9d8b7
+14859a 9d8b7 147417 a02fd
+147417 a02fd 142b2d a1308
+142b2d a1308 13678b 94f66
+13678b 94f66 129511 94f66
+129511 94f66 11d16f a1308
+11d16f a1308 118885 a02fd
+118885 a02fd 116caa 9b69e
+116caa 9b69e 11603f 96647
+11603f 96647 18ce 96647
+18ce 96647 18ce a7c45
+18ce a7c45 123aac a7c45
+123aac a7c45 12fe4e 9b8a3
+12fe4e 9b8a3 13c1f0 a7c45
+13c1f0 a7c45 1f988c a7c45
+1f988c a7c45 205c2e 9b8a3
+205c2e 9b8a3 211fd0 a7c45
+211fd0 a7c45 210fc5 ac52f
+210fc5 ac52f 20c366 ae10a
+20c366 ae10a 20730f aed76
+20730f aed76 2021d7 ae9f7
+2021d7 ae9f7 1fd2dd ad6b2
+1fd2dd ad6b2 1fa897 ac52f
+1fa897 ac52f 1f988c a7c45
+1f988c a7c45 13c1f0 a7c45
+13c1f0 a7c45 13b1e5 ac52f
+13b1e5 ac52f 136586 ae10a
+136586 ae10a 13152f aed76
+13152f aed76 12c3f7 ae9f7
+12c3f7 ae9f7 1274fd ad6b2
+1274fd ad6b2 124ab7 ac52f
+124ab7 ac52f 123aac a7c45
+123aac a7c45 18ce a7c45
+18ce a7c45 18ce 482f7e
+18ce 482f7e 41ca62 482f7e
+41ca62 482f7e 41ca62 18ce
+L5
+I0
+N0
+F0
+C" #@! TF.FileFunction,Soldermask,Bot"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 03/15/17 15:42:36"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A15
+D1
+12fe4e 52116
+205c2e 52116
+L7
+I0
+N0
+F0
+C" #@! TF.FileFunction,Other,User"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 03/15/17 15:42:36"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A22
+D2
+41e330 48484c 0 48484c
+41e330 0 41e330 48484c
+0 0 41e330 0
+0 48484c 0 0
+L8
+Z"patch"
+I0
+N0
+F0
+T1
+S999
+D6
+12feb6 94f3c N N N N Y 0
+205bc6 94f3c N N N N Y 1
+$End
+$Dimensions
+0
+$End
+$Redlining
+$End
+$ConstructionLines
+0
+$End
+$NoteBalloons
+0
+$End
+$ExternalNetData
+$End
+$NCOrderLists
+$End
+$NetList
+$End

@@ -48,8 +48,8 @@ L CONN_01X02 P1
 U 1 1 58A4C75B
 P 5500 3600
 F 0 "P1" H 5500 3750 50  0000 C CNN
-F 1 "CONN_01X02" V 5600 3600 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_SMA_Jack_Edge_Mount" H 5500 3600 50  0000 C CNN
+F 1 "SMA" V 5600 3600 50  0000 C CNN
+F 2 "Misc:Molex_SMA_Jack_Edge_Mount" H 5500 3600 50  0000 C CNN
 F 3 "" H 5500 3600 50  0000 C CNN
 	1    5500 3600
 	-1   0    0    -1  
@@ -67,4 +67,17 @@ F 3 "" H 5700 3650 50  0000 C CNN
 	1    5700 3650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Antenna AE1
+U 1 1 58C9BCED
+P 5850 3350
+F 0 "AE1" H 5775 3425 50  0000 R CNN
+F 1 "Antenna" H 5775 3350 50  0000 R CNN
+F 2 "Antennas:Patch_Antenna_2.4GHz" H 5850 3350 50  0001 C CNN
+F 3 "" H 5850 3350 50  0001 C CNN
+	1    5850 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3550 5850 3550
 $EndSCHEMATC

@@ -1,7 +1,0 @@
-### Module positions - created on 02/15/17 16:56:43 ###
-### Printed by Pcbnew version kicad 4.0.5
-## Unit = inches, Angle = deg.
-## Side : top
-# Ref     Val         Package                         PosX       PosY       Rot  Side
-P1        CONN_01X02  Molex_SMA_Jack_Edge_Mount     4.6000    -4.3250   90.0000  top
-## End

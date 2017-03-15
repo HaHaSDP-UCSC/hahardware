@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:/Users/jzheng13/Documents/HA-HA/pcb/kicad/antenna/patch.sch)
-    (date "2/15/2017 1:37:32 PM")
+    (source C:/Users/jzheng13/Documents/HA-HA/pcb/kicad/antenna/2.4ghz/patch/patch.sch)
+    (date "3/15/2017 3:21:18 PM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -16,12 +16,25 @@
         (comment (number 4) (value "")))))
   (components
     (comp (ref P1)
-      (value CONN_01X02)
-      (footprint Connectors_Molex:Molex_SMA_Jack_Edge_Mount)
+      (value SMA)
+      (footprint Misc:Molex_SMA_Jack_Edge_Mount)
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /) (tstamps /))
-      (tstamp 58A4C75B)))
+      (tstamp 58A4C75B))
+    (comp (ref AE1)
+      (value Antenna)
+      (footprint Antennas:Patch_Antenna_2.4GHz)
+      (libsource (lib device) (part Antenna))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58C9BCED)))
   (libparts
+    (libpart (lib device) (part Antenna)
+      (description "Antenna symbol")
+      (fields
+        (field (name Reference) AE)
+        (field (name Value) Antenna))
+      (pins
+        (pin (num 1) (name A) (type input))))
     (libpart (lib conn) (part CONN_01X02)
       (description "Connector, single row, 01x02")
       (footprints
@@ -36,10 +49,13 @@
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive)))))
   (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
-    (net (code 1) (name /SIG)
-      (node (ref P1) (pin 1)))
-    (net (code 2) (name GND)
-      (node (ref P1) (pin 2)))))
+    (net (code 1) (name GND)
+      (node (ref P1) (pin 2)))
+    (net (code 2) (name /SIG)
+      (node (ref P1) (pin 1))
+      (node (ref AE1) (pin 1)))))
