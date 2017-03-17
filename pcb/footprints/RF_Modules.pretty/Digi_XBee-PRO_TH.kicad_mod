@@ -1,6 +1,6 @@
 (module Digi_XBee-PRO_TH (layer F.Cu) (tedit 58BBB0E2)
-  (descr "Digi XBee RF Module")
-  (tags "xbee digi")
+  (descr https://www.digi.com/resources/documentation/digidocs/pdfs/90002173.pdf)
+  (tags "Digi XBee RF Module")
   (fp_text reference REF** (at 0 -25.019) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

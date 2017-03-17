@@ -1,6 +1,6 @@
 (module Molex_SMA_Jack_Edge_Mount (layer F.Cu) (tedit 58CB59F0)
-  (descr "Molex SMA Jack, Edge Mount")
-  (tags "sma edge")
+  (descr http://www.molex.com/pdm_docs/sd/732511150_sd.pdf)
+  (tags "Molex SMA Edge")
   (attr smd)
   (fp_text reference REF** (at -1.72 7.11) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
