@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:rf_transceivers
+LIBS:displays
 LIBS:base-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -47,9 +48,9 @@ $EndDescr
 Text Notes 7350 7500 0    60   ~ 0
 Base - Central
 Text Notes 8150 7650 0    60   ~ 0
-March 2, 2017
+March 28, 2017
 Text Notes 10600 7650 0    60   ~ 0
-0.1
+0.2
 $Comp
 L GND #PWR01
 U 1 1 58BA111C
@@ -559,36 +560,36 @@ Text Label 6750 3000 0    30   ~ 0
 UART_RTS
 Text Label 6750 2950 0    30   ~ 0
 UART_CTS
-Text Label 6750 3700 0    30   ~ 0
-LP_GPIO_8
-Text Label 6750 3650 0    30   ~ 0
-LP_GPIO_9
+Text Label 6750 4150 0    30   ~ 0
+DISP_B5
+Text Label 6750 4100 0    30   ~ 0
+DISP_B4
 Text Label 5625 4925 3    30   ~ 0
 Wake
 Text Notes 4650 5225 0    60   ~ 0
 If Wake function is not used,\nconnect AO_GPIO_0 to GND.
 $Sheet
-S 9475 950  1200 900 
+S 9875 575  1250 850 
 U 58C0BD85
 F0 "base-transceiver" 60
 F1 "base-transceiver.sch" 60
-F2 "VCC" I L 9475 1025 60 
-F3 "Reset" I L 9475 1775 60 
-F4 "VREF" I L 9475 1175 60 
-F5 "CTS" I L 9475 1550 60 
-F6 "RTS" I L 9475 1625 60 
-F7 "UART_DIN" I L 9475 1325 60 
-F8 "UART_DOUT" I L 9475 1400 60 
+F2 "VCC" I L 9875 625 60 
+F3 "Reset" I L 9875 1375 60 
+F4 "VREF" I L 9875 775 60 
+F5 "CTS" I L 9875 1150 60 
+F6 "RTS" I L 9875 1225 60 
+F7 "UART_DIN" I L 9875 925 60 
+F8 "UART_DOUT" I L 9875 1000 60 
 $EndSheet
-Text Label 9450 1025 2    60   ~ 0
+Text Label 9850 625  2    60   ~ 0
 +3.3V
-Text Label 9450 1625 2    30   ~ 0
+Text Label 9850 1225 2    30   ~ 0
 UART_RTS
-Text Label 9450 1550 2    30   ~ 0
+Text Label 9850 1150 2    30   ~ 0
 UART_CTS
-Text Label 9450 1325 2    30   ~ 0
+Text Label 9850 925  2    30   ~ 0
 UART_TX
-Text Label 9450 1400 2    30   ~ 0
+Text Label 9850 1000 2    30   ~ 0
 UART_RX
 $Comp
 L CONN_01X02 P3
@@ -741,18 +742,18 @@ Text Label 6750 2850 0    30   ~ 0
 UART_TX
 Text Label 6750 2900 0    30   ~ 0
 UART_RX
-Text Label 6750 3450 0    30   ~ 0
-LP_GPIO_13
-Text Label 6750 3500 0    30   ~ 0
-LP_GPIO_12
-Text Label 6750 3550 0    30   ~ 0
-LP_GPIO_11
-Text Label 6750 3600 0    30   ~ 0
-LP_GPIO_10
-Text Label 6750 3750 0    30   ~ 0
-LP_GPIO_7
-Text Label 6750 3800 0    30   ~ 0
-LP_GPIO_6
+Text Label 6750 3900 0    30   ~ 0
+DISP_B0
+Text Label 6750 3950 0    30   ~ 0
+DISP_B1
+Text Label 6750 4000 0    30   ~ 0
+DISP_B2
+Text Label 6750 4050 0    30   ~ 0
+DISP_B3
+Text Label 6750 4200 0    30   ~ 0
+DISP_B6
+Text Label 6750 4250 0    30   ~ 0
+DISP_B7
 $Comp
 L GND #PWR023
 U 1 1 58C42CEE
@@ -765,33 +766,6 @@ F 3 "" H 6850 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X08 P4
-U 1 1 58C384E9
-P 7925 3625
-F 0 "P4" H 7925 4075 50  0000 C CNN
-F 1 "CONN_01X08" V 8025 3625 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x08_Pitch2.54mm_Drill0.64mm" H 7925 3625 50  0001 C CNN
-F 3 "" H 7925 3625 50  0000 C CNN
-	1    7925 3625
-	1    0    0    -1  
-$EndComp
-Text Label 7725 3275 2    30   ~ 0
-LP_GPIO_6
-Text Label 7725 3375 2    30   ~ 0
-LP_GPIO_7
-Text Label 7725 3475 2    30   ~ 0
-LP_GPIO_8
-Text Label 7725 3575 2    30   ~ 0
-LP_GPIO_9
-Text Label 7725 3675 2    30   ~ 0
-LP_GPIO_10
-Text Label 7725 3775 2    30   ~ 0
-LP_GPIO_11
-Text Label 7725 3875 2    30   ~ 0
-LP_GPIO_12
-Text Label 7725 3975 2    30   ~ 0
-LP_GPIO_13
-$Comp
 L SAMB11G18A-edit U1
 U 1 1 58C5ED8B
 P 5850 3500
@@ -803,16 +777,20 @@ F 3 "" H 5850 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR024
 U 1 1 58C65889
 P 6850 2600
-F 0 "#PWR?" H 6850 2350 50  0001 C CNN
+F 0 "#PWR024" H 6850 2350 50  0001 C CNN
 F 1 "GND" H 6850 2475 50  0000 C CNN
 F 2 "" H 6850 2600 50  0000 C CNN
 F 3 "" H 6850 2600 50  0000 C CNN
 	1    6850 2600
 	1    0    0    -1  
 $EndComp
+Text Notes 7050 2675 0    60   ~ 0
+Pins 41, 42, and 43 lie above crystal\nplacement. If possible, leave unused.
+Text Notes 7050 2150 0    60   ~ 0
+Any unused pins will be connected to ground.
 Wire Wire Line
 	3150 3050 4150 3050
 Wire Wire Line
@@ -945,15 +923,15 @@ Wire Wire Line
 Wire Wire Line
 	6050 5500 7675 5500
 Wire Wire Line
-	9475 1025 9450 1025
+	9875 625  9850 625 
 Wire Wire Line
-	9475 1325 9450 1325
+	9875 925  9850 925 
 Wire Wire Line
-	9475 1400 9450 1400
+	9875 1000 9850 1000
 Wire Wire Line
-	9475 1550 9450 1550
+	9875 1150 9850 1150
 Wire Wire Line
-	9475 1625 9450 1625
+	9875 1225 9850 1225
 Wire Wire Line
 	4775 4625 4850 4625
 Wire Wire Line
@@ -1022,10 +1000,81 @@ Wire Wire Line
 Connection ~ 6750 2650
 Wire Wire Line
 	6750 2600 6850 2600
-Text Notes 7050 2675 0    60   ~ 0
-Pins 41, 42, and 43 lie above crystal\nplacement. If possible, leave unused.
-Text Notes 7050 2150 0    60   ~ 0
-Any unused pins will be connected to ground.
-Text Notes 7050 4375 0    60   ~ 0
+Wire Wire Line
+	9875 1725 9850 1725
+Wire Wire Line
+	9875 1875 9850 1875
+Wire Wire Line
+	9875 2025 9850 2025
+Wire Wire Line
+	9875 2100 9850 2100
+Wire Wire Line
+	9875 2175 9850 2175
+Wire Wire Line
+	9875 2250 9850 2250
+Wire Wire Line
+	9875 2325 9850 2325
+Wire Wire Line
+	9875 2400 9850 2400
+Wire Wire Line
+	9875 2475 9850 2475
+Wire Wire Line
+	9875 2550 9850 2550
+Wire Wire Line
+	9875 2700 9850 2700
+Wire Wire Line
+	9875 2775 9850 2775
+$Sheet
+S 9875 1675 1225 1225
+U 58DB875D
+F0 "base-display" 60
+F1 "base-display.sch" 60
+F2 "DATA_0" I L 9875 2025 60 
+F3 "DATA_1" I L 9875 2100 60 
+F4 "DATA_2" I L 9875 2175 60 
+F5 "DATA_3" I L 9875 2250 60 
+F6 "DATA_4" I L 9875 2325 60 
+F7 "DATA_5" I L 9875 2400 60 
+F8 "DATA_6" I L 9875 2475 60 
+F9 "REG_SEL" I L 9875 2700 60 
+F10 "READ_WRITE" I L 9875 2775 60 
+F11 "ENABLE" I L 9875 2850 60 
+F12 "VCC" I L 9875 1725 60 
+F13 "DISP_LGHT" I L 9875 1875 60 
+F14 "DATA_7" I L 9875 2550 60 
+$EndSheet
+Text Notes 7750 4350 0    60   ~ 0
 Pins 5, 6, 10, 11, 36, and 37\ncannot be configured as SPI.\n
+Text Label 9850 1725 2    60   ~ 0
++5V
+Text Label 9850 2025 2    30   ~ 0
+DISP_B0
+Text Label 9850 2100 2    30   ~ 0
+DISP_B1
+Text Label 9850 2175 2    30   ~ 0
+DISP_B2
+Text Label 9850 2250 2    30   ~ 0
+DISP_B3
+Text Label 9850 2325 2    30   ~ 0
+DISP_B4
+Text Label 9850 2400 2    30   ~ 0
+DISP_B5
+Text Label 9850 2475 2    30   ~ 0
+DISP_B6
+Text Label 9850 2550 2    30   ~ 0
+DISP_B7
+Wire Wire Line
+	9850 2850 9875 2850
+Text Label 9850 2700 2    30   ~ 0
+DISP_REG
+Text Label 9850 2775 2    30   ~ 0
+DISP_RW
+Text Label 9850 2850 2    30   ~ 0
+DISP_E
+Text Label 6750 3850 0    30   ~ 0
+DISP_E
+Text Label 6750 3800 0    30   ~ 0
+DISP_RW
+Text Label 6750 3750 0    30   ~ 0
+DISP_REG
 $EndSCHEMATC
