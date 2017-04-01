@@ -485,7 +485,7 @@ F 3 "" H 3950 2500 50  0000 C CNN
 	1    3950 2500
 	1    0    0    -1  
 $EndComp
-Text Label 5850 1500 2    60   ~ 0
+Text Label 5850 1050 0    60   ~ 0
 +3.3V
 Text Label 2200 3050 0    60   ~ 0
 SIG_2.4G
@@ -560,9 +560,9 @@ Text Label 6750 3000 0    30   ~ 0
 UART_RTS
 Text Label 6750 2950 0    30   ~ 0
 UART_CTS
-Text Label 6750 4150 0    30   ~ 0
+Text Label 6750 3850 0    30   ~ 0
 DISP_B5
-Text Label 6750 4100 0    30   ~ 0
+Text Label 6750 3900 0    30   ~ 0
 DISP_B4
 Text Label 5625 4925 3    30   ~ 0
 Wake
@@ -611,17 +611,6 @@ F 1 "GND" H 5700 1000 50  0000 C CNN
 F 2 "" H 5700 1150 50  0000 C CNN
 F 3 "" H 5700 1150 50  0000 C CNN
 	1    5700 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 J2
-U 1 1 58BD3D7F
-P 6050 1450
-F 0 "J2" H 6050 1600 50  0000 C CNN
-F 1 "Vbatt_I-test" V 6150 1450 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 6050 1450 50  0001 C CNN
-F 3 "" H 6050 1450 50  0000 C CNN
-	1    6050 1450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -720,17 +709,17 @@ Text Label 6750 2850 0    30   ~ 0
 UART_TX
 Text Label 6750 2900 0    30   ~ 0
 UART_RX
-Text Label 6750 3900 0    30   ~ 0
+Text Label 6750 4100 0    30   ~ 0
 DISP_B0
-Text Label 6750 3950 0    30   ~ 0
+Text Label 6750 4050 0    30   ~ 0
 DISP_B1
 Text Label 6750 4000 0    30   ~ 0
 DISP_B2
-Text Label 6750 4050 0    30   ~ 0
+Text Label 6750 3950 0    30   ~ 0
 DISP_B3
-Text Label 6750 4200 0    30   ~ 0
+Text Label 6750 3800 0    30   ~ 0
 DISP_B6
-Text Label 6750 4250 0    30   ~ 0
+Text Label 6750 3750 0    30   ~ 0
 DISP_B7
 $Comp
 L GND #PWR022
@@ -957,9 +946,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 1725 6250 1725
 Wire Wire Line
-	5850 1500 5850 2400
-Wire Wire Line
-	5850 1050 5850 1400
+	5850 1050 5850 2400
 Wire Wire Line
 	5850 1050 5700 1050
 Wire Wire Line
@@ -1049,11 +1036,11 @@ Text Label 9850 2775 2    30   ~ 0
 DISP_RW
 Text Label 9850 2850 2    30   ~ 0
 DISP_E
-Text Label 6750 3850 0    30   ~ 0
+Text Label 6750 4150 0    30   ~ 0
 DISP_E
-Text Label 6750 3800 0    30   ~ 0
+Text Label 6750 4200 0    30   ~ 0
 DISP_RW
-Text Label 6750 3750 0    30   ~ 0
+Text Label 6750 4250 0    30   ~ 0
 DISP_REG
 Wire Wire Line
 	2175 3050 2175 2950
