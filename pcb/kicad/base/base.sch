@@ -56,7 +56,7 @@ L GND #PWR01
 U 1 1 58BA111C
 P 5850 4650
 F 0 "#PWR01" H 5850 4400 50  0001 C CNN
-F 1 "GND" H 5850 4500 50  0000 C CNN
+F 1 "GND" H 5850 4525 50  0000 C CNN
 F 2 "" H 5850 4650 50  0000 C CNN
 F 3 "" H 5850 4650 50  0000 C CNN
 	1    5850 4650
@@ -226,7 +226,7 @@ L GND #PWR07
 U 1 1 58BBBCA3
 P 8175 5700
 F 0 "#PWR07" H 8175 5450 50  0001 C CNN
-F 1 "GND" H 8175 5550 50  0000 C CNN
+F 1 "GND" H 8175 5575 50  0000 C CNN
 F 2 "" H 8175 5700 50  0000 C CNN
 F 3 "" H 8175 5700 50  0000 C CNN
 	1    8175 5700
@@ -541,18 +541,12 @@ Text Label 7675 4800 2    60   ~ 0
 +3.3V
 Text Notes 1875 1900 0    60   ~ 0
 Place C10 as close as possible to pin 4.\nPlace C11 as close as possible to pin 48.\nPlace C12 as close as possible to pin 1.\nPlace C13 as close as possible to pin 2.
-Text Label 7675 5700 2    30   ~ 0
-+5V
 Text Label 7675 5400 2    30   ~ 0
 SWO
-Text Label 6750 3000 0    30   ~ 0
+Text Label 6750 2700 0    30   ~ 0
 UART_RTS
-Text Label 6750 2950 0    30   ~ 0
+Text Label 6750 2650 0    30   ~ 0
 UART_CTS
-Text Label 6750 3850 0    30   ~ 0
-DISP_B5
-Text Label 6750 3900 0    30   ~ 0
-DISP_B4
 Text Label 5625 4925 3    30   ~ 0
 Wake
 Text Notes 4650 5225 0    60   ~ 0
@@ -596,7 +590,7 @@ L GND #PWR018
 U 1 1 58C38B83
 P 5700 1150
 F 0 "#PWR018" H 5700 900 50  0001 C CNN
-F 1 "GND" H 5700 1000 50  0000 C CNN
+F 1 "GND" H 5700 1025 50  0000 C CNN
 F 2 "" H 5700 1150 50  0000 C CNN
 F 3 "" H 5700 1150 50  0000 C CNN
 	1    5700 1150
@@ -694,31 +688,27 @@ NoConn ~ 5300 4600
 NoConn ~ 5350 4600
 NoConn ~ 5525 4600
 NoConn ~ 5575 4600
-Text Label 6750 2850 0    30   ~ 0
+Text Label 6750 2550 0    30   ~ 0
 UART_TX
-Text Label 6750 2900 0    30   ~ 0
+Text Label 6750 2600 0    30   ~ 0
 UART_RX
-Text Label 6750 4100 0    30   ~ 0
+Text Label 6750 2900 0    30   ~ 0
 DISP_B0
-Text Label 6750 4050 0    30   ~ 0
+Text Label 6750 2950 0    30   ~ 0
 DISP_B1
-Text Label 6750 4000 0    30   ~ 0
+Text Label 6750 3000 0    30   ~ 0
 DISP_B2
-Text Label 6750 3950 0    30   ~ 0
+Text Label 6750 3050 0    30   ~ 0
 DISP_B3
-Text Label 6750 3800 0    30   ~ 0
-DISP_B6
-Text Label 6750 3750 0    30   ~ 0
-DISP_B7
 $Comp
 L GND #PWR022
 U 1 1 58C42CEE
-P 6850 3150
-F 0 "#PWR022" H 6850 2900 50  0001 C CNN
-F 1 "GND" H 6850 3025 50  0000 C CNN
-F 2 "" H 6850 3150 50  0000 C CNN
-F 3 "" H 6850 3150 50  0000 C CNN
-	1    6850 3150
+P 7050 4250
+F 0 "#PWR022" H 7050 4000 50  0001 C CNN
+F 1 "GND" H 7050 4125 50  0000 C CNN
+F 2 "" H 7050 4250 50  0000 C CNN
+F 3 "" H 7050 4250 50  0000 C CNN
+	1    7050 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -732,21 +722,53 @@ F 3 "" H 5850 3500 50  0000 C CNN
 	1    5850 3500
 	1    0    0    -1  
 $EndComp
+Text Notes 7050 2150 0    60   ~ 0
+Any unused pins should be connected to ground.
+Text Notes 7750 4350 0    60   ~ 0
+Pins 5, 6, 10, 11, 36, and 37\ncannot be configured as SPI.\n
+Text Label 6750 2850 0    30   ~ 0
+DISP_E
+Text Label 6750 2800 0    30   ~ 0
+DISP_REG
+$Comp
+L Antenna_Shield AE1
+U 1 1 58E312C3
+P 2175 2550
+F 0 "AE1" H 2100 2725 50  0000 R CNN
+F 1 "Antenna_Shield" H 2100 2650 50  0000 R CNN
+F 2 "Antennas:Patch_Antenna_2.4GHz" H 2175 2650 50  0001 C CNN
+F 3 "" H 2175 2650 50  0001 C CNN
+	1    2175 2550
+	-1   0    0    -1  
+$EndComp
 $Comp
 L GND #PWR023
-U 1 1 58C65889
-P 6850 2600
-F 0 "#PWR023" H 6850 2350 50  0001 C CNN
-F 1 "GND" H 6850 2475 50  0000 C CNN
-F 2 "" H 6850 2600 50  0000 C CNN
-F 3 "" H 6850 2600 50  0000 C CNN
-	1    6850 2600
+U 1 1 58E322FD
+P 2075 2750
+F 0 "#PWR023" H 2075 2500 50  0001 C CNN
+F 1 "GND" H 2075 2625 50  0000 C CNN
+F 2 "" H 2075 2750 50  0000 C CNN
+F 3 "" H 2075 2750 50  0000 C CNN
+	1    2075 2750
 	1    0    0    -1  
 $EndComp
 Text Notes 7050 2675 0    60   ~ 0
 Pins 41, 42, and 43 lie above crystal\nplacement. If possible, leave unused.
-Text Notes 7050 2150 0    60   ~ 0
-Any unused pins will be connected to ground.
+$Comp
+L GND #PWR024
+U 1 1 58E5D85A
+P 9575 2625
+F 0 "#PWR024" H 9575 2375 50  0001 C CNN
+F 1 "GND" H 9575 2500 50  0000 C CNN
+F 2 "" H 9575 2625 50  0000 C CNN
+F 3 "" H 9575 2625 50  0000 C CNN
+	1    9575 2625
+	1    0    0    -1  
+$EndComp
+Text Label 7675 5700 2    60   ~ 0
++5V_DEBUG
+Text Label 6750 3100 0    30   ~ 0
+DISP_CTRST
 Wire Wire Line
 	3150 3050 4150 3050
 Wire Wire Line
@@ -944,115 +966,74 @@ Connection ~ 5675 4600
 Wire Wire Line
 	5625 4800 5625 4925
 Wire Wire Line
-	6750 3150 6750 3300
-Connection ~ 6750 3250
-Connection ~ 6750 3200
+	2175 2750 2175 3050
 Wire Wire Line
-	6750 3150 6850 3150
+	6750 4000 7050 4000
 Wire Wire Line
-	6750 2600 6750 2700
-Connection ~ 6750 2650
+	7050 4000 7050 4250
 Wire Wire Line
-	6750 2600 6850 2600
+	7050 4250 6750 4250
 Wire Wire Line
-	9875 1725 9850 1725
+	6750 4200 7050 4200
+Connection ~ 7050 4200
 Wire Wire Line
-	9875 1875 9850 1875
+	7050 4150 6750 4150
+Connection ~ 7050 4150
 Wire Wire Line
-	9875 2025 9850 2025
+	7050 4100 6750 4100
+Connection ~ 7050 4100
 Wire Wire Line
-	9875 2100 9850 2100
+	9850 2925 9875 2925
+Text Label 9850 2925 2    30   ~ 0
+DISP_CTRST
 Wire Wire Line
-	9875 2175 9850 2175
-Wire Wire Line
-	9875 2250 9850 2250
-Wire Wire Line
-	9875 2325 9850 2325
-Wire Wire Line
-	9875 2400 9850 2400
-Wire Wire Line
-	9875 2475 9850 2475
-Wire Wire Line
-	9875 2550 9850 2550
+	9850 2550 9875 2550
+Text Label 9850 2550 2    30   ~ 0
+DISP_REG
 Wire Wire Line
 	9875 2700 9850 2700
+Text Label 9850 2700 2    30   ~ 0
+DISP_E
 Wire Wire Line
-	9875 2775 9850 2775
-$Sheet
-S 9875 1675 1225 1225
-U 58DB875D
-F0 "base-display" 60
-F1 "base-display.sch" 60
-F2 "DATA_0" I L 9875 2025 60 
-F3 "DATA_1" I L 9875 2100 60 
-F4 "DATA_2" I L 9875 2175 60 
-F5 "DATA_3" I L 9875 2250 60 
-F6 "DATA_4" I L 9875 2325 60 
-F7 "DATA_5" I L 9875 2400 60 
-F8 "DATA_6" I L 9875 2475 60 
-F9 "REG_SEL" I L 9875 2700 60 
-F10 "READ_WRITE" I L 9875 2775 60 
-F11 "ENABLE" I L 9875 2850 60 
-F12 "VCC" I L 9875 1725 60 
-F13 "DISP_LGHT" I L 9875 1875 60 
-F14 "DATA_7" I L 9875 2550 60 
-$EndSheet
-Text Notes 7750 4350 0    60   ~ 0
-Pins 5, 6, 10, 11, 36, and 37\ncannot be configured as SPI.\n
+	9575 2625 9875 2625
+Text Label 9850 2025 2    30   ~ 0
+DISP_B2
+Text Label 9850 2100 2    30   ~ 0
+DISP_B3
+Wire Wire Line
+	9850 2100 9875 2100
+Wire Wire Line
+	9850 2025 9875 2025
+Text Label 9850 1950 2    30   ~ 0
+DISP_B1
+Text Label 9850 1875 2    30   ~ 0
+DISP_B0
 Text Label 9850 1725 2    60   ~ 0
 +5V
-Text Label 9850 2025 2    30   ~ 0
-DISP_B0
-Text Label 9850 2100 2    30   ~ 0
-DISP_B1
-Text Label 9850 2175 2    30   ~ 0
-DISP_B2
-Text Label 9850 2250 2    30   ~ 0
-DISP_B3
-Text Label 9850 2325 2    30   ~ 0
-DISP_B4
-Text Label 9850 2400 2    30   ~ 0
-DISP_B5
-Text Label 9850 2475 2    30   ~ 0
-DISP_B6
-Text Label 9850 2550 2    30   ~ 0
-DISP_B7
+$Sheet
+S 9875 1675 1250 1300
+U 58EB20C6
+F0 "base-display" 60
+F1 "base-display.sch" 60
+F2 "DATA_0" I L 9875 1875 60 
+F3 "DATA_1" I L 9875 1950 60 
+F4 "DATA_2" I L 9875 2025 60 
+F5 "DATA_3" I L 9875 2100 60 
+F6 "DATA_4" I L 9875 2175 60 
+F7 "DATA_5" I L 9875 2250 60 
+F8 "DATA_6" I L 9875 2325 60 
+F9 "REG_SEL" I L 9875 2550 60 
+F10 "READ_WRITE" I L 9875 2625 60 
+F11 "ENABLE" I L 9875 2700 60 
+F12 "VCC" I L 9875 1725 60 
+F13 "CONTRAST" I L 9875 2925 60 
+F14 "DATA_7" I L 9875 2400 60 
+F15 "BRIGHT" I L 9875 2850 60 
+$EndSheet
 Wire Wire Line
-	9850 2850 9875 2850
-Text Label 9850 2700 2    30   ~ 0
-DISP_REG
-Text Label 9850 2775 2    30   ~ 0
-DISP_RW
-Text Label 9850 2850 2    30   ~ 0
-DISP_E
-Text Label 6750 4150 0    30   ~ 0
-DISP_E
-Text Label 6750 4200 0    30   ~ 0
-DISP_RW
-Text Label 6750 4250 0    30   ~ 0
-DISP_REG
+	9850 1950 9875 1950
 Wire Wire Line
-	2175 2750 2175 3050
-$Comp
-L Antenna_Shield AE1
-U 1 1 58E312C3
-P 2175 2550
-F 0 "AE1" H 2100 2725 50  0000 R CNN
-F 1 "Antenna_Shield" H 2100 2650 50  0000 R CNN
-F 2 "Antennas:Patch_Antenna_2.4GHz" H 2175 2650 50  0001 C CNN
-F 3 "" H 2175 2650 50  0001 C CNN
-	1    2175 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 58E322FD
-P 2075 2750
-F 0 "#PWR?" H 2075 2500 50  0001 C CNN
-F 1 "GND" H 2075 2625 50  0000 C CNN
-F 2 "" H 2075 2750 50  0000 C CNN
-F 3 "" H 2075 2750 50  0000 C CNN
-	1    2075 2750
-	1    0    0    -1  
-$EndComp
+	9850 1875 9875 1875
+Wire Wire Line
+	9850 1725 9875 1725
 $EndSCHEMATC
