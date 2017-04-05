@@ -67,17 +67,21 @@ F 3 "" H 5700 3650 50  0000 C CNN
 	1    5700 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Antenna AE1
-U 1 1 58C9BCED
-P 5850 3350
-F 0 "AE1" H 5775 3425 50  0000 R CNN
-F 1 "Antenna" H 5775 3350 50  0000 R CNN
-F 2 "Antennas:Patch_Antenna_2.4GHz" H 5850 3350 50  0001 C CNN
-F 3 "" H 5850 3350 50  0001 C CNN
-	1    5850 3350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 3550 5850 3550
+$Comp
+L Antenna_Shield AE1
+U 1 1 58E57C0B
+P 5850 3350
+F 0 "AE1" H 5775 3525 50  0000 R CNN
+F 1 "Antenna_Shield" H 5775 3450 50  0000 R CNN
+F 2 "Antennas:Patch_Antenna_2.4GHz" H 5850 3450 50  0001 C CNN
+F 3 "" H 5850 3450 50  0001 C CNN
+	1    5850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3650 5950 3650
+Wire Wire Line
+	5950 3650 5950 3550
 $EndSCHEMATC

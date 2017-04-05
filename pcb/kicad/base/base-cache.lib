@@ -1,32 +1,39 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# Antenna
+# Antenna_Shield
 #
-DEF Antenna AE 0 40 N N 1 F N
-F0 "AE" -75 75 50 H V R CNN
-F1 "Antenna" -75 0 50 H V R CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF Antenna_Shield AE 0 40 N N 1 F N
+F0 "AE" -75 175 50 H V R CNN
+F1 "Antenna_Shield" -75 100 50 H V R CNN
+F2 "" 0 100 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
 DRAW
-P 2 0 1 10 0 100 0 -150 N
-P 3 0 1 10 50 100 0 -100 -50 100 N
+A -1 -73 32 -882 1242 0 1 0 N 0 -105 -20 -45
+A 1 -73 32 -918 558 0 1 0 N 0 -105 20 -45
+C 30 -75 7 0 1 0 F
+P 2 0 1 0 0 -100 0 0 N
+P 2 0 1 10 0 200 0 -150 N
+P 2 0 1 0 30 -75 100 -75 N
+P 2 0 1 0 100 -100 100 -75 N
+P 3 0 1 10 50 200 0 0 -50 200 N
 X A 1 0 -200 100 U 50 50 1 1 I
+X Shield 2 100 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
 # CONN_01X02
 #
-DEF CONN_01X02 J 0 40 Y N 1 F N
-F0 "J" 0 150 50 H V C CNN
+DEF CONN_01X02 P 0 40 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
 F1 "CONN_01X02" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
 $ENDFPLIST
 DRAW
 S -50 -45 10 -55 0 1 0 N
@@ -39,17 +46,16 @@ ENDDEF
 #
 # CONN_02X10
 #
-DEF CONN_02X10 J 0 1 Y N 1 F N
-F0 "J" 0 550 50 H V C CNN
+DEF CONN_02X10 P 0 1 Y N 1 F N
+F0 "P" 0 550 50 H V C CNN
 F1 "CONN_02X10" 0 0 50 V V C CNN
-F2 "" 0 -1200 50 H I C CNN
-F3 "" 0 -1200 50 H I C CNN
+F2 "" 0 -1200 50 H V C CNN
+F3 "" 0 -1200 50 H V C CNN
 $FPLIST
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
- IDC_Header_Straight_*
+ Pin_Header_Straight_2X10
+ Pin_Header_Angled_2X10
+ Socket_Strip_Straight_2X10
+ Socket_Strip_Angled_2X10
 $ENDFPLIST
 DRAW
 S -100 -445 -50 -455 0 1 0 N
@@ -101,10 +107,14 @@ ENDDEF
 DEF C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
- C_*
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
 $ENDFPLIST
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
@@ -119,8 +129,8 @@ ENDDEF
 DEF Crystal_GND24_Small Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
 F1 "Crystal_GND24_Small" 50 100 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -142,8 +152,8 @@ ENDDEF
 DEF Crystal_Small Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
 F1 "Crystal_Small" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -161,13 +171,8 @@ ENDDEF
 DEF Ferrite_Bead_Small L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
 F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Inductor_*
- L_*
- *Ferrite*
-$ENDFPLIST
+F2 "" -70 0 50 V V C CNN
+F3 "" 0 0 50 H V C CNN
 DRAW
 P 2 0 1 0 0 -50 0 -31 N
 P 2 0 1 0 0 35 0 51 N
@@ -182,8 +187,8 @@ ENDDEF
 DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
 F1 "GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
@@ -225,13 +230,11 @@ ENDDEF
 DEF L_Small L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
 F1 "L_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
  Choke_*
  *Coil*
- Inductor_*
- L_*
 $ENDFPLIST
 DRAW
 A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
@@ -248,9 +251,10 @@ ENDDEF
 DEF R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 $FPLIST
+ Resistor_*
  R_*
 $ENDFPLIST
 DRAW
