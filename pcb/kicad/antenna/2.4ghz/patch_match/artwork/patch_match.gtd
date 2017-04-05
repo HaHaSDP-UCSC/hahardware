@@ -1,7 +1,7 @@
 $Header
 $Program	GerbTool GT-Designer Service Release 3 (16.2.37)
 	Version	16.0
-	Created	Wed Apr 05 11:32:00 2017
+	Created	Wed Apr 05 16:06:50 2017
 $End
 $Environment
 	SketchMode	No
@@ -10,12 +10,12 @@ $Environment
 	ViewComposites	No
 	OrthoSnap	Yes
 	SnapAngle	45.0000
-	ActiveLayer	8
+	ActiveLayer	1
 	CurrentDcode	10
-	PreviousView	0.750, 1.801, 2.959, 3.052
+	PreviousView	-1.791, -0.068, 3.615, 2.958
 	FilmBox	2.000, 2.420, 0xffff00
-	DesignID		0x4e0e885
-	UniqID		0x37
+	DesignID		0x5dd8690
+	UniqID		0x34
 	NetID		0
 	Flags		0
 	NetCompareOk		No
@@ -45,7 +45,7 @@ $Layer	1
 	Polarity	Dark
 	Key		0
 	Extents	0.313, -0.000, 1.688, 2.117
-	ID		0x4e0e886
+	ID		0x5dd8691
 	NetID		0
 	Virtual	0
 $End
@@ -59,7 +59,7 @@ $Layer	2
 	Polarity	Dark
 	Key		0
 	Extents	0.635, -0.008, 1.091, 0.614
-	ID		0x4e0e887
+	ID		0x5dd8692
 	NetID		0
 	Virtual	0
 $End
@@ -73,7 +73,7 @@ $Layer	3
 	Polarity	Dark
 	Key		0
 	Extents	0.808, 0.068, 1.164, 0.617
-	ID		0x4e0e888
+	ID		0x5dd8693
 	NetID		0
 	Virtual	0
 $End
@@ -87,7 +87,7 @@ $Layer	4
 	Polarity	Dark
 	Key		0
 	Extents	0.000, -0.000, 2.000, 2.417
-	ID		0x4e0e889
+	ID		0x5dd8694
 	NetID		0
 	Virtual	0
 $End
@@ -101,7 +101,7 @@ $Layer	5
 	Polarity	Dark
 	Key		0
 	Extents	0.635, -0.008, 1.091, 0.263
-	ID		0x4e0e88a
+	ID		0x5dd8695
 	NetID		0
 	Virtual	0
 $End
@@ -115,7 +115,7 @@ $Layer	6
 	Polarity	Dark
 	Key		0
 	Extents	0.000, 0.000, 0.000, 0.000
-	ID		0x4e0e88b
+	ID		0x5dd8696
 	NetID		0
 	Virtual	0
 $End
@@ -129,7 +129,7 @@ $Layer	7
 	Polarity	Dark
 	Key		0
 	Extents	-0.004, -0.004, 2.004, 2.421
-	ID		0x4e0e88c
+	ID		0x5dd8697
 	NetID		0
 	Virtual	0
 $End
@@ -143,7 +143,7 @@ $Layer	8
 	Polarity	Dark
 	Key		0
 	Extents	0.682, 0.226, 1.044, 0.601
-	ID		0x4e0e88d
+	ID		0x5dd8698
 	NetID		0
 	Virtual	0
 $End
@@ -335,8 +335,8 @@ D13 	Rectangle	c350	ea60	SMT	0	N	Transparent	c350 ea60 1 0 0
 D14 	Rectangle	37e88	7c060	SMT	0	N	Transparent	37e88 7c060 1 0 0
 D15 	Rectangle	3b150	9e340	SMT	0	N	Transparent	3b150 9e340 1 0 0
 D16 	Round	17ae8	17ae8	ThruHole	0	N	Transparent	17ae8
-D17 	Round	c670	c670	ThruHole	0	N	Transparent	c670
-D18 	Round	8b10	8b10	ThruHole	0	N	Transparent	8b10
+D17 	Round	8b10	8b10	ThruHole	0	N	Transparent	8b10
+D18 	Round	c670	c670	ThruHole	0	N	Transparent	c670
 D19 	Round	c670	c670	ThruHole	0	N	Transparent	c670
 D20 	Round	3692	3692	ThruHole	0	N	Transparent	3692
 D21 	Rectangle	186a0	15f90	SMT	0	N	Transparent	186a0 15f90 1 0 0
@@ -372,12 +372,7 @@ N0
 F0
 C" #@! TF.FileFunction,Copper,L1,Top,Signal"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 11:29:04"
-C" APERTURE LIST"
-C" APERTURE END LIST"
-C" #@! TF.FileFunction,Copper,L1,Top,Signal"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 11:29:04"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 16:01:20"
 C" APERTURE LIST"
 C" APERTURE END LIST"
 A11
@@ -413,17 +408,17 @@ A16
 1ac3a4 91dca
 282184 91dca
 A17
-239448 171970
-239448 11ca24
-239448 12f3cc
-239448 da480
-A18
 234ed4 15dbf0
 234ed4 14314c
 234ed4 15069e
 2349de 108ca4
 234ed4 ee200
 234ed4 fb752
+A18
+239448 171970
+239448 da480
+239448 11ca24
+239448 12f3cc
 A19
 D2
 231ebe 171970 239448 171970
@@ -463,12 +458,7 @@ N0
 F0
 C" #@! TF.FileFunction,Soldermask,Top"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 11:29:04"
-C" APERTURE LIST"
-C" APERTURE END LIST"
-C" #@! TF.FileFunction,Soldermask,Top"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 11:29:04"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 16:01:20"
 C" APERTURE LIST"
 C" APERTURE END LIST"
 A21
@@ -504,12 +494,7 @@ N0
 F0
 C" #@! TF.FileFunction,Legend,Top"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 11:29:04"
-C" APERTURE LIST"
-C" APERTURE END LIST"
-C" #@! TF.FileFunction,Legend,Top"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 11:29:04"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 16:01:20"
 C" APERTURE LIST"
 C" APERTURE END LIST"
 A25
@@ -739,7 +724,7 @@ N0
 F0
 C" #@! TF.FileFunction,Copper,L2,Bot,Signal"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 11:29:04"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 16:01:20"
 C" APERTURE LIST"
 C" APERTURE END LIST"
 A28
@@ -752,17 +737,17 @@ A16
 1ac3a4 91dca
 282184 91dca
 A17
-239448 171970
-239448 11ca24
-239448 12f3cc
-239448 da480
-A18
 234ed4 15dbf0
 234ed4 14314c
 234ed4 15069e
 2349de 108ca4
 234ed4 ee200
 234ed4 fb752
+A18
+239448 171970
+239448 da480
+239448 11ca24
+239448 12f3cc
 A20
 D4
 5 1 0
@@ -782,7 +767,7 @@ N0
 F0
 C" #@! TF.FileFunction,Soldermask,Bot"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 11:29:04"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 16:01:20"
 C" APERTURE LIST"
 C" APERTURE END LIST"
 A24
@@ -795,7 +780,7 @@ N0
 F0
 C" #@! TF.FileFunction,Other,User"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 11:29:04"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/05/17 16:01:20"
 C" APERTURE LIST"
 C" APERTURE END LIST"
 A29

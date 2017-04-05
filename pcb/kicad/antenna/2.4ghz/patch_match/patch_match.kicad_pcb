@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
-    (links 28)
+    (links 24)
     (no_connects 0)
     (area 123.063 64.376 272.295714 194.39)
     (thickness 1.6)
     (drawings 7)
-    (tracks 18)
+    (tracks 22)
     (zones 0)
-    (modules 19)
+    (modules 15)
     (nets 6)
   )
 
@@ -64,7 +64,7 @@
     (aux_axis_origin 123.19 127.4318)
     (visible_elements 7FFEFF7F)
     (pcbplotparams
-      (layerselection 0x000f0_80000001)
+      (layerselection 0x020f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.025400)
@@ -430,54 +430,6 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (module Misc:Via_Stitch_Dia0.508mm_Drill0.254mm (layer F.Cu) (tedit 58E4981E) (tstamp 58E49944)
-    (at 146.5072 112.2934)
-    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Via_Stitch_Dia0.508mm_Drill0.254mm (at 0 -0.889) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.508 0.508) (drill 0.254) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module Misc:Via_Stitch_Dia0.508mm_Drill0.254mm (layer F.Cu) (tedit 58E49816) (tstamp 58E49956)
-    (at 146.5072 115.7732)
-    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Via_Stitch_Dia0.508mm_Drill0.254mm (at 0 -0.889) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.508 0.508) (drill 0.254) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module Misc:Via_Stitch_Dia0.508mm_Drill0.254mm (layer F.Cu) (tedit 58E4981A) (tstamp 58E49961)
-    (at 146.5072 115.0112)
-    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Via_Stitch_Dia0.508mm_Drill0.254mm (at 0 -0.889) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.508 0.508) (drill 0.254) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module Misc:Via_Stitch_Dia0.508mm_Drill0.254mm (layer F.Cu) (tedit 58E497E4) (tstamp 58E4996A)
-    (at 146.5072 118.491)
-    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Via_Stitch_Dia0.508mm_Drill0.254mm (at 0 -0.889) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 0.508 0.508) (drill 0.254) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
   (module Misc:Via_Stitch_Dia0.356mm_Drill0.254mm (layer F.Cu) (tedit 58E49905) (tstamp 58E499B5)
     (at 146.3294 113.1062)
     (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
@@ -564,10 +516,14 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
-  (segment (start 146.2063 112.2934) (end 146.5072 112.2934) (width 0.508) (layer F.Cu) (net 1))
-  (segment (start 146.2063 118.491) (end 146.5072 118.491) (width 0.508) (layer F.Cu) (net 1))
+  (segment (start 146.2063 112.2934) (end 146.5072 112.2934) (width 0.508) (layer F.Cu) (net 1) (status 400000))
+  (via (at 146.5072 112.2934) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 1))
+  (segment (start 146.2063 118.491) (end 146.5072 118.491) (width 0.508) (layer F.Cu) (net 1) (status 400000))
+  (via (at 146.5072 118.491) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 1))
   (segment (start 146.2063 115.7732) (end 146.5072 115.7732) (width 0.508) (layer F.Cu) (net 1))
+  (via (at 146.5072 115.7732) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 1))
   (segment (start 146.2063 115.0112) (end 146.5072 115.0112) (width 0.508) (layer F.Cu) (net 1))
+  (via (at 146.5072 115.0112) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 1))
   (segment (start 145.1063 112.2934) (end 145.1063 92.3837) (width 0.508) (layer F.Cu) (net 2))
   (segment (start 145.1063 92.3837) (end 148.59 88.9) (width 0.508) (layer F.Cu) (net 2) (tstamp 58E49580))
   (segment (start 145.1063 112.2934) (end 145.1063 113.0984) (width 0.508) (layer F.Cu) (net 2))
