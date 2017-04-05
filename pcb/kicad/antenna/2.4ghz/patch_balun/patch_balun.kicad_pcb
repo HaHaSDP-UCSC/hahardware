@@ -239,7 +239,7 @@
   (gr_line (start 170.18 125.2347) (end 170.18 69.5325) (angle 90) (layer Margin) (width 0.2))
   (gr_line (start 127 125.2347) (end 170.18 125.2347) (angle 90) (layer Margin) (width 0.2))
   (gr_line (start 127 69.5325) (end 127 125.2347) (angle 90) (layer Margin) (width 0.2))
-  (gr_text 0.2 (at 269.875 193.04) (layer Cmts.User)
+  (gr_text 0.1 (at 269.875 193.04) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "March 16. 2017" (at 215.265 193.04) (layer Cmts.User)

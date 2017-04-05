@@ -3,7 +3,7 @@
   (general
     (links 7)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 123.063 64.376 272.295714 194.39)
     (thickness 1.5748)
     (drawings 7)
     (tracks 2)
@@ -179,7 +179,7 @@
   (gr_text "April 4, 2017" (at 214.63 193.04) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text 0.2 (at 270.51 193.04) (layer Cmts.User)
+  (gr_text 0.2.1 (at 271.78 193.04) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "Patch Test Board" (at 196.215 189.23) (layer Cmts.User)
