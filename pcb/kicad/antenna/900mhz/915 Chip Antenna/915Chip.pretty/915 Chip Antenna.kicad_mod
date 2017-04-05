@@ -1,0 +1,13 @@
+(module "915Chip:915 Chip Antenna" (layer F.Cu) (tedit 58E55EE1)
+  (fp_text reference P2 (at -4 1) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CONN_01X02 (at -4 -3.2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -7.493 -0.889) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -0.508 -0.889) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -0.254 2.54) (size 0.5 5.1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -3.556 4.8387) (size 7.1 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -6.858 3.8354) (size 0.5 2.5) (layers F.Cu F.Paste F.Mask))
+)
