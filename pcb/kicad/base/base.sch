@@ -54,12 +54,12 @@ Text Notes 10600 7650 0    60   ~ 0
 $Comp
 L GND #PWR01
 U 1 1 58BA111C
-P 5850 4650
-F 0 "#PWR01" H 5850 4400 50  0001 C CNN
-F 1 "GND" H 5850 4525 50  0000 C CNN
-F 2 "" H 5850 4650 50  0000 C CNN
-F 3 "" H 5850 4650 50  0000 C CNN
-	1    5850 4650
+P 5850 4600
+F 0 "#PWR01" H 5850 4350 50  0001 C CNN
+F 1 "GND" H 5850 4475 50  0000 C CNN
+F 2 "" H 5850 4600 50  0000 C CNN
+F 3 "" H 5850 4600 50  0000 C CNN
+	1    5850 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -543,14 +543,10 @@ Text Notes 1875 1900 0    60   ~ 0
 Place C10 as close as possible to pin 4.\nPlace C11 as close as possible to pin 48.\nPlace C12 as close as possible to pin 1.\nPlace C13 as close as possible to pin 2.
 Text Label 7675 5400 2    30   ~ 0
 SWO
-Text Label 6750 2700 0    30   ~ 0
+Text Label 6750 3200 0    30   ~ 0
 UART_RTS
-Text Label 6750 2650 0    30   ~ 0
+Text Label 6750 3150 0    30   ~ 0
 UART_CTS
-Text Label 5625 4925 3    30   ~ 0
-Wake
-Text Notes 4650 5225 0    60   ~ 0
-If Wake function is not used,\nconnect AO_GPIO_0 to GND.
 $Sheet
 S 9875 575  1250 850 
 U 58C0BD85
@@ -610,34 +606,34 @@ $EndComp
 $Comp
 L GND #PWR019
 U 1 1 58BE3DF0
-P 4850 4700
-F 0 "#PWR019" H 4850 4450 50  0001 C CNN
-F 1 "GND" H 4850 4575 50  0000 C CNN
-F 2 "" H 4850 4700 50  0000 C CNN
-F 3 "" H 4850 4700 50  0000 C CNN
-	1    4850 4700
+P 4850 4625
+F 0 "#PWR019" H 4850 4375 50  0001 C CNN
+F 1 "GND" H 4850 4500 50  0000 C CNN
+F 2 "" H 4850 4625 50  0000 C CNN
+F 3 "" H 4850 4625 50  0000 C CNN
+	1    4850 4625
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR020
 U 1 1 58BE3F81
-P 4450 4700
-F 0 "#PWR020" H 4450 4450 50  0001 C CNN
-F 1 "GND" H 4450 4575 50  0000 C CNN
-F 2 "" H 4450 4700 50  0000 C CNN
-F 3 "" H 4450 4700 50  0000 C CNN
-	1    4450 4700
+P 4450 4625
+F 0 "#PWR020" H 4450 4375 50  0001 C CNN
+F 1 "GND" H 4450 4500 50  0000 C CNN
+F 2 "" H 4450 4625 50  0000 C CNN
+F 3 "" H 4450 4625 50  0000 C CNN
+	1    4450 4625
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C9
 U 1 1 58BE4649
-P 4450 4950
-F 0 "C9" V 4575 4900 50  0000 L CNN
-F 1 "C_Small" H 4460 4870 50  0001 L CNN
-F 2 "Capacitors_SMD:C_0402" H 4450 4950 50  0001 C CNN
-F 3 "" H 4450 4950 50  0000 C CNN
-	1    4450 4950
+P 4450 4900
+F 0 "C9" V 4575 4850 50  0000 L CNN
+F 1 "C_Small" H 4460 4820 50  0001 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4450 4900 50  0001 C CNN
+F 3 "" H 4450 4900 50  0000 C CNN
+	1    4450 4900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -688,43 +684,21 @@ NoConn ~ 5300 4600
 NoConn ~ 5350 4600
 NoConn ~ 5525 4600
 NoConn ~ 5575 4600
-Text Label 6750 2550 0    30   ~ 0
+Text Label 6750 3100 0    30   ~ 0
 UART_TX
-Text Label 6750 2600 0    30   ~ 0
-UART_RX
-Text Label 6750 2900 0    30   ~ 0
-DISP_B0
-Text Label 6750 2950 0    30   ~ 0
-DISP_B1
-Text Label 6750 3000 0    30   ~ 0
-DISP_B2
 Text Label 6750 3050 0    30   ~ 0
-DISP_B3
-$Comp
-L GND #PWR022
-U 1 1 58C42CEE
-P 7050 4050
-F 0 "#PWR022" H 7050 3800 50  0001 C CNN
-F 1 "GND" H 7050 3925 50  0000 C CNN
-F 2 "" H 7050 4050 50  0000 C CNN
-F 3 "" H 7050 4050 50  0000 C CNN
-	1    7050 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L SAMB11G18A-edit U1
-U 1 1 58C5ED8B
-P 5850 3500
-F 0 "U1" H 5850 3500 50  0000 C CNN
-F 1 "SAMB11G18A-edit" H 6400 2450 50  0000 C CNN
-F 2 "QFN-48-1EP_6x6mm_Pitch0.4mm" H 6800 2375 50  0001 C CIN
-F 3 "" H 5850 3500 50  0000 C CNN
-	1    5850 3500
-	1    0    0    -1  
-$EndComp
-Text Label 6750 2850 0    30   ~ 0
-DISP_E
+UART_RX
+Text Label 6750 2700 0    30   ~ 0
+DISP_B0
+Text Label 6750 2750 0    30   ~ 0
+DISP_B1
 Text Label 6750 2800 0    30   ~ 0
+DISP_B2
+Text Label 6750 2850 0    30   ~ 0
+DISP_B3
+Text Label 6750 2650 0    30   ~ 0
+DISP_E
+Text Label 6750 2600 0    30   ~ 0
 DISP_REG
 $Comp
 L Antenna_Shield AE1
@@ -738,10 +712,10 @@ F 3 "" H 2175 2650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L GND #PWR022
 U 1 1 58E322FD
 P 2075 2750
-F 0 "#PWR023" H 2075 2500 50  0001 C CNN
+F 0 "#PWR022" H 2075 2500 50  0001 C CNN
 F 1 "GND" H 2075 2625 50  0000 C CNN
 F 2 "" H 2075 2750 50  0000 C CNN
 F 3 "" H 2075 2750 50  0000 C CNN
@@ -749,20 +723,20 @@ F 3 "" H 2075 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND #PWR023
 U 1 1 58E5D85A
-P 9575 2625
-F 0 "#PWR024" H 9575 2375 50  0001 C CNN
-F 1 "GND" H 9575 2500 50  0000 C CNN
-F 2 "" H 9575 2625 50  0000 C CNN
-F 3 "" H 9575 2625 50  0000 C CNN
-	1    9575 2625
+P 9625 2625
+F 0 "#PWR023" H 9625 2375 50  0001 C CNN
+F 1 "GND" H 9625 2500 50  0000 C CNN
+F 2 "" H 9625 2625 50  0000 C CNN
+F 3 "" H 9625 2625 50  0000 C CNN
+	1    9625 2625
 	1    0    0    -1  
 $EndComp
 Text Label 7675 5700 2    30   ~ 0
 +5V_DEBUG
-Text Label 6750 3100 0    30   ~ 0
-DISP_CTRST
+Text Label 6750 2900 0    30   ~ 0
+DISP_BRIGHT
 Text Label 9850 2925 2    30   ~ 0
 DISP_CTRST
 Text Label 9850 2550 2    30   ~ 0
@@ -818,10 +792,10 @@ Data+
 Text Label 7725 4125 2    30   ~ 0
 +5V_USB
 $Comp
-L GND #PWR?
+L GND #PWR024
 U 1 1 58E83B3B
 P 7725 4525
-F 0 "#PWR?" H 7725 4275 50  0001 C CNN
+F 0 "#PWR024" H 7725 4275 50  0001 C CNN
 F 1 "GND" H 7725 4400 50  0000 C CNN
 F 2 "" H 7725 4525 50  0000 C CNN
 F 3 "" H 7725 4525 50  0000 C CNN
@@ -877,8 +851,6 @@ Wire Wire Line
 	3350 3350 3350 3275
 Wire Wire Line
 	2750 3350 2750 3275
-Wire Wire Line
-	5850 4600 5850 4650
 Connection ~ 5275 1725
 Wire Wire Line
 	4550 2550 4950 2550
@@ -893,7 +865,7 @@ Connection ~ 3950 3050
 Wire Wire Line
 	2750 3050 2750 3075
 Wire Wire Line
-	2175 3050 2950 3050
+	2000 3050 2950 3050
 Wire Wire Line
 	3350 3075 3350 3050
 Connection ~ 3350 3050
@@ -970,22 +942,13 @@ Wire Wire Line
 Wire Wire Line
 	9875 1225 9850 1225
 Wire Wire Line
-	4775 4625 4850 4625
+	4550 4900 4950 4900
 Wire Wire Line
-	4850 4625 4850 4700
+	4650 4900 4650 4725
 Wire Wire Line
-	4450 4700 4450 4625
+	4325 4900 4350 4900
 Wire Wire Line
-	4325 4625 4525 4625
-Wire Wire Line
-	4550 4950 4950 4950
-Wire Wire Line
-	4650 4950 4650 4725
-Connection ~ 4450 4625
-Wire Wire Line
-	4325 4950 4350 4950
-Wire Wire Line
-	4325 4400 4325 4950
+	4325 4400 4325 4900
 Connection ~ 4325 4625
 Wire Wire Line
 	4325 4400 4350 4400
@@ -994,9 +957,9 @@ Wire Wire Line
 Wire Wire Line
 	4650 4525 4650 4400
 Connection ~ 4650 4400
-Connection ~ 4650 4950
+Connection ~ 4650 4900
 Wire Wire Line
-	4950 4950 4950 4450
+	4950 4900 4950 4450
 Wire Wire Line
 	4350 4200 4900 4200
 Connection ~ 4625 4200
@@ -1020,35 +983,13 @@ Wire Wire Line
 Wire Wire Line
 	5850 1050 5700 1050
 Wire Wire Line
-	5625 4600 5850 4600
-Connection ~ 5675 4600
-Wire Wire Line
-	5625 4800 5625 4925
-Wire Wire Line
-	2175 2750 2175 3050
-Wire Wire Line
-	7050 3800 6750 3800
-Wire Wire Line
-	7050 3700 7050 4050
-Wire Wire Line
-	7050 4050 6750 4050
-Wire Wire Line
-	6750 4000 7050 4000
-Connection ~ 7050 4000
-Wire Wire Line
-	7050 3950 6750 3950
-Connection ~ 7050 3950
-Wire Wire Line
-	7050 3900 6750 3900
-Connection ~ 7050 3900
-Wire Wire Line
 	9850 2925 9875 2925
 Wire Wire Line
 	9850 2550 9875 2550
 Wire Wire Line
 	9875 2700 9850 2700
 Wire Wire Line
-	9575 2625 9875 2625
+	9625 2625 9875 2625
 Wire Wire Line
 	9850 2400 9875 2400
 Wire Wire Line
@@ -1059,12 +1000,6 @@ Wire Wire Line
 	9850 2175 9875 2175
 Wire Wire Line
 	9850 1725 9875 1725
-Wire Wire Line
-	6750 3750 7050 3750
-Connection ~ 7050 3800
-Wire Wire Line
-	6750 3700 7050 3700
-Connection ~ 7050 3750
 Wire Wire Line
 	6750 4300 7350 4300
 Wire Wire Line
@@ -1077,4 +1012,113 @@ Wire Wire Line
 	7375 4250 7375 4325
 Wire Wire Line
 	7375 4325 7725 4325
+Text Label 9850 2850 2    30   ~ 0
+DISP_BRIGHT
+Wire Wire Line
+	9850 2850 9875 2850
+Wire Wire Line
+	5675 4600 5850 4600
+$Comp
+L CONN_02X01 P5
+U 1 1 58E891CA
+P 8950 4100
+F 0 "P5" H 8950 4200 50  0000 C CNN
+F 1 "Button" H 8950 4000 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 2900 50  0001 C CNN
+F 3 "" H 8950 2900 50  0000 C CNN
+	1    8950 4100
+	1    0    0    -1  
+$EndComp
+Text Label 9200 4100 0    60   ~ 0
++3.3V
+Text Label 6750 2550 0    30   ~ 0
+DISP_CTRST
+Text Label 6750 3350 0    30   ~ 0
+AUDIO_SIG
+Wire Wire Line
+	4775 4625 4850 4625
+Wire Wire Line
+	4325 4625 4525 4625
+Connection ~ 4450 4625
+$Comp
+L SAMB11G18A-edit U1
+U 1 1 58C5ED8B
+P 5850 3500
+F 0 "U1" H 5850 3500 50  0000 C CNN
+F 1 "SAMB11G18A-edit" H 6400 2450 50  0000 C CNN
+F 2 "QFN-48-1EP_6x6mm_Pitch0.4mm" H 6800 2375 50  0001 C CIN
+F 3 "" H 5850 3500 50  0000 C CNN
+	1    5850 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5625 4600
+$Comp
+L CONN_02X01 P7
+U 1 1 58ED6A9B
+P 8950 4650
+F 0 "P7" H 8950 4750 50  0000 C CNN
+F 1 "Button" H 8950 4550 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 3450 50  0001 C CNN
+F 3 "" H 8950 3450 50  0000 C CNN
+	1    8950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 P6
+U 1 1 58ED6BB6
+P 8950 4375
+F 0 "P6" H 8950 4475 50  0000 C CNN
+F 1 "Button" H 8950 4275 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 3175 50  0001 C CNN
+F 3 "" H 8950 3175 50  0000 C CNN
+	1    8950 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 P8
+U 1 1 58ED7110
+P 8950 4925
+F 0 "P8" H 8950 5025 50  0000 C CNN
+F 1 "Button" H 8950 4825 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 3725 50  0001 C CNN
+F 3 "" H 8950 3725 50  0000 C CNN
+	1    8950 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 P9
+U 1 1 58ED7A7A
+P 8950 5200
+F 0 "P9" H 8950 5300 50  0000 C CNN
+F 1 "Button" H 8950 5100 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 4000 50  0001 C CNN
+F 3 "" H 8950 4000 50  0000 C CNN
+	1    8950 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4100 9200 5200
+Connection ~ 9200 4375
+Connection ~ 9200 4650
+Connection ~ 9200 4925
+Text Label 8700 4100 2    30   ~ 0
+BTN_HELP
+Text Label 8700 4375 2    30   ~ 0
+BTN_RIGHT
+Text Label 8700 4650 2    30   ~ 0
+BTN_UP
+Text Label 8700 4925 2    30   ~ 0
+BTN_DOWN
+Text Label 8700 5200 2    30   ~ 0
+BTN_LEFT
+Text Label 6750 3500 0    30   ~ 0
+BTN_HELP
+Text Label 6750 3550 0    30   ~ 0
+BTN_RIGHT
+Text Label 6750 3600 0    30   ~ 0
+BTN_UP
+Text Label 6750 3650 0    30   ~ 0
+BTN_DOWN
+Text Label 6750 3700 0    30   ~ 0
+BTN_LEFT
 $EndSCHEMATC
