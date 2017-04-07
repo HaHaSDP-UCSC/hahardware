@@ -970,7 +970,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 4000 7050 4000
 Wire Wire Line
-	7050 4000 7050 4250
+	7050 3900 7050 4250
 Wire Wire Line
 	7050 4250 6750 4250
 Wire Wire Line
@@ -996,17 +996,17 @@ Text Label 9850 2700 2    30   ~ 0
 DISP_E
 Wire Wire Line
 	9575 2625 9875 2625
-Text Label 9850 2025 2    30   ~ 0
+Text Label 9850 2325 2    30   ~ 0
 DISP_B2
-Text Label 9850 2100 2    30   ~ 0
+Text Label 9850 2400 2    30   ~ 0
 DISP_B3
 Wire Wire Line
-	9850 2100 9875 2100
+	9850 2400 9875 2400
 Wire Wire Line
-	9850 2025 9875 2025
-Text Label 9850 1950 2    30   ~ 0
+	9850 2325 9875 2325
+Text Label 9850 2250 2    30   ~ 0
 DISP_B1
-Text Label 9850 1875 2    30   ~ 0
+Text Label 9850 2175 2    30   ~ 0
 DISP_B0
 Text Label 9850 1725 2    60   ~ 0
 +5V
@@ -1031,9 +1031,15 @@ F14 "DATA_7" I L 9875 2400 60
 F15 "BRIGHT" I L 9875 2850 60 
 $EndSheet
 Wire Wire Line
-	9850 1950 9875 1950
+	9850 2250 9875 2250
 Wire Wire Line
-	9850 1875 9875 1875
+	9850 2175 9875 2175
 Wire Wire Line
 	9850 1725 9875 1725
+Wire Wire Line
+	6750 3950 7050 3950
+Connection ~ 7050 4000
+Wire Wire Line
+	6750 3900 7050 3900
+Connection ~ 7050 3950
 $EndSCHEMATC
