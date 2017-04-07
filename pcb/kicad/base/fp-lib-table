@@ -1,5 +1,6 @@
 (fp_lib_table
   (lib (name Antennas)(type KiCad)(uri "$(KIPRJMOD)/../../footprints/Antennas.pretty")(options "")(descr ""))
+  (lib (name Connectors)(type KiCad)(uri "$(KIPRJMOD)/../../footprints/Connectors.pretty")(options "")(descr ""))
   (lib (name Displays)(type KiCad)(uri "$(KIPRJMOD)/../../footprints/Displays.pretty")(options "")(descr ""))
   (lib (name Housings)(type KiCad)(uri "$(KIPRJMOD)/../../footprints/Housings.pretty")(options "")(descr ""))
   (lib (name Misc)(type KiCad)(uri "$(KIPRJMOD)/../../footprints/Misc.pretty")(options "")(descr ""))

@@ -703,12 +703,12 @@ DISP_B3
 $Comp
 L GND #PWR022
 U 1 1 58C42CEE
-P 7050 4250
-F 0 "#PWR022" H 7050 4000 50  0001 C CNN
-F 1 "GND" H 7050 4125 50  0000 C CNN
-F 2 "" H 7050 4250 50  0000 C CNN
-F 3 "" H 7050 4250 50  0000 C CNN
-	1    7050 4250
+P 7050 4050
+F 0 "#PWR022" H 7050 3800 50  0001 C CNN
+F 1 "GND" H 7050 3925 50  0000 C CNN
+F 2 "" H 7050 4050 50  0000 C CNN
+F 3 "" H 7050 4050 50  0000 C CNN
+	1    7050 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -722,10 +722,6 @@ F 3 "" H 5850 3500 50  0000 C CNN
 	1    5850 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 7050 2150 0    60   ~ 0
-Any unused pins should be connected to ground.
-Text Notes 7750 4350 0    60   ~ 0
-Pins 5, 6, 10, 11, 36, and 37\ncannot be configured as SPI.\n
 Text Label 6750 2850 0    30   ~ 0
 DISP_E
 Text Label 6750 2800 0    30   ~ 0
@@ -752,8 +748,6 @@ F 3 "" H 2075 2750 50  0000 C CNN
 	1    2075 2750
 	1    0    0    -1  
 $EndComp
-Text Notes 7050 2675 0    60   ~ 0
-Pins 41, 42, and 43 lie above crystal\nplacement. If possible, leave unused.
 $Comp
 L GND #PWR024
 U 1 1 58E5D85A
@@ -765,10 +759,75 @@ F 3 "" H 9575 2625 50  0000 C CNN
 	1    9575 2625
 	1    0    0    -1  
 $EndComp
-Text Label 7675 5700 2    60   ~ 0
+Text Label 7675 5700 2    30   ~ 0
 +5V_DEBUG
 Text Label 6750 3100 0    30   ~ 0
 DISP_CTRST
+Text Label 9850 2925 2    30   ~ 0
+DISP_CTRST
+Text Label 9850 2550 2    30   ~ 0
+DISP_REG
+Text Label 9850 2700 2    30   ~ 0
+DISP_E
+Text Label 9850 2325 2    30   ~ 0
+DISP_B2
+Text Label 9850 2400 2    30   ~ 0
+DISP_B3
+Text Label 9850 2250 2    30   ~ 0
+DISP_B1
+Text Label 9850 2175 2    30   ~ 0
+DISP_B0
+Text Label 9850 1725 2    60   ~ 0
++5V
+$Sheet
+S 9875 1675 1250 1300
+U 58EB20C6
+F0 "base-display" 60
+F1 "base-display.sch" 60
+F2 "DATA_0" I L 9875 1875 60 
+F3 "DATA_1" I L 9875 1950 60 
+F4 "DATA_2" I L 9875 2025 60 
+F5 "DATA_3" I L 9875 2100 60 
+F6 "DATA_4" I L 9875 2175 60 
+F7 "DATA_5" I L 9875 2250 60 
+F8 "DATA_6" I L 9875 2325 60 
+F9 "REG_SEL" I L 9875 2550 60 
+F10 "READ_WRITE" I L 9875 2625 60 
+F11 "ENABLE" I L 9875 2700 60 
+F12 "VCC" I L 9875 1725 60 
+F13 "CONTRAST" I L 9875 2925 60 
+F14 "DATA_7" I L 9875 2400 60 
+F15 "BRIGHT" I L 9875 2850 60 
+$EndSheet
+$Comp
+L CONN_01X05 P4
+U 1 1 58E7535F
+P 7925 4325
+F 0 "P4" H 7925 4625 50  0000 C CNN
+F 1 "USB Micro B" V 8025 4325 50  0000 C CNN
+F 2 "Connectors:USB_Micro-B_10118194-000XLF" H 7925 4325 50  0001 C CNN
+F 3 "" H 7925 4325 50  0000 C CNN
+	1    7925 4325
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7725 4425
+Text Label 7725 4225 2    30   ~ 0
+Data-
+Text Label 7725 4325 2    30   ~ 0
+Data+
+Text Label 7725 4125 2    30   ~ 0
++5V_USB
+$Comp
+L GND #PWR?
+U 1 1 58E83B3B
+P 7725 4525
+F 0 "#PWR?" H 7725 4275 50  0001 C CNN
+F 1 "GND" H 7725 4400 50  0000 C CNN
+F 2 "" H 7725 4525 50  0000 C CNN
+F 3 "" H 7725 4525 50  0000 C CNN
+	1    7725 4525
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3150 3050 4150 3050
 Wire Wire Line
@@ -968,68 +1027,32 @@ Wire Wire Line
 Wire Wire Line
 	2175 2750 2175 3050
 Wire Wire Line
+	7050 3800 6750 3800
+Wire Wire Line
+	7050 3700 7050 4050
+Wire Wire Line
+	7050 4050 6750 4050
+Wire Wire Line
 	6750 4000 7050 4000
+Connection ~ 7050 4000
 Wire Wire Line
-	7050 3900 7050 4250
+	7050 3950 6750 3950
+Connection ~ 7050 3950
 Wire Wire Line
-	7050 4250 6750 4250
-Wire Wire Line
-	6750 4200 7050 4200
-Connection ~ 7050 4200
-Wire Wire Line
-	7050 4150 6750 4150
-Connection ~ 7050 4150
-Wire Wire Line
-	7050 4100 6750 4100
-Connection ~ 7050 4100
+	7050 3900 6750 3900
+Connection ~ 7050 3900
 Wire Wire Line
 	9850 2925 9875 2925
-Text Label 9850 2925 2    30   ~ 0
-DISP_CTRST
 Wire Wire Line
 	9850 2550 9875 2550
-Text Label 9850 2550 2    30   ~ 0
-DISP_REG
 Wire Wire Line
 	9875 2700 9850 2700
-Text Label 9850 2700 2    30   ~ 0
-DISP_E
 Wire Wire Line
 	9575 2625 9875 2625
-Text Label 9850 2325 2    30   ~ 0
-DISP_B2
-Text Label 9850 2400 2    30   ~ 0
-DISP_B3
 Wire Wire Line
 	9850 2400 9875 2400
 Wire Wire Line
 	9850 2325 9875 2325
-Text Label 9850 2250 2    30   ~ 0
-DISP_B1
-Text Label 9850 2175 2    30   ~ 0
-DISP_B0
-Text Label 9850 1725 2    60   ~ 0
-+5V
-$Sheet
-S 9875 1675 1250 1300
-U 58EB20C6
-F0 "base-display" 60
-F1 "base-display.sch" 60
-F2 "DATA_0" I L 9875 1875 60 
-F3 "DATA_1" I L 9875 1950 60 
-F4 "DATA_2" I L 9875 2025 60 
-F5 "DATA_3" I L 9875 2100 60 
-F6 "DATA_4" I L 9875 2175 60 
-F7 "DATA_5" I L 9875 2250 60 
-F8 "DATA_6" I L 9875 2325 60 
-F9 "REG_SEL" I L 9875 2550 60 
-F10 "READ_WRITE" I L 9875 2625 60 
-F11 "ENABLE" I L 9875 2700 60 
-F12 "VCC" I L 9875 1725 60 
-F13 "CONTRAST" I L 9875 2925 60 
-F14 "DATA_7" I L 9875 2400 60 
-F15 "BRIGHT" I L 9875 2850 60 
-$EndSheet
 Wire Wire Line
 	9850 2250 9875 2250
 Wire Wire Line
@@ -1037,9 +1060,21 @@ Wire Wire Line
 Wire Wire Line
 	9850 1725 9875 1725
 Wire Wire Line
-	6750 3950 7050 3950
-Connection ~ 7050 4000
+	6750 3750 7050 3750
+Connection ~ 7050 3800
 Wire Wire Line
-	6750 3900 7050 3900
-Connection ~ 7050 3950
+	6750 3700 7050 3700
+Connection ~ 7050 3750
+Wire Wire Line
+	6750 4300 7350 4300
+Wire Wire Line
+	7350 4300 7350 4225
+Wire Wire Line
+	7350 4225 7725 4225
+Wire Wire Line
+	6750 4250 7375 4250
+Wire Wire Line
+	7375 4250 7375 4325
+Wire Wire Line
+	7375 4325 7725 4325
 $EndSCHEMATC
