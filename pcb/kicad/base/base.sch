@@ -474,7 +474,7 @@ F 3 "" H 3950 2500 50  0000 C CNN
 	1    3950 2500
 	1    0    0    -1  
 $EndComp
-Text Label 5850 1050 0    60   ~ 0
+Text Label 5700 1050 0    60   ~ 0
 +3.3V
 Text Label 2200 3050 0    60   ~ 0
 SIG_2.4G
@@ -575,7 +575,7 @@ L CONN_01X02 P3
 U 1 1 58C3866F
 P 5500 1100
 F 0 "P3" H 5500 1250 50  0000 C CNN
-F 1 "Power Source" V 5600 1100 50  0000 C CNN
+F 1 "CONN_01X02" V 5600 1100 50  0000 C CNN
 F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 5500 1100 50  0001 C CNN
 F 3 "" H 5500 1100 50  0000 C CNN
 	1    5500 1100
@@ -1029,8 +1029,6 @@ F 3 "" H 8950 2900 50  0000 C CNN
 	1    8950 4100
 	1    0    0    -1  
 $EndComp
-Text Label 9200 4100 0    60   ~ 0
-+3.3V
 Text Label 6750 2550 0    30   ~ 0
 DISP_CTRST
 Text Label 6750 3350 0    30   ~ 0
@@ -1113,12 +1111,97 @@ Text Label 8700 5200 2    30   ~ 0
 BTN_LEFT
 Text Label 6750 3500 0    30   ~ 0
 BTN_HELP
-Text Label 6750 3550 0    30   ~ 0
-BTN_RIGHT
 Text Label 6750 3600 0    30   ~ 0
-BTN_UP
+BTN_RIGHT
 Text Label 6750 3650 0    30   ~ 0
+BTN_UP
+Text Label 6750 3550 0    30   ~ 0
 BTN_DOWN
 Text Label 6750 3700 0    30   ~ 0
 BTN_LEFT
+$Comp
+L CONN_01X02 P10
+U 1 1 58E94ECD
+P 8950 3725
+F 0 "P10" H 8950 3875 50  0000 C CNN
+F 1 "CONN_01X02" V 9050 3725 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 3725 50  0001 C CNN
+F 3 "" H 8950 3725 50  0000 C CNN
+	1    8950 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 58E97BCF
+P 8750 3775
+F 0 "#PWR025" H 8750 3525 50  0001 C CNN
+F 1 "GND" H 8750 3625 50  0000 C CNN
+F 2 "" H 8750 3775 50  0000 C CNN
+F 3 "" H 8750 3775 50  0000 C CNN
+	1    8750 3775
+	1    0    0    -1  
+$EndComp
+Text Label 8750 3675 2    30   ~ 0
+AUDIO_SIG
+$Comp
+L GND #PWR026
+U 1 1 58EA125A
+P 9200 5200
+F 0 "#PWR026" H 9200 4950 50  0001 C CNN
+F 1 "GND" H 9200 5050 50  0000 C CNN
+F 2 "" H 9200 5200 50  0000 C CNN
+F 3 "" H 9200 5200 50  0000 C CNN
+	1    9200 5200
+	1    0    0    -1  
+$EndComp
+Text Notes 6650 1900 0    60   ~ 0
+LP_GPIO_3, 4, 5, 22, and 23 should be configured\nwith internal pull-up resistors., while all other GPIOs\nshould be configured with internal pull-down resistors.
+$Comp
+L CONN_01X02 P11
+U 1 1 58EB82D6
+P 4850 1100
+F 0 "P11" H 4850 1250 50  0000 C CNN
+F 1 "CONN_01X02" V 4950 1100 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 4850 1100 50  0001 C CNN
+F 3 "" H 4850 1100 50  0000 C CNN
+	1    4850 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 58EB898D
+P 5050 1150
+F 0 "#PWR027" H 5050 900 50  0001 C CNN
+F 1 "GND" H 5050 1025 50  0000 C CNN
+F 2 "" H 5050 1150 50  0000 C CNN
+F 3 "" H 5050 1150 50  0000 C CNN
+	1    5050 1150
+	1    0    0    -1  
+$EndComp
+Text Label 5050 1050 0    60   ~ 0
++5V
+$Comp
+L CONN_01X02 P12
+U 1 1 58EBD0A2
+P 4150 1100
+F 0 "P12" H 4150 1250 50  0000 C CNN
+F 1 "CONN_01X02" V 4250 1100 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 4150 1100 50  0001 C CNN
+F 3 "" H 4150 1100 50  0000 C CNN
+	1    4150 1100
+	-1   0    0    -1  
+$EndComp
+Text Label 4350 1050 0    60   ~ 0
++12V
+$Comp
+L GND #PWR028
+U 1 1 58EBD46E
+P 4350 1150
+F 0 "#PWR028" H 4350 900 50  0001 C CNN
+F 1 "GND" H 4350 1025 50  0000 C CNN
+F 2 "" H 4350 1150 50  0000 C CNN
+F 3 "" H 4350 1150 50  0000 C CNN
+	1    4350 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
