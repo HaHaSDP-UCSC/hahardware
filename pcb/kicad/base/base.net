@@ -550,9 +550,11 @@
         (pin (num 20) (name AD0/DIO0) (type BiDi)))))
   (libraries
     (library (logical microcontrollers)
-      (uri C:\Users\jzheng13\Documents\HA-HA\pcb\symbols\microcontrollers.lib))
+      (uri "C:\\Users\\Jeffrey Zheng\\Dropbox\\HA-HA\\pcb\\symbols\\microcontrollers.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical rf_transceivers)
-      (uri C:\Users\jzheng13\Documents\HA-HA\pcb\symbols\rf_transceivers.lib))
+      (uri "C:\\Users\\Jeffrey Zheng\\Dropbox\\HA-HA\\pcb\\symbols\\rf_transceivers.lib"))
     (library (logical displays)
       (uri C:\Users\jzheng13\Documents\HA-HA\pcb\symbols\displays.lib))
     (library (logical device)
