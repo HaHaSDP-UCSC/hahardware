@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Yggdrasil/Jotunheim/SDP/HaHa_MKII/pcb/button_1_0/button_1_00.sch)
-    (date "4/5/2017 11:05:18 AM")
+    (date "4/7/2017 01:33:33 PM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -344,7 +344,7 @@
       (tstamp 58C2F0C6))
     (comp (ref U1)
       (value STBlueNRG-1)
-      (footprint uCs:QFN-32-1EP_5x5mm)
+      (footprint uCs:STBNRG1)
       (libsource (lib button_1_00-rescue) (part STBlueNRG-1))
       (sheetpath (names /) (tstamps /))
       (tstamp 58B78C09))
@@ -781,10 +781,10 @@
         (pin (num 3) (name BOT1) (type passive))
         (pin (num 4) (name BOT2) (type passive)))))
   (libraries
-    (library (logical button_1_00-rescue)
-      (uri C:\Yggdrasil\Jotunheim\SDP\HaHa_MKII\pcb\button_1_0\button_1_00-rescue.lib))
     (library (logical device)
       (uri C:\Uroarbrunnr\Kicad\library\device.lib))
+    (library (logical button_1_00-rescue)
+      (uri C:\Yggdrasil\Jotunheim\SDP\HaHa_MKII\pcb\button_1_0\button_1_00-rescue.lib))
     (library (logical conn)
       (uri C:\Uroarbrunnr\Kicad\library\conn.lib))
     (library (logical button_1_00-cache)
