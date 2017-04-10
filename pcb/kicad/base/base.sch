@@ -47,8 +47,8 @@ Comment4 ""
 $EndDescr
 Text Notes 7350 7500 0    60   ~ 0
 Base - Central
-Text Notes 8150 7650 0    60   ~ 0
-March 28, 2017
+Text Notes 8125 7650 0    60   ~ 0
+April 7, 2017
 Text Notes 10600 7650 0    60   ~ 0
 0.2
 $Comp
@@ -1154,8 +1154,6 @@ F 3 "" H 9200 5200 50  0000 C CNN
 	1    9200 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 6650 1900 0    60   ~ 0
-LP_GPIO_3, 4, 5, 22, and 23 should be configured\nwith internal pull-up resistors., while all other GPIOs\nshould be configured with internal pull-down resistors.
 $Comp
 L CONN_01X02 P11
 U 1 1 58EB82D6
@@ -1204,4 +1202,6 @@ F 3 "" H 4350 1150 50  0000 C CNN
 	1    4350 1150
 	1    0    0    -1  
 $EndComp
+Text Notes 6650 1900 0    60   ~ 0
+LP_GPIO_3, 4, 5, 22, and 23 should be\nconfigured with internal pull-up resistors.\nAll other GPIOs should be configured\nwith internal pull-down resistors.
 $EndSCHEMATC
