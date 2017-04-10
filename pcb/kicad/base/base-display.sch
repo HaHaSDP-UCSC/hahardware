@@ -144,7 +144,7 @@ Wire Wire Line
 Text Notes 7325 7500 0    60   ~ 0
 Base - Display
 Text Notes 8125 7650 0    60   ~ 0
-March 28, 2017
+April 6, 2017
 Text Notes 10550 7650 0    60   ~ 0
 0.1
 Text HLabel 4850 3500 0    30   Input ~ 0
