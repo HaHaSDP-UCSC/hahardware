@@ -1,0 +1,22 @@
+Tool Use Report
+Layer 8: r0.3.drl
+Date:  Wed Apr 12 15:37:11 2017
+Units: Inches
+
+Tool      Size    Type    Usage       Legend      Uses
+====      ====    ====    ======      ======      ====
+T1 0.010000000    Drill   Plated      A            593
+T2 0.018000000    Drill   Plated      B              4
+T3 0.020000000    Drill   Plated      C             26
+T4 0.020000000    Drill   Plated      D             33
+T5 0.022000000    Drill   Plated      E             10
+T6 0.025000000    Drill   Plated      F             36
+T7 0.031000000    Drill   Plated      G             13
+T8 0.039000000    Drill   Plated      H            150
+T9 0.118000000    Drill   Plated      I              4
+T110.028000000    Drill   Plated      C             12
+T120.030000000    Drill   Plated      D              8
+T140.035000000    Drill   Plated      D              2
+T150.047000000    Drill   Plated      F              8
+                                                  ====
+                                      TOTAL:       899
