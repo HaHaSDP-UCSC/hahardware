@@ -71,7 +71,7 @@
       (layerselection 0x030f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
-      (linewidth 0.100000)
+      (linewidth 0.025400)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
@@ -985,7 +985,7 @@
       (net 16 "Net-(C7-Pad2)"))
     (model Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
   )

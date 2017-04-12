@@ -1212,6 +1212,15 @@ F 3 "" H 6415 5800 50  0000 L CNN
 	1    6450 5800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8900 3700 7950 3700
+Connection ~ 7950 3700
+Wire Wire Line
+	8450 3850 8450 3700
+Connection ~ 8450 3700
+Wire Wire Line
+	8750 3850 8750 3700
+Connection ~ 8750 3700
 $Comp
 L R R12
 U 1 1 592200FB
