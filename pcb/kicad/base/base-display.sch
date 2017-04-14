@@ -209,4 +209,8 @@ F 3 "" H 5250 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 2850 5250 2650
+Text Notes 6975 2200 0    60   ~ 0
+LCD brightness to be\ncontrolled through PWM.
+Text Notes 4950 2175 2    60   ~ 0
+Text contrast currently controlled\nwith potentiometer; potentially\nto be controlled with PWM.
 $EndSCHEMATC
