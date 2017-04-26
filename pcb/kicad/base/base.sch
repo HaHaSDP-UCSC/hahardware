@@ -484,7 +484,7 @@ U 1 1 58BBB586
 P 7925 5250
 F 0 "P1" H 7925 5800 50  0000 C CNN
 F 1 "J-Link SWD" V 7925 5250 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_2x10_Pitch2.54mm_Drill0.64mm" H 7925 4050 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_2x10_Pitch2.54mm_Drill0.762mm" H 7925 4050 50  0001 C CNN
 F 3 "" H 7925 4050 50  0000 C CNN
 	1    7925 5250
 	1    0    0    -1  
@@ -576,7 +576,7 @@ U 1 1 58C3866F
 P 5500 1100
 F 0 "P3" H 5500 1250 50  0000 C CNN
 F 1 "CONN_01X02" V 5600 1100 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 5500 1100 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.762mm" H 5500 1100 50  0001 C CNN
 F 3 "" H 5500 1100 50  0000 C CNN
 	1    5500 1100
 	-1   0    0    -1  
@@ -1024,7 +1024,7 @@ U 1 1 58E891CA
 P 8950 4100
 F 0 "P5" H 8950 4200 50  0000 C CNN
 F 1 "Button" H 8950 4000 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 2900 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.762mm" H 8950 2900 50  0001 C CNN
 F 3 "" H 8950 2900 50  0000 C CNN
 	1    8950 4100
 	1    0    0    -1  
@@ -1044,7 +1044,7 @@ U 1 1 58C5ED8B
 P 5850 3500
 F 0 "U1" H 5850 3500 50  0000 C CNN
 F 1 "SAMB11G18A-edit" H 6400 2450 50  0000 C CNN
-F 2 "QFN-48-1EP_6x6mm_Pitch0.4mm" H 6800 2375 50  0001 C CIN
+F 2 "Housings:QFN-48-1EP_6x6mm_Pitch0.4mm" H 6800 2375 50  0001 C CIN
 F 3 "" H 5850 3500 50  0000 C CNN
 	1    5850 3500
 	1    0    0    -1  
@@ -1056,7 +1056,7 @@ U 1 1 58ED6A9B
 P 8950 4650
 F 0 "P7" H 8950 4750 50  0000 C CNN
 F 1 "Button" H 8950 4550 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 3450 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.762mm" H 8950 3450 50  0001 C CNN
 F 3 "" H 8950 3450 50  0000 C CNN
 	1    8950 4650
 	1    0    0    -1  
@@ -1067,7 +1067,7 @@ U 1 1 58ED6BB6
 P 8950 4375
 F 0 "P6" H 8950 4475 50  0000 C CNN
 F 1 "Button" H 8950 4275 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 3175 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.762mm" H 8950 3175 50  0001 C CNN
 F 3 "" H 8950 3175 50  0000 C CNN
 	1    8950 4375
 	1    0    0    -1  
@@ -1078,7 +1078,7 @@ U 1 1 58ED7110
 P 8950 4925
 F 0 "P8" H 8950 5025 50  0000 C CNN
 F 1 "Button" H 8950 4825 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 3725 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.762mm" H 8950 3725 50  0001 C CNN
 F 3 "" H 8950 3725 50  0000 C CNN
 	1    8950 4925
 	1    0    0    -1  
@@ -1089,7 +1089,7 @@ U 1 1 58ED7A7A
 P 8950 5200
 F 0 "P9" H 8950 5300 50  0000 C CNN
 F 1 "Button" H 8950 5100 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 4000 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.762mm" H 8950 4000 50  0001 C CNN
 F 3 "" H 8950 4000 50  0000 C CNN
 	1    8950 5200
 	1    0    0    -1  
@@ -1125,7 +1125,7 @@ U 1 1 58E94ECD
 P 8950 3725
 F 0 "P10" H 8950 3875 50  0000 C CNN
 F 1 "CONN_01X02" V 9050 3725 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 8950 3725 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.762mm" H 8950 3725 50  0001 C CNN
 F 3 "" H 8950 3725 50  0000 C CNN
 	1    8950 3725
 	1    0    0    -1  
@@ -1160,7 +1160,7 @@ U 1 1 58EB82D6
 P 4850 1100
 F 0 "P11" H 4850 1250 50  0000 C CNN
 F 1 "CONN_01X02" V 4950 1100 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 4850 1100 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.762mm" H 4850 1100 50  0001 C CNN
 F 3 "" H 4850 1100 50  0000 C CNN
 	1    4850 1100
 	-1   0    0    -1  
@@ -1184,7 +1184,7 @@ U 1 1 58EBD0A2
 P 4150 1100
 F 0 "P12" H 4150 1250 50  0000 C CNN
 F 1 "CONN_01X02" V 4250 1100 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.64mm" H 4150 1100 50  0001 C CNN
+F 2 "Misc:Socket_Strip_Straight_1x02_Pitch2.54mm_Drill0.762mm" H 4150 1100 50  0001 C CNN
 F 3 "" H 4150 1100 50  0000 C CNN
 	1    4150 1100
 	-1   0    0    -1  
