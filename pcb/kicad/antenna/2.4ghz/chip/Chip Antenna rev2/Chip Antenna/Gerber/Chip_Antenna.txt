@@ -1,0 +1,11 @@
+Tool Use Report
+Layer 8: Chip Antenna.drl
+Date:  Fri Feb 24 11:55:21 2017
+Units: Inches
+
+Tool      Size    Type    Usage       Legend      Uses
+====      ====    ====    ======      ======      ====
+T1    0.016000    Drill   Plated      A             76
+T2    0.018000    Drill   Plated      B              2
+                                                  ====
+                                      TOTAL:        78
