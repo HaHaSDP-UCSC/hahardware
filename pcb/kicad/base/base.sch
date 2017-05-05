@@ -802,11 +802,11 @@ Text Label 1650 5650 1    30   ~ 0
 BTN_DOWN
 Text Label 1925 5650 1    30   ~ 0
 BTN_LEFT
-Text Label 5750 3375 0    30   ~ 0
-BTN_RIGHT
-Text Label 5750 3425 0    30   ~ 0
-BTN_UP
 Text Label 5750 3325 0    30   ~ 0
+BTN_RIGHT
+Text Label 5750 3375 0    30   ~ 0
+BTN_UP
+Text Label 5750 3425 0    30   ~ 0
 BTN_DOWN
 Text Label 5750 3475 0    30   ~ 0
 BTN_LEFT
@@ -1356,4 +1356,6 @@ F 3 "" H 8675 2750 50  0000 C CNN
 	1    8675 2750
 	1    0    0    -1  
 $EndComp
+Text Label 6225 4525 2    60   ~ 0
++3.3V
 $EndSCHEMATC
