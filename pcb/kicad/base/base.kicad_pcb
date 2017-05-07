@@ -191,6 +191,7 @@
     (add_net /+5V_USB)
     (add_net /AUDIO_SIG)
     (add_net /BTN_DOWN)
+    (add_net /BTN_HELP)
     (add_net /BTN_LEFT)
     (add_net /BTN_RIGHT)
     (add_net /BTN_UP)
@@ -18893,6 +18894,36 @@
       (pts (xy 115.62715 68.35775) (xy 122.67565 68.35775))
       (pts (xy 115.62715 68.44665) (xy 122.67565 68.44665))
       (pts (xy 115.62715 68.53555) (xy 122.67565 68.53555))
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Mask) (tstamp 590F9EE4) (hatch edge 0.508)
+    (connect_pads (clearance 0.1905))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 101.94036 76.38034) (xy 71.07936 76.38034) (xy 71.07936 41.07434) (xy 101.94036 41.07434)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 101.81336 76.25334) (xy 71.20636 76.25334) (xy 71.20636 41.20134) (xy 101.81336 41.20134)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Mask) (tstamp 590F9F07) (hatch edge 0.508)
+    (connect_pads (clearance 0.1905))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 114.72926 61.96584) (xy 114.17046 61.96584) (xy 114.17046 36.54044) (xy 114.72926 36.54044)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 114.60226 61.83884) (xy 114.29746 61.83884) (xy 114.29746 36.66744) (xy 114.60226 36.66744)
+      )
     )
   )
 )
