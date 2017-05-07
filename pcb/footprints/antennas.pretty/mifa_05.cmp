@@ -1,0 +1,11 @@
+Cmp-Mod V01 Created by PcbNew   date = 3/2/2017 11:49:18 AM
+
+BeginCmp
+TimeStamp = 58AE1DF6
+Path = /58AB8622
+Reference = SMA1;
+ValeurCmp = SMA_JPXSTEM1;
+IdModule  = Connectors_Molex:Molex_SMA_Jack_Edge_Mount;
+EndCmp
+
+EndListe

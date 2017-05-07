@@ -1,0 +1,586 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ANGBASE
+  50
+0.0
+  9
+$ANGDIR
+  70
+  1
+  9
+$MEASUREMENT
+  70
+0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LTYPE
+  70
+1
+  0
+LTYPE
+  2
+CONTINUOUS
+  70
+0
+  3
+Solid line
+  72
+65
+  73
+0
+  40
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+  70
+4
+  0
+STYLE
+  2
+KICAD
+  70
+0
+  40
+0
+  41
+1
+  42
+1
+  50
+0
+  71
+0
+  3
+isocp.shx
+  0
+STYLE
+  2
+KICADB
+  70
+0
+  40
+0
+  41
+1
+  42
+1
+  50
+0
+  71
+0
+  3
+isocp.shx
+  0
+STYLE
+  2
+KICADI
+  70
+0
+  40
+0
+  41
+1
+  42
+1
+  50
+15
+  71
+0
+  3
+isocp.shx
+  0
+STYLE
+  2
+KICADBI
+  70
+0
+  40
+0
+  41
+1
+  42
+1
+  50
+15
+  71
+0
+  3
+isocp.shx
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  70
+30
+  0
+LAYER
+  2
+BLACK
+  70
+0
+  62
+7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+GRAY1
+  70
+0
+  62
+251
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+GRAY2
+  70
+0
+  62
+8
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+GRAY3
+  70
+0
+  62
+9
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+WHITE
+  70
+0
+  62
+7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+LYELLOW
+  70
+0
+  62
+51
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+BLUE1
+  70
+0
+  62
+178
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+GREEN1
+  70
+0
+  62
+98
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+CYAN1
+  70
+0
+  62
+138
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+RED1
+  70
+0
+  62
+18
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+MAGENTA1
+  70
+0
+  62
+228
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+BROWN1
+  70
+0
+  62
+58
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+BLUE2
+  70
+0
+  62
+5
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+GREEN2
+  70
+0
+  62
+3
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+CYAN2
+  70
+0
+  62
+4
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+RED2
+  70
+0
+  62
+1
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+MAGENTA2
+  70
+0
+  62
+6
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+BROWN2
+  70
+0
+  62
+54
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+BLUE3
+  70
+0
+  62
+171
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+GREEN3
+  70
+0
+  62
+91
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+CYAN3
+  70
+0
+  62
+131
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+RED3
+  70
+0
+  62
+11
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+MAGENTA3
+  70
+0
+  62
+221
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+YELLOW3
+  70
+0
+  62
+2
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+BLUE4
+  70
+0
+  62
+5
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+GREEN4
+  70
+0
+  62
+3
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+CYAN4
+  70
+0
+  62
+4
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+RED4
+  70
+0
+  62
+1
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+MAGENTA4
+  70
+0
+  62
+6
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+YELLOW4
+  70
+0
+  62
+2
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+0
+LINE
+8
+Black
+10
+8.003
+20
+0.5025
+11
+5.713
+21
+0.5025
+0
+LINE
+8
+Black
+10
+5.713
+20
+0.5025
+11
+5.713
+21
+5.5825
+0
+LINE
+8
+Black
+10
+5.713
+20
+5.5825
+11
+8.003
+21
+5.5825
+0
+LINE
+8
+Black
+10
+8.003
+20
+5.5825
+11
+8.003
+21
+0.5025
+0
+LINE
+8
+Black
+10
+3.688
+20
+0.5025
+11
+1.268
+21
+0.5025
+0
+LINE
+8
+Black
+10
+1.268
+20
+0.5025
+11
+1.268
+21
+5.5825
+0
+LINE
+8
+Black
+10
+1.268
+20
+5.5825
+11
+3.688
+21
+5.5825
+0
+LINE
+8
+Black
+10
+3.688
+20
+5.5825
+11
+3.688
+21
+0.5025
+0
+LINE
+8
+Black
+10
+12.448
+20
+0.5025
+11
+10.028
+21
+0.5025
+0
+LINE
+8
+Black
+10
+10.028
+20
+0.5025
+11
+10.028
+21
+5.5825
+0
+LINE
+8
+Black
+10
+10.028
+20
+5.5825
+11
+12.448
+21
+5.5825
+0
+LINE
+8
+Black
+10
+12.448
+20
+5.5825
+11
+12.448
+21
+0.5025
+  0
+ENDSEC
+  0
+EOF

@@ -1,0 +1,136 @@
+(pcb C:\Yggdrasil\Jotunheim\SDP\HaHardware\pcb\kicad\button\button_mkii\mifa_05.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.5")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 141518 -94400.7 163092 -117283)
+    )
+    (plane GND (polygon F.Cu 0  153340 -97447.1  155321 -97447.1  155321 -94805.5  158013 -94805.5
+            158013 -97447.1  159995 -97447.1  159995 -94805.5  162687 -94805.5
+            162687 -98742.5  162179 -98742.5  162179 -95313.5  160503 -95313.5
+            160503 -97955.1  157505 -97955.1  157505 -95313.5  155829 -95313.5
+            155829 -97955.1  152832 -97955.1  152832 -95313.5  151130 -95313.5
+            151130 -100216  152019 -101994  152019 -107023  149733 -107023
+            149733 -101994  150622 -100216  150622 -95313.5  149225 -95313.5
+            149225 -100216  148857 -100216  148857 -100343  149352 -100343
+            149352 -99707.7  149479 -99707.7  149479 -107277  152273 -107277
+            152273 -99707.7  162992 -99707.7  162992 -107531  144018 -107531
+            144018 -99707.7  148209 -99707.7  148209 -100343  148704 -100343
+            148704 -100216  148336 -100216  148336 -94805.5  153340 -94805.5))
+    (plane GND (polygon B.Cu 0  162992 -107531  144018 -107531  144018 -99707.7  162992 -99707.7))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Connectors_Molex:Molex_SMA_Jack_Edge_Mount
+      (place SMA1 150876 -102768 front 90 (PN SMA_JPXSTEM1))
+    )
+  )
+  (library
+    (image Connectors_Molex:Molex_SMA_Jack_Edge_Mount
+      (outline (path signal 100  -4760 380  490 380))
+      (outline (path signal 100  -4760 -380  490 -380))
+      (outline (path signal 100  490 380  490 -380))
+      (outline (path signal 100  490 -3750  490 -4760))
+      (outline (path signal 100  490 4760  490 3750))
+      (outline (path signal 50  -14290 6090  -14290 -6090))
+      (outline (path signal 50  -14290 -6090  2710 -6090))
+      (outline (path signal 50  2710 6090  2710 -6090))
+      (outline (path signal 50  -14290 6090  2710 6090))
+      (outline (path signal 50  -14290 6090  -14290 -6090))
+      (outline (path signal 50  -14290 -6090  2710 -6090))
+      (outline (path signal 50  2710 6090  2710 -6090))
+      (outline (path signal 50  2710 6090  -14290 6090))
+      (outline (path signal 100  -4760 3750  490 3750))
+      (outline (path signal 100  -4760 -3750  490 -3750))
+      (outline (path signal 100  -13790 2650  -5910 2650))
+      (outline (path signal 100  -13790 2650  -13790 -2650))
+      (outline (path signal 100  -13790 -2650  -5910 -2650))
+      (outline (path signal 100  -4760 3750  -4760 -3750))
+      (outline (path signal 100  490 4760  -5910 4760))
+      (outline (path signal 100  -5910 4760  -5910 -4760))
+      (outline (path signal 100  -5910 -4760  490 -4760))
+      (pin Rect[T]Pad_5080x2290_um 1 -1720 0)
+      (pin Rect[T]Pad_5080x2420_um 2 -1720 4380)
+      (pin Rect[T]Pad_5080x2420_um 2@1 -1720 -4380)
+      (pin Rect[B]Pad_5080x2420_um 2@2 -1720 4380)
+      (pin Rect[B]Pad_5080x2420_um 2@3 -1720 -4380)
+      (pin Round[A]Pad_970_um 2@4 1720 4380)
+      (pin Round[A]Pad_970_um 2@5 1720 -4380)
+      (pin Rect[T]Pad_890x460_um 2@6 1270 4380)
+      (pin Rect[T]Pad_890x460_um 2@7 1270 -4380)
+      (pin Rect[B]Pad_890x460_um 2@8 1270 4380)
+      (pin Rect[B]Pad_890x460_um 2@9 1270 -4380)
+    )
+    (padstack Round[A]Pad_970_um
+      (shape (circle F.Cu 970))
+      (shape (circle B.Cu 970))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_5080x2420_um
+      (shape (rect B.Cu -2540 -1210 2540 1210))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_890x460_um
+      (shape (rect B.Cu -445 -230 445 230))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_5080x2290_um
+      (shape (rect F.Cu -2540 -1145 2540 1145))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_5080x2420_um
+      (shape (rect F.Cu -2540 -1210 2540 1210))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_890x460_um
+      (shape (rect F.Cu -445 -230 445 230))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins SMA1-1 SMA1-2 SMA1-2@1 SMA1-2@2 SMA1-2@3 SMA1-2@4 SMA1-2@5 SMA1-2@6 SMA1-2@7
+        SMA1-2@8 SMA1-2@9)
+    )
+    (class kicad_default "" GND
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

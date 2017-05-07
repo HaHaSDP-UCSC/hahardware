@@ -1,0 +1,160 @@
+Info: Reading netlist file "C:\Yggdrasil\Jotunheim\SDP\HaHa_MKII\pcb\button\button_1_00.net".
+
+Info: Using references to match components and footprints.
+
+* Warning: component 'U1': board footprint 'Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm', netlist footprint 'uCs:QFN-32-1EP_5x5mm'
+
+Error: No footprint defined for component 'L1-A1'.
+
+Error: No footprint defined for component 'TP2'.
+
+Error: No footprint defined for component 'TP1'.
+
+Error: No footprint defined for component 'R2'.
+
+Error: No footprint defined for component 'C21'.
+
+Error: No footprint defined for component 'PCB1'.
+
+Info: Checking netlist component footprint "BT1:/58B9D710:Batteries:SMD_CoinCell".
+
+Info: Checking netlist component footprint "C1:/58B7A2A0:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C2:/58B78E13:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C3:/58B79C0E:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C4:/58B79C5C:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C5:/58B7A219:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C6:/58B7A36F:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C7:/58B7A433:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C8:/58B7AE2A:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C9:/58B7A976:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C10:/58B7ADD1:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C11:/58B7AF29:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C12:/58B7AA8B:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C13:/58B7AFA7:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C14:/58B7A2E8:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C15:/58B7A535:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C16:/58B7A739:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C17:/58B7A786:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C18:/58B7A6D9:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C19:/58B798A4:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C20:/58B8ADF2:Capacitors_SMD:C_0603".
+
+Info: Checking netlist component footprint "C21:/58BCFBC1:".
+
+Error: Cannot add new component "C21:/58BCFBC1" due to missing footprint "".
+
+Info: Checking netlist component footprint "D1:/58B922DC:LEDs:LED_0603".
+
+Info: Checking netlist component footprint "L1:/58B7A49D:Inductors:Inductor_1212".
+
+Info: Checking netlist component footprint "L1-A1:/58B7E6BA:".
+
+Error: Cannot add new component "L1-A1:/58B7E6BA" due to missing footprint "".
+
+Info: Checking netlist component footprint "L2:/58B7AE8C:Inductors:Inductor_1212".
+
+Info: Checking netlist component footprint "L2_A1:/58B7A836:Inductors:Inductor_1212".
+
+Info: Checking netlist component footprint "L3:/58B7A8F2:Inductors:Inductor_1212".
+
+Info: Checking netlist component footprint "L6:/58B78D2C:Inductors:Inductor_1212".
+
+Info: Checking netlist component footprint "PB1:/58BCEB83:Miscellaneous:pb_basic".
+
+Info: Checking netlist component footprint "PCB1:/58B88F6F:".
+
+Error: Cannot add new component "PCB1:/58B88F6F" due to missing footprint "".
+
+Info: Checking netlist component footprint "R1:/58B92529:Resistors_SMD:R_0603".
+
+Info: Checking netlist component footprint "R2:/58BD0090:".
+
+Error: Cannot add new component "R2:/58BD0090" due to missing footprint "".
+
+Info: Checking netlist component footprint "TP1:/58BD3708:".
+
+Error: Cannot add new component "TP1:/58BD3708" due to missing footprint "".
+
+Info: Checking netlist component footprint "TP2:/58BD3B45:".
+
+Error: Cannot add new component "TP2:/58BD3B45" due to missing footprint "".
+
+Info: Checking netlist component footprint "TP3:/58BD7A04:Miscellaneous:TP_gen".
+
+Adding new component "TP3:/58BD7A04" footprint "Miscellaneous:TP_gen".
+
+Changing component "TP3:/58BD7A04" pin "1" net name from "" to "Net-(PB1-Pad1)".
+
+Info: Checking netlist component footprint "TP4:/58BD5D24:Miscellaneous:TP_gen".
+
+Adding new component "TP4:/58BD5D24" footprint "Miscellaneous:TP_gen".
+
+Changing component "TP4:/58BD5D24" pin "1" net name from "" to "+BATT".
+
+Info: Checking netlist component footprint "TP5:/58BDF609:Miscellaneous:TP_gen".
+
+Adding new component "TP5:/58BDF609" footprint "Miscellaneous:TP_gen".
+
+Changing component "TP5:/58BDF609" pin "1" net name from "" to "Net-(D1-Pad2)".
+
+Info: Checking netlist component footprint "TP6:/58BE21F3:Miscellaneous:TP_gen".
+
+Adding new component "TP6:/58BE21F3" footprint "Miscellaneous:TP_gen".
+
+Changing component "TP6:/58BE21F3" pin "1" net name from "" to "/16MHz".
+
+Info: Checking netlist component footprint "TP7:/58BE31C5:Miscellaneous:TP_gen".
+
+Adding new component "TP7:/58BE31C5" footprint "Miscellaneous:TP_gen".
+
+Changing component "TP7:/58BE31C5" pin "1" net name from "" to "Net-(C7-Pad2)".
+
+Info: Checking netlist component footprint "TP8:/58BE6107:Miscellaneous:TP_gen".
+
+Adding new component "TP8:/58BE6107" footprint "Miscellaneous:TP_gen".
+
+Changing component "TP8:/58BE6107" pin "1" net name from "" to "/32kHz".
+
+Info: Checking netlist component footprint "TP9:/58BE6222:Miscellaneous:TP_gen".
+
+Adding new component "TP9:/58BE6222" footprint "Miscellaneous:TP_gen".
+
+Changing component "TP9:/58BE6222" pin "1" net name from "" to "Net-(C17-Pad2)".
+
+Info: Checking netlist component footprint "TP10:/58BEDEBE:Miscellaneous:TP_gen".
+
+Adding new component "TP10:/58BEDEBE" footprint "Miscellaneous:TP_gen".
+
+Changing component "TP10:/58BEDEBE" pin "1" net name from "" to "Net-(C8-Pad1)".
+
+Info: Checking netlist component footprint "TP11:/58BEE226:Miscellaneous:TP_gen".
+
+Adding new component "TP11:/58BEE226" footprint "Miscellaneous:TP_gen".
+
+Changing component "TP11:/58BEE226" pin "1" net name from "" to "Net-(C12-Pad2)".
+
+Info: Checking netlist component footprint "U1:/58B78C09:uCs:QFN-32-1EP_5x5mm".
+
+Info: Checking netlist component footprint "Y1:/58B85061:Crystals:Crystal_HC18-U_Vertical".
+
+Info: Checking netlist component footprint "Y2:/58B85294:Crystals:Crystal_HC18-U_Vertical".
+

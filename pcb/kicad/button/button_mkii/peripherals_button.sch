@@ -1,0 +1,237 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:coin_cells
+LIBS:misc
+LIBS:uCs
+LIBS:button-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pb_basic PB1
+U 1 1 590D59C0
+P 1550 2050
+F 0 "PB1" V 1450 2050 60  0000 C CNN
+F 1 "pb_basic" V 1600 2050 60  0000 C CNN
+F 2 "Miscellaneous:pb_basic" H 1550 2050 60  0001 C CNN
+F 3 "" H 1550 2050 60  0001 C CNN
+	1    1550 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 590D5BED
+P 1300 1350
+F 0 "R14" H 1450 1300 50  0000 C CNN
+F 1 "10k" V 1300 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 1230 1350 50  0001 C CNN
+F 3 "" H 1300 1350 50  0001 C CNN
+	1    1300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C18
+U 1 1 590D5C38
+P 2150 2050
+F 0 "C18" H 2300 2000 50  0000 L CNN
+F 1 "CP" H 2300 1900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2188 1900 50  0001 C CNN
+F 3 "" H 2150 2050 50  0001 C CNN
+	1    2150 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1550 2150 1550
+Wire Wire Line
+	1300 1500 1300 1550
+Wire Wire Line
+	2150 1550 2150 1900
+Connection ~ 1800 1550
+Wire Wire Line
+	2150 2550 2150 2200
+Wire Wire Line
+	1300 2550 2150 2550
+Connection ~ 1800 2550
+$Comp
+L LED D2
+U 1 1 590D5EAD
+P 3100 1550
+F 0 "D2" H 3100 1650 50  0000 C CNN
+F 1 "LED" H 3100 1750 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 3100 1550 50  0001 C CNN
+F 3 "" H 3100 1550 50  0001 C CNN
+	1    3100 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R15
+U 1 1 590D5F48
+P 3300 1750
+F 0 "R15" H 3450 1700 50  0000 C CNN
+F 1 "1k" V 3300 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3230 1750 50  0001 C CNN
+F 3 "" H 3300 1750 50  0001 C CNN
+	1    3300 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1150 1300 1200
+Wire Wire Line
+	1300 2600 1300 2550
+Wire Wire Line
+	3300 1950 3300 1900
+Wire Wire Line
+	3250 1550 3300 1550
+Wire Wire Line
+	3300 1550 3300 1600
+Text HLabel 2900 1550 0    30   UnSpc ~ 0
+ANATEST1
+Wire Wire Line
+	2950 1550 2900 1550
+Text HLabel 1250 1550 0    30   UnSpc ~ 0
+DIO3
+Connection ~ 1300 1550
+$Comp
+L CP C19
+U 1 1 59108CA4
+P 4050 1700
+F 0 "C19" H 4200 1750 50  0000 L CNN
+F 1 "1uF" H 4200 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4088 1550 50  0001 C CNN
+F 3 "" H 4050 1700 50  0001 C CNN
+	1    4050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT1
+U 1 1 59108D3F
+P 4550 1750
+F 0 "BT1" H 4650 1850 50  0000 L CNN
+F 1 "Battery_Cell" H 4650 1750 50  0000 L CNN
+F 2 "Batteries:SMD_CoinCell" V 4550 1810 50  0001 C CNN
+F 3 "" V 4550 1810 50  0001 C CNN
+	1    4550 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1450 4050 1550
+Wire Wire Line
+	4550 1500 4550 1550
+Wire Wire Line
+	4050 1850 4050 1950
+Connection ~ 4050 1900
+$Comp
+L +3.3V #PWR022
+U 1 1 5901624D
+P 1300 1150
+F 0 "#PWR022" H 1300 1000 50  0001 C CNN
+F 1 "+3.3V" H 1300 1290 50  0000 C CNN
+F 2 "" H 1300 1150 50  0001 C CNN
+F 3 "" H 1300 1150 50  0001 C CNN
+	1    1300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 5901638D
+P 1300 2600
+F 0 "#PWR023" H 1300 2350 50  0001 C CNN
+F 1 "GND" H 1300 2450 50  0000 C CNN
+F 2 "" H 1300 2600 50  0001 C CNN
+F 3 "" H 1300 2600 50  0001 C CNN
+	1    1300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 59016561
+P 3300 1950
+F 0 "#PWR024" H 3300 1700 50  0001 C CNN
+F 1 "GND" H 3300 1800 50  0000 C CNN
+F 2 "" H 3300 1950 50  0001 C CNN
+F 3 "" H 3300 1950 50  0001 C CNN
+	1    3300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 59016756
+P 4050 1950
+F 0 "#PWR025" H 4050 1700 50  0001 C CNN
+F 1 "GND" H 4050 1800 50  0000 C CNN
+F 2 "" H 4050 1950 50  0001 C CNN
+F 3 "" H 4050 1950 50  0001 C CNN
+	1    4050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR026
+U 1 1 59016919
+P 4050 1450
+F 0 "#PWR026" H 4050 1300 50  0001 C CNN
+F 1 "+3.3V" H 4050 1590 50  0000 C CNN
+F 2 "" H 4050 1450 50  0001 C CNN
+F 3 "" H 4050 1450 50  0001 C CNN
+	1    4050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D3
+U 1 1 590E1CA1
+P 4300 1500
+F 0 "D3" H 4250 1700 50  0000 C CNN
+F 1 "Power thru Battery" H 4550 1600 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 4300 1500 50  0001 C CNN
+F 3 "" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1500 4450 1500
+Wire Wire Line
+	4150 1500 4050 1500
+Connection ~ 4050 1500
+Wire Wire Line
+	4550 1850 4550 1900
+Wire Wire Line
+	4550 1900 4050 1900
+$EndSCHEMATC
