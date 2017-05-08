@@ -500,6 +500,10 @@ F 3 "" H 6400 1900 50  0000 C CNN
 	1    6400 1900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9750 4400 9750 4050
+Text Label 10200 3950 0    60   ~ 0
+5Voutput
 $Comp
 L CP C5
 U 1 1 5908E75A
@@ -1213,14 +1217,30 @@ F 3 "" H 6415 5800 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 3700 7950 3700
-Connection ~ 7950 3700
+	3350 2700 3350 2950
 Wire Wire Line
-	8450 3850 8450 3700
-Connection ~ 8450 3700
+	4800 2700 4800 3000
 Wire Wire Line
-	8750 3850 8750 3700
-Connection ~ 8750 3700
+	4250 3450 5500 3450
+Wire Wire Line
+	4800 3450 4800 3300
+Connection ~ 4800 3450
+Wire Wire Line
+	2700 3450 3950 3450
+Wire Wire Line
+	3350 3450 3350 3150
+Wire Wire Line
+	5050 3250 4950 3250
+Wire Wire Line
+	5350 3250 5500 3250
+Text Label 4850 2950 0    60   ~ 0
+MT2
+Text Label 4850 3400 0    60   ~ 0
+MT1
+Text Label 3350 2600 0    60   ~ 0
+ACLOAD
+Text Label 3300 3600 0    60   ~ 0
+ACNEUTRAL
 $Comp
 L R R12
 U 1 1 592200FB

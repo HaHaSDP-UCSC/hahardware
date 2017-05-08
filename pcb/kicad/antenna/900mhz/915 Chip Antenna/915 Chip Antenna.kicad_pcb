@@ -71,7 +71,7 @@
       (plotframeref false)
       (viasonmask false)
       (mode 1)
-      (useauxorigin true)
+      (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory GerbTool/))
+      (outputdirectory "C:/Users/clchrist/Documents/915 Chip Antenna/GerbTool/"))
   )
 
   (net 0 "")
