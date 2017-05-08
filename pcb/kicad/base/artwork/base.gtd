@@ -1,21 +1,21 @@
 $Header
 $Program	GerbTool GT-Designer Service Release 3 (16.2.37)
 	Version	16.0
-	Created	Sun May 07 15:30:33 2017
+	Created	Sun May 07 15:53:55 2017
 $End
 $Environment
 	SketchMode	No
 	OverlayMode	No
 	ShowErrors	No
 	ViewComposites	No
-	OrthoSnap	Yes
+	OrthoSnap	No
 	SnapAngle	45.0000
-	ActiveLayer	3
+	ActiveLayer	8
 	CurrentDcode	10
-	PreviousView	-19.687, -8.364, 21.151, 16.379
+	PreviousView	0.232, 1.069, 8.443, 6.045
 	FilmBox	4.750, 3.880, 0xffff00
-	DesignID		0xfd4a153
-	UniqID		0x36
+	DesignID		0xfefa45d
+	UniqID		0x34
 	NetID		0
 	Flags		0
 	NetCompareOk		No
@@ -45,7 +45,7 @@ $Layer	1
 	Polarity	Dark
 	Key		0
 	Extents	0.051, 0.000, 4.743, 3.880
-	ID		0xfd4a154
+	ID		0xfefa45e
 	NetID		0
 	Virtual	0
 $End
@@ -59,7 +59,7 @@ $Layer	2
 	Polarity	Dark
 	Key		0
 	Extents	0.070, 0.026, 4.669, 3.780
-	ID		0xfd4a155
+	ID		0xfefa45f
 	NetID		0
 	Virtual	0
 $End
@@ -73,7 +73,7 @@ $Layer	3
 	Polarity	Dark
 	Key		0
 	Extents	0.005, -0.108, 4.736, 3.856
-	ID		0xfd4a156
+	ID		0xfefa460
 	NetID		0
 	Virtual	0
 $End
@@ -87,7 +87,7 @@ $Layer	4
 	Polarity	Dark
 	Key		0
 	Extents	0.000, 0.000, 4.743, 3.880
-	ID		0xfd4a157
+	ID		0xfefa461
 	NetID		0
 	Virtual	0
 $End
@@ -101,7 +101,7 @@ $Layer	5
 	Polarity	Dark
 	Key		0
 	Extents	0.070, 0.026, 4.669, 3.780
-	ID		0xfd4a158
+	ID		0xfefa462
 	NetID		0
 	Virtual	0
 $End
@@ -115,7 +115,7 @@ $Layer	6
 	Polarity	Dark
 	Key		0
 	Extents	0.010, 0.979, 4.587, 2.964
-	ID		0xfd4a159
+	ID		0xfefa463
 	NetID		0
 	Virtual	0
 $End
@@ -129,7 +129,7 @@ $Layer	7
 	Polarity	Dark
 	Key		0
 	Extents	-0.002, -0.002, 4.745, 3.882
-	ID		0xfd4a15a
+	ID		0xfefa464
 	NetID		0
 	Virtual	0
 $End
@@ -142,8 +142,8 @@ $Layer	8
 	Type		NC
 	Polarity	Dark
 	Key		0
-	Extents	0.000, 0.000, 0.000, 0.000
-	ID		0xfd4a15b
+	Extents	0.068, 0.037, 4.651, 3.798
+	ID		0xfefa465
 	NetID		0
 	Virtual	0
 $End
@@ -165,6 +165,7 @@ $ExportHPGL
 		Layer 5	1	1
 		Layer 6	1	1
 		Layer 7	1	1
+		Layer 8	1	1
 	$End
 	Spread	No
 	$SpreadOffset
@@ -318,16 +319,16 @@ $EndHeader
 $NCToolTables
 	$NCToolTable
 		"base" Both 0.000000 0.000000 0.000000 0 0 0 N
-		T1 Drill Plated 6338 0.000000 0.000000 0.000000 0 0 0 0 0 6338 0 -1 1 0 -1 "0xff" "A"
-		T2 Drill Plated c670 0.000000 0.000000 0.000000 0 0 0 0 0 c670 0 -1 2 0 -1 "0xdf" "B"
-		T3 Drill Plated c670 0.000000 0.000000 0.000000 0 0 0 0 0 c670 0 -1 3 0 -1 "0xae" "C"
-		T4 Drill Plated da48 0.000000 0.000000 0.000000 0 0 0 0 0 da48 0 -1 4 0 -1 "0x99ccff" "D"
-		T5 Drill Plated f80c 0.000000 0.000000 0.000000 0 0 0 0 0 f80c 0 -1 5 0 -1 "0x80ff" "E"
-		T6 Drill Plated 129a8 0.000000 0.000000 0.000000 0 0 0 0 0 129a8 0 -1 6 0 -1 "0x70df" "F"
-		T7 Drill Plated 13394 0.000000 0.000000 0.000000 0 0 0 0 0 13394 0 -1 7 0 -1 "0x57ae" "G"
-		T8 Drill Plated 182f4 0.000000 0.000000 0.000000 0 0 0 0 0 182f4 0 -1 8 0 -1 "0x99ffff" "H"
-		T9 Drill Plated 1aaa4 0.000000 0.000000 0.000000 0 0 0 0 0 1aaa4 0 -1 9 0 -1 "0xffff" "I"
-		T10 Drill Plated 3cc58 0.000000 0.000000 0.000000 0 0 0 0 0 3cc58 0 -1 10 0 -1 "0xdfdf" "J"
+		T1 Drill Plated 6338 0.000000 0.000000 0.000000 0 0 0 0 187 6338 0 -1 1 0 -1 "0xff" "A"
+		T2 Drill Plated c670 0.000000 0.000000 0.000000 0 0 0 0 20 c670 0 -1 2 0 -1 "0xdf" "B"
+		T3 Drill Plated c670 0.000000 0.000000 0.000000 0 0 0 0 10 c670 0 -1 3 0 -1 "0xae" "C"
+		T4 Drill Plated da48 0.000000 0.000000 0.000000 0 0 0 0 10 da48 0 -1 4 0 -1 "0x99ccff" "D"
+		T5 Drill Plated f80c 0.000000 0.000000 0.000000 0 0 0 0 20 f80c 0 -1 5 0 -1 "0x80ff" "E"
+		T6 Drill Plated 129a8 0.000000 0.000000 0.000000 0 0 0 0 28 129a8 0 -1 6 0 -1 "0x70df" "F"
+		T7 Drill Plated 13394 0.000000 0.000000 0.000000 0 0 0 0 3 13394 0 -1 7 0 -1 "0x57ae" "G"
+		T8 Drill Plated 182f4 0.000000 0.000000 0.000000 0 0 0 0 16 182f4 0 -1 8 0 -1 "0x99ffff" "H"
+		T9 Drill Plated 1aaa4 0.000000 0.000000 0.000000 0 0 0 0 20 1aaa4 0 -1 9 0 -1 "0xffff" "I"
+		T10 Drill Plated 3cc58 0.000000 0.000000 0.000000 0 0 0 0 4 3cc58 0 -1 10 0 -1 "0xdfdf" "J"
 	$End
 $End
 $CustomApertureData
@@ -372,29 +373,29 @@ D42 	Round	94d4	94d4	ThruHole	0	N	Transparent	94d4
 D43 	Round	15b44	15b44	ThruHole	0	N	Transparent	15b44
 D44 	Round	129a8	129a8	ThruHole	0	N	Transparent	129a8
 D45 	Round	4a6a	4a6a	ThruHole	0	N	Transparent	4a6a
-D46 	Round	27b0	27b0	ThruHole	0	N	Transparent	27b0
-D47 	Rectangle	d7c8	24ae0	SMT	0	N	Transparent	d7c8 24ae0 1 0 0
-D48 	Oblong	223d0	1aea0	SMT	0	N	Transparent	223d0 1aea0
-D49 	Oblong	1c228	29900	SMT	0	N	Transparent	1c228 29900
-D50 	Rectangle	28578	29900	SMT	0	N	Transparent	28578 29900 1 0 0
-D51 	Rectangle	1aea0	29900	SMT	0	N	Transparent	1aea0 29900 1 0 0
-D52 	Rectangle	21048	89a8	SMT	0	N	Transparent	21048 89a8 1 0 0
-D53 	Round	26e08	26e08	ThruHole	0	N	Transparent	26e08
-D54 	Rectangle	fed8	125e8	SMT	0	N	Transparent	fed8 125e8 1 0 0
-D55 	Rectangle	17408	19b18	SMT	0	N	Transparent	17408 19b18 1 0 0
-D56 	Rectangle	2faa8	1c228	SMT	0	N	Transparent	2faa8 1c228 1 0 0
-D57 	Rectangle	125e8	fed8	SMT	0	N	Transparent	125e8 fed8 1 0 0
-D58 	Rectangle	17408	89a8	SMT	0	N	Transparent	17408 89a8 1 0 0
-D59 	Rectangle	89a8	17408	SMT	0	N	Transparent	89a8 17408 1 0 0
-D60 	Square	1d5b0	1d5b0	ThruHole	0	N	Transparent	1d5b0
-D61 	Square	28ed8	28ed8	ThruHole	0	N	Transparent	28ed8
-D62 	Round	28ed8	28ed8	ThruHole	0	N	Transparent	28ed8
-D63 	Round	396e8	396e8	ThruHole	0	N	Transparent	396e8
-D64 	Round	348c8	348c8	ThruHole	0	N	Transparent	348c8
-D65 	Round	7dca8	7dca8	ThruHole	0	N	Transparent	7dca8
-D66 	Round	22ba0	22ba0	ThruHole	0	N	Transparent	22ba0
-D67 	Square	3f4a8	3f4a8	ThruHole	0	N	Transparent	3f4a8
-D68 	Round	35c50	35c50	ThruHole	0	N	Transparent	35c50
+D46 	Rectangle	d7c8	24ae0	SMT	0	N	Transparent	d7c8 24ae0 1 0 0
+D47 	Oblong	223d0	1aea0	SMT	0	N	Transparent	223d0 1aea0
+D48 	Oblong	1c228	29900	SMT	0	N	Transparent	1c228 29900
+D49 	Rectangle	28578	29900	SMT	0	N	Transparent	28578 29900 1 0 0
+D50 	Rectangle	1aea0	29900	SMT	0	N	Transparent	1aea0 29900 1 0 0
+D51 	Rectangle	21048	89a8	SMT	0	N	Transparent	21048 89a8 1 0 0
+D52 	Round	26e08	26e08	ThruHole	0	N	Transparent	26e08
+D53 	Rectangle	fed8	125e8	SMT	0	N	Transparent	fed8 125e8 1 0 0
+D54 	Rectangle	17408	19b18	SMT	0	N	Transparent	17408 19b18 1 0 0
+D55 	Rectangle	2faa8	1c228	SMT	0	N	Transparent	2faa8 1c228 1 0 0
+D56 	Rectangle	125e8	fed8	SMT	0	N	Transparent	125e8 fed8 1 0 0
+D57 	Rectangle	17408	89a8	SMT	0	N	Transparent	17408 89a8 1 0 0
+D58 	Rectangle	89a8	17408	SMT	0	N	Transparent	89a8 17408 1 0 0
+D59 	Square	1d5b0	1d5b0	ThruHole	0	N	Transparent	1d5b0
+D60 	Square	28ed8	28ed8	ThruHole	0	N	Transparent	28ed8
+D61 	Round	28ed8	28ed8	ThruHole	0	N	Transparent	28ed8
+D62 	Round	396e8	396e8	ThruHole	0	N	Transparent	396e8
+D63 	Round	348c8	348c8	ThruHole	0	N	Transparent	348c8
+D64 	Round	7dca8	7dca8	ThruHole	0	N	Transparent	7dca8
+D65 	Round	22ba0	22ba0	ThruHole	0	N	Transparent	22ba0
+D66 	Square	3f4a8	3f4a8	ThruHole	0	N	Transparent	3f4a8
+D67 	Round	35c50	35c50	ThruHole	0	N	Transparent	35c50
+D68 	Round	6338	6338	ThruHole	0	N	Transparent	6338
 D69 	Round	319c	319c	ThruHole	0	N	Transparent	319c
 D70 	Round	2ee0	2ee0	ThruHole	0	N	Transparent	2ee0
 D71 	Round	3a98	3a98	ThruHole	0	N	Transparent	3a98
@@ -403,7 +404,7 @@ D73 	Rectangle	1e848	249f0	SMT	0	N	Transparent	1e848 249f0 1 0 0
 D74 	Rectangle	124f8	1d4c0	SMT	0	N	Transparent	124f8 1d4c0 1 0 0
 D75 	Rectangle	223d0	28578	SMT	0	N	Transparent	223d0 28578 1 0 0
 D76 	Rectangle	16080	21048	SMT	0	N	Transparent	16080 21048 1 0 0
-D77 	Round	6338	6338	ThruHole	0	N	Transparent	6338
+D77 	Round	27b0	27b0	ThruHole	0	N	Transparent	27b0
 $End
 $StringTable
 7
@@ -426,11 +427,6 @@ L1
 I0
 N0
 F0
-C" #@! TF.FileFunction,Copper,L1,Top,Signal"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:20:00"
-C" APERTURE LIST"
-C" APERTURE END LIST"
 C" #@! TF.FileFunction,Copper,L1,Top,Signal"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
 C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:27:17"
@@ -6500,59 +6496,54 @@ N0
 F0
 C" #@! TF.FileFunction,Soldermask,Top"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:20:00"
-C" APERTURE LIST"
-C" APERTURE END LIST"
-C" #@! TF.FileFunction,Soldermask,Top"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
 C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:27:17"
 C" APERTURE LIST"
 C" APERTURE END LIST"
-A47
+A46
 D1
 67eab8 66c0c
 68e8a0 66c0c
 69e688 66c0c
 6ae470 66c0c
 6be258 66c0c
-A48
+A47
 6615f8 66c0c
 6db718 66c0c
-A49
+A48
 648f58 24d5c
 6f3db8 24d5c
-A50
+A49
 685fe8 24d5c
 6b6d28 24d5c
-A51
+A50
 65aa8c 24d5c
 6e2284 24d5c
-A52
+A51
 6579b8 35508
 6579b8 145b0
 6e5358 35508
 6e5358 145b0
-A53
+A52
 b3a9d8 7a8110
 b3a9d8 76a0e0
 b3a9d8 72c0b0
-A54
+A53
 a3ae10 45eb98
 a3ae10 443de8
-A55
+A54
 a59830 443dbe
 a87e60 443dbe
 a70b48 474afe
-A56
+A55
 6e1b0e 663cca
 6e1b0e 6a0d5a
-A57
+A56
 afcb2e 481da2
 ae1d7e 481da2
-A54
+A53
 b12bde 481d2c
 b12bde 466f7c
-A58
+A57
 61815a 6b8072
 61815a 6ae432
 61815a 6a47f2
@@ -6565,7 +6556,7 @@ A58
 61815a 660232
 61815a 6565f2
 61815a 64c9b2
-A59
+A58
 62b9da 639132
 63561a 639132
 63f25a 639132
@@ -6578,7 +6569,7 @@ A59
 68381a 639132
 68d45a 639132
 69709a 639132
-A58
+A57
 6aa91a 64c9b2
 6aa91a 6565f2
 6aa91a 660232
@@ -6591,7 +6582,7 @@ A58
 6aa91a 6a47f2
 6aa91a 6ae432
 6aa91a 6b8072
-A59
+A58
 69709a 6cb8f2
 68d45a 6cb8f2
 68381a 6cb8f2
@@ -6604,7 +6595,7 @@ A59
 63f25a 6cb8f2
 63561a 6cb8f2
 62b9da 6cb8f2
-A60
+A59
 687c76 65bdd6
 687c76 6757fe
 687c76 68f226
@@ -6621,10 +6612,10 @@ A60
 63adfe 6757fe
 63adfe 68f226
 63adfe 6a8c4e
-A57
+A56
 6886c4 5fd4d4
 6a3474 5fd4d4
-A54
+A53
 33980 229dc2
 33980 20f012
 33980 116f52
@@ -6655,10 +6646,10 @@ D4
 6778da 73b1fb N
 66a908 7481ce N
 65f4d4 73cd9a N
-A61
+A60
 D1
 6a992 29874a
-A62
+A61
 a89c2 29874a
 6a992 25a71a
 a89c2 25a71a
@@ -6678,19 +6669,19 @@ a89c2 e65fa
 a89c2 a85ca
 6a992 6a59a
 a89c2 6a59a
-A61
+A60
 b3a9d8 8d5816
-A62
+A61
 b3a9d8 913846
-A61
+A60
 b3aad6 143a3a
-A62
-b3aad6 105a0a
 A61
+b3aad6 105a0a
+A60
 b3a9d8 80c56e
-A62
+A61
 b3a9d8 84a59e
-A63
+A62
 4cc67e f8ee4
 4cc67e 7edc4
 45255e f8ee4
@@ -6737,7 +6728,7 @@ D4
 665d13 6f9ea9 N
 64f555 710667 N
 63b706 6fc818 N
-A64
+A63
 D1
 ab91ee 579e5c
 ab91ee 53be2c
@@ -6750,18 +6741,18 @@ ab91ee 5f5ebc
 ab91ee 633eec
 ab91ee 671f1c
 ab91ee 6aff4c
-A65
+A64
 ab91ee 89d1ec
 57a58e 89d1ec
 57a58e cb2ac
 ab91ee cb2ac
-A64
+A63
 ab91ee 7e603c
 ab91ee 7a800c
 ab91ee 769fdc
 ab91ee 72bfac
 ab91ee 6edf7c
-A66
+A65
 901d80 190988
 9f6ca4 190988
 a27c78 190988
@@ -6782,15 +6773,15 @@ a58c4c 3a99e0
 a27c78 3a99e0
 9f6ca4 3a99e0
 901d80 3a99e0
-A67
+A66
 5a2e76 6e56d4
 521056 6e56d4
 5a2e76 6638b4
-A68
-561f66 6a47c4
 A67
+561f66 6a47c4
+A66
 521056 6638b4
-A77
+A68
 D4
 5 1 0
 b87c2 8a5a1e N
@@ -6819,11 +6810,6 @@ L3
 I0
 N0
 F0
-C" #@! TF.FileFunction,Legend,Top"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:20:00"
-C" APERTURE LIST"
-C" APERTURE END LIST"
 C" #@! TF.FileFunction,Legend,Top"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
 C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:27:17"
@@ -7854,11 +7840,6 @@ L4
 I0
 N0
 F0
-C" #@! TF.FileFunction,Copper,L2,Bot,Signal"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:20:00"
-C" APERTURE LIST"
-C" APERTURE END LIST"
 C" #@! TF.FileFunction,Copper,L2,Bot,Signal"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
 C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:27:17"
@@ -16935,22 +16916,17 @@ N0
 F0
 C" #@! TF.FileFunction,Soldermask,Bot"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:20:00"
-C" APERTURE LIST"
-C" APERTURE END LIST"
-C" #@! TF.FileFunction,Soldermask,Bot"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
 C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:27:17"
 C" APERTURE LIST"
 C" APERTURE END LIST"
-A48
+A47
 D1
 6615f8 66c0c
 6db718 66c0c
-A49
+A48
 648f58 24d5c
 6f3db8 24d5c
-A53
+A52
 b3a9d8 7a8110
 b3a9d8 76a0e0
 b3a9d8 72c0b0
@@ -16960,30 +16936,30 @@ A75
 A76
 5d5fc8 6f6970
 5d5fc8 6c8340
-A54
+A53
 5f0f62 6f68f6
 5f0f62 6dbb46
-A57
+A56
 abab7e 3fd652
 a9fdce 3fd652
 abab7e 3e88f2
 a9fdce 3e88f2
 abab7e 3d3b92
 a9fdce 3d3b92
-A54
+A53
 33980 272f7a
 33980 28dd2a
-A57
+A56
 6bb866 670060
 6a0ab6 670060
 6910c0 612038
 676310 612038
-A54
+A53
 687276 6dc83e
 687276 6c1a8e
 692410 6280e8
 692410 642e98
-A57
+A56
 60720e 6b2010
 621fbe 6b2010
 60720e 6c6d70
@@ -16994,9 +16970,9 @@ A57
 676310 5fd2d8
 5ea2b4 697076
 605064 697076
-A61
+A60
 6a992 29874a
-A62
+A61
 a89c2 29874a
 6a992 25a71a
 a89c2 25a71a
@@ -17016,19 +16992,19 @@ a89c2 e65fa
 a89c2 a85ca
 6a992 6a59a
 a89c2 6a59a
-A61
+A60
 b3a9d8 8d5816
-A62
+A61
 b3a9d8 913846
-A61
+A60
 b3aad6 143a3a
-A62
-b3aad6 105a0a
 A61
+b3aad6 105a0a
+A60
 b3a9d8 80c56e
-A62
+A61
 b3a9d8 84a59e
-A63
+A62
 4cc67e f8ee4
 4cc67e 7edc4
 45255e f8ee4
@@ -17049,7 +17025,7 @@ A63
 2d8a74 cc00c
 25e954 14612c
 25e954 cc00c
-A64
+A63
 ab91ee 579e5c
 ab91ee 53be2c
 ab91ee 4fddfc
@@ -17061,18 +17037,18 @@ ab91ee 5f5ebc
 ab91ee 633eec
 ab91ee 671f1c
 ab91ee 6aff4c
-A65
+A64
 ab91ee 89d1ec
 57a58e 89d1ec
 57a58e cb2ac
 ab91ee cb2ac
-A64
+A63
 ab91ee 7e603c
 ab91ee 7a800c
 ab91ee 769fdc
 ab91ee 72bfac
 ab91ee 6edf7c
-A66
+A65
 901d80 190988
 9f6ca4 190988
 a27c78 190988
@@ -17097,11 +17073,6 @@ L6
 I0
 N0
 F0
-C" #@! TF.FileFunction,Legend,Bot"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:20:00"
-C" APERTURE LIST"
-C" APERTURE END LIST"
 C" #@! TF.FileFunction,Legend,Bot"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
 C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:27:17"
@@ -17639,20 +17610,328 @@ N0
 F0
 C" #@! TF.FileFunction,Other,User"
 C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
-C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:20:00"
-C" APERTURE LIST"
-C" APERTURE END LIST"
-C" #@! TF.FileFunction,Other,User"
-C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
 C" Created by KiCad (PCBNEW 4.0.5) date 05/07/17 15:27:17"
 C" APERTURE LIST"
 C" APERTURE END LIST"
-A46
+A77
 D2
 0 0 0 965de6
 b7d276 0 0 0
 b7d276 965de6 b7d276 0
 0 965de6 b7d276 965de6
+L8
+Z"base"
+I0
+N0
+F0
+T1
+S999
+D6
+53edd2 6638f2 N N N N Y 0
+53edd2 6e5696 N N N N Y 1
+5850fa 6e5696 N N N N Y 2
+5850fa 6638f2 N N N N Y 3
+5e7892 697076 N N N N Y 4
+603ffc 6b1f12 N N N N Y 5
+5dc104 6bfc54 N N N N Y 6
+603ffc 6c6c72 N N N N Y 7
+603ffc 6dbad0 N N N N Y 8
+64d9b6 4c08bc N N N N Y 9
+64d9b6 44485c N N N N Y 10
+64d9b6 3c87fc N N N N Y 11
+64d9b6 34c79c N N N N Y 12
+64d9b6 2d073c N N N N Y 13
+64d9b6 2546dc N N N N Y 14
+64d9b6 1d867c N N N N Y 15
+64d9b6 15c61c N N N N Y 16
+64d9b6 e05bc N N N N Y 17
+66a910 52e2ec N N N N Y 18
+6547d8 65bdea N N N N Y 19
+63ae12 65bdea N N N N Y 20
+696d7c 612038 N N N N Y 21
+692410 624ade N N N N Y 22
+66e29c 65bdea N N N N Y 23
+687c62 65bdea N N N N Y 24
+63ae12 6757b0 N N N N Y 25
+66e29c 6757b0 N N N N Y 26
+6547d8 6757b0 N N N N Y 27
+63ae12 68f274 N N N N Y 28
+687c62 68f274 N N N N Y 29
+687c62 6757b0 N N N N Y 30
+6547d8 68f274 N N N N Y 31
+66e29c 68f274 N N N N Y 32
+66e29c 6a8c3a N N N N Y 33
+63ae12 6a8c3a N N N N Y 34
+687c62 6a8c3a N N N N Y 35
+6547d8 6a8c3a N N N N Y 36
+687276 6e4fa4 N N N N Y 37
+64bbf2 70b2d4 N N N N Y 38
+64f77a 721804 N N N N Y 39
+665caa 741bf4 N N N N Y 40
+649442 7443a4 N N N N Y 41
+634cd6 747f2c N N N N Y 42
+630762 761fe4 N N N N Y 43
+67231a 7615f8 N N N N Y 44
+650b52 77acc4 N N N N Y 45
+63b9fa 837ef0 N N N N Y 46
+63b9fa 8b3f50 N N N N Y 47
+63b9fa 92ffb0 N N N N Y 48
+6c9a16 4c08bc N N N N Y 49
+6c9a16 44485c N N N N Y 50
+6c9a16 3c87fc N N N N Y 51
+6c9a16 34c79c N N N N Y 52
+6c9a16 2d073c N N N N Y 53
+6c9a16 2546dc N N N N Y 54
+6c9a16 1d867c N N N N Y 55
+6c9a16 15c61c N N N N Y 56
+6c9a16 e05bc N N N N Y 57
+6cfd4e 5fab28 N N N N Y 58
+6bea78 670060 N N N N Y 59
+69bbde 71beb8 N N N N Y 60
+6a1f16 734b98 N N N N Y 61
+699e1a 756d4c N N N N Y 62
+6b7a5a 837ef0 N N N N Y 63
+6b7a5a 8b3f50 N N N N Y 64
+6b7a5a 92ffb0 N N N N Y 65
+7520e6 47308 N N N N Y 66
+745a76 e05bc N N N N Y 67
+745a76 15c61c N N N N Y 68
+745a76 1d867c N N N N Y 69
+745a76 2546dc N N N N Y 70
+745a76 2d073c N N N N Y 71
+745a76 34c79c N N N N Y 72
+745a76 3c87fc N N N N Y 73
+745a76 44485c N N N N Y 74
+733aba 57b338 N N N N Y 75
+733aba 7b8cf4 N N N N Y 76
+733aba 8b3f50 N N N N Y 77
+733aba 92ffb0 N N N N Y 78
+7ce146 47308 N N N N Y 79
+7c1ad6 e05bc N N N N Y 80
+7c1ad6 15c61c N N N N Y 81
+7c1ad6 1d867c N N N N Y 82
+7c1ad6 2546dc N N N N Y 83
+7c1ad6 2d073c N N N N Y 84
+7c1ad6 34c79c N N N N Y 85
+7c1ad6 3c87fc N N N N Y 86
+7afb1a 4ff2d8 N N N N Y 87
+7afb1a 57b338 N N N N Y 88
+7afb1a 625bbc N N N N Y 89
+7afb1a 6a1c1c N N N N Y 90
+7afb1a 73cc94 N N N N Y 91
+7afb1a 7b8cf4 N N N N Y 92
+7afb1a 834d54 N N N N Y 93
+7afb1a 92ffb0 N N N N Y 94
+84a1a6 47308 N N N N Y 95
+83db36 e05bc N N N N Y 96
+83db36 15c61c N N N N Y 97
+83db36 1d867c N N N N Y 98
+83db36 2546dc N N N N Y 99
+83db36 2d073c N N N N Y 100
+83db36 34c79c N N N N Y 101
+82bb7a 483278 N N N N Y 102
+82bb7a 4ff2d8 N N N N Y 103
+82bb7a 57b338 N N N N Y 104
+82bb7a 625bbc N N N N Y 105
+82bb7a 6a1c1c N N N N Y 106
+82bb7a 73cc94 N N N N Y 107
+82bb7a 7b8cf4 N N N N Y 108
+82bb7a 834d54 N N N N Y 109
+82bb7a 8b0db4 N N N N Y 110
+82bb7a 92ffb0 N N N N Y 111
+8c6206 47308 N N N N Y 112
+8b9b96 e05bc N N N N Y 113
+8b9b96 15c61c N N N N Y 114
+8b9b96 1d867c N N N N Y 115
+8b9b96 2546dc N N N N Y 116
+8b9b96 2d073c N N N N Y 117
+8a7bda 407218 N N N N Y 118
+8a7bda 483278 N N N N Y 119
+8a7bda 4ff2d8 N N N N Y 120
+8a7bda 625bbc N N N N Y 121
+8a7bda 6a1c1c N N N N Y 122
+8a7bda 73cc94 N N N N Y 123
+8a7bda 7b8cf4 N N N N Y 124
+8a7bda 834d54 N N N N Y 125
+8a7bda 8b0db4 N N N N Y 126
+8a7bda 92ffb0 N N N N Y 127
+942266 47308 N N N N Y 128
+935bf6 11e5ec N N N N Y 129
+935bf6 1d867c N N N N Y 130
+935bf6 2546dc N N N N Y 131
+92dafa 358e0c N N N N Y 132
+923c3a 407218 N N N N Y 133
+923c3a 483278 N N N N Y 134
+95fea6 58dce0 N N N N Y 135
+923c3a 625bbc N N N N Y 136
+923c3a 73cc94 N N N N Y 137
+923c3a 7b8cf4 N N N N Y 138
+923c3a 834d54 N N N N Y 139
+923c3a 8b0db4 N N N N Y 140
+923c3a 92ffb0 N N N N Y 141
+9be2c6 47308 N N N N Y 142
+9b1c56 11e5ec N N N N Y 143
+9a9b5a 2dcdac N N N N Y 144
+9a9b5a 358e0c N N N N Y 145
+99fc9a 407218 N N N N Y 146
+9a420e 549978 N N N N Y 147
+9a420e 58dce0 N N N N Y 148
+99fc9a 73cc94 N N N N Y 149
+99fc9a 7b8cf4 N N N N Y 150
+99fc9a 834d54 N N N N Y 151
+99fc9a 8b0db4 N N N N Y 152
+99fc9a 92ffb0 N N N N Y 153
+a3a326 47308 N N N N Y 154
+a2dcb6 11e5ec N N N N Y 155
+a25bba 260d4c N N N N Y 156
+a25bba 2dcdac N N N N Y 157
+a25bba 358e0c N N N N Y 158
+9e8576 505610 N N N N Y 159
+9e8576 549978 N N N N Y 160
+9e8576 6a2608 N N N N Y 161
+a2c8de 505610 N N N N Y 162
+a2c8de 4c12a8 N N N N Y 163
+a1bcfa 73cc94 N N N N Y 164
+a1bcfa 7b8cf4 N N N N Y 165
+a1bcfa 834d54 N N N N Y 166
+a1bcfa 8b0db4 N N N N Y 167
+a1bcfa 92ffb0 N N N N Y 168
+a70c46 6a2608 N N N N Y 169
+a70c46 619f38 N N N N Y 170
+a70c46 4c12a8 N N N N Y 171
+ab6386 47308 N N N N Y 172
+aa1c1a 260d4c N N N N Y 173
+aa1c1a 2dcdac N N N N Y 174
+aa1c1a 358e0c N N N N Y 175
+a97d5a 92ffb0 N N N N Y 176
+b323e6 47308 N N N N Y 177
+b3695a 1a946c N N N N Y 178
+b3695a 2254cc N N N N Y 179
+b3695a 2a152c N N N N Y 180
+b3695a 31d58c N N N N Y 181
+b3695a 41564c N N N N Y 182
+b1aade 504238 N N N N Y 183
+b1aade 580298 N N N N Y 184
+b1aade 5fc2f8 N N N N Y 185
+b1aade 678358 N N N N Y 186
+T2
+D7
+648f4c 1ce5c 648f4c 2cc5c N N N N Y 187
+6f3dc4 1ce5c 6f3dc4 2cc5c N N N N Y 188
+T3
+D6
+5f0f62 760122 N N N N Y 189
+6d6380 5bbc16 N N N N Y 190
+6a2210 5bbc16 N N N N Y 191
+6aa9fe 5fd4d4 N N N N Y 192
+718330 5fdbc6 N N N N Y 193
+6e27f4 628072 N N N N Y 194
+7627d4 6c2eee N N N N Y 195
+747938 6c2fec N N N N Y 196
+7627d4 70ea64 N N N N Y 197
+747938 70ea64 N N N N Y 198
+T4
+D7
+65dbae 66c0e 6650c2 66c0e N N N N Y 199
+6d7c4e 66c0e 6df162 66c0e N N N N Y 200
+T5
+D6
+901d80 190988 N N N N Y 201
+932d54 190988 N N N N Y 202
+932d54 3a99e0 N N N N Y 203
+901d80 3a99e0 N N N N Y 204
+9c5cd0 190988 N N N N Y 205
+963d28 190988 N N N N Y 206
+994cfc 190988 N N N N Y 207
+963d28 3a99e0 N N N N Y 208
+9c5cd0 3a99e0 N N N N Y 209
+994cfc 3a99e0 N N N N Y 210
+9f6ca4 190988 N N N N Y 211
+a27c78 190988 N N N N Y 212
+a27c78 3a99e0 N N N N Y 213
+9f6ca4 3a99e0 N N N N Y 214
+a58c4c 190988 N N N N Y 215
+a89c20 190988 N N N N Y 216
+a89c20 3a99e0 N N N N Y 217
+a58c4c 3a99e0 N N N N Y 218
+ababf4 3a99e0 N N N N Y 219
+ababf4 190988 N N N N Y 220
+T6
+6a992 6a59a N N N N Y 221
+6a992 a85ca N N N N Y 222
+6a992 e65fa N N N N Y 223
+6a992 12462a N N N N Y 224
+33980 144622 N N N N Y 225
+a89c2 16265a N N N N Y 226
+a89c2 12462a N N N N Y 227
+a89c2 e65fa N N N N Y 228
+a89c2 a85ca N N N N Y 229
+a89c2 6a59a N N N N Y 230
+6a992 16265a N N N N Y 231
+6a992 1a068a N N N N Y 232
+a89c2 1a068a N N N N Y 233
+6a992 1de6ba N N N N Y 234
+a89c2 1de6ba N N N N Y 235
+6a992 21c6ea N N N N Y 236
+a89c2 21c6ea N N N N Y 237
+6a992 25a71a N N N N Y 238
+a89c2 25a71a N N N N Y 239
+6a992 29874a N N N N Y 240
+a89c2 29874a N N N N Y 241
+6b795c 7b3f90 N N N N Y 242
+b3aad6 143a3a N N N N Y 243
+b3aad6 105a0a N N N N Y 244
+b3a9d8 80c56e N N N N Y 245
+b3a9d8 84a59e N N N N Y 246
+b3a9d8 8d5816 N N N N Y 247
+b3a9d8 913846 N N N N Y 248
+T7
+b3a9d8 72c0b0 N N N N Y 249
+b3a9d8 76a0e0 N N N N Y 250
+b3a9d8 7a8110 N N N N Y 251
+T8
+ab9228 443d72 N N N N Y 252
+ab9228 481da2 N N N N Y 253
+ab9228 4bfdd2 N N N N Y 254
+ab9228 4fde02 N N N N Y 255
+ab9228 53be32 N N N N Y 256
+ab9228 579e62 N N N N Y 257
+ab9228 5b7e92 N N N N Y 258
+ab9228 5f5ec2 N N N N Y 259
+ab9228 633ef2 N N N N Y 260
+ab9228 671f22 N N N N Y 261
+ab9228 6aff52 N N N N Y 262
+ab9228 6edf82 N N N N Y 263
+ab9228 72bfb2 N N N N Y 264
+ab9228 769fe2 N N N N Y 265
+ab9228 7a8012 N N N N Y 266
+ab9228 7e6042 N N N N Y 267
+T9
+145af8 1e4ee8 N N N N Y 268
+145af8 25ef88 N N N N Y 269
+1bfb98 25ef88 N N N N Y 270
+1bfb98 1e4ee8 N N N N Y 271
+25e994 cc04c N N N N Y 272
+25e994 1460ec N N N N Y 273
+25e994 2fdd84 N N N N Y 274
+25e994 377e24 N N N N Y 275
+2d8a34 377e24 N N N N Y 276
+2d8a34 2fdd84 N N N N Y 277
+2d8a34 1460ec N N N N Y 278
+2d8a34 cc04c N N N N Y 279
+377830 1e4ee8 N N N N Y 280
+377830 25ef88 N N N N Y 281
+3f18d0 25ef88 N N N N Y 282
+3f18d0 1e4ee8 N N N N Y 283
+45259e 7ee04 N N N N Y 284
+45259e f8ea4 N N N N Y 285
+4cc63e f8ea4 N N N N Y 286
+4cc63e 7ee04 N N N N Y 287
+T10
+57a554 cb268 N N N N Y 288
+57a554 89d230 N N N N Y 289
+ab9228 89d230 N N N N Y 290
+ab9228 cb268 N N N N Y 291
 $End
 $Dimensions
 0

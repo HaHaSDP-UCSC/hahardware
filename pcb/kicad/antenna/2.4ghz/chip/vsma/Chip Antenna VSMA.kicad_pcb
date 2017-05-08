@@ -1,0 +1,1286 @@
+(kicad_pcb (version 4) (host pcbnew 4.0.5)
+
+  (general
+    (links 83)
+    (no_connects 0)
+    (area 67.889524 99.228 132.262476 120.709)
+    (thickness 1.6)
+    (drawings 5)
+    (tracks 7)
+    (zones 0)
+    (modules 80)
+    (nets 5)
+  )
+
+  (page A4)
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user)
+  )
+
+  (setup
+    (last_trace_width 0.8382)
+    (trace_clearance 0.2)
+    (zone_clearance 0.508)
+    (zone_45_only no)
+    (trace_min 0.1524)
+    (segment_width 0.2)
+    (edge_width 0.15)
+    (via_size 0.6)
+    (via_drill 0.4)
+    (via_min_size 0.4)
+    (via_min_drill 0.3)
+    (uvia_size 0.3)
+    (uvia_drill 0.1)
+    (uvias_allowed no)
+    (uvia_min_size 0.2)
+    (uvia_min_drill 0.1)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.15)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 1 1)
+    (pad_drill 0.64)
+    (pad_to_mask_clearance 0.2)
+    (aux_axis_origin 0 0)
+    (visible_elements 7FFFFF7F)
+    (pcbplotparams
+      (layerselection 0x020f0_80000001)
+      (usegerberextensions false)
+      (excludeedgelayer true)
+      (linewidth 0.100000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15)
+      (hpglpenoverlay 2)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory "C:/Users/clchrist/Documents/Chip Antenna VSMA/GerbTool/"))
+  )
+
+  (net 0 "")
+  (net 1 GND)
+  (net 2 "Net-(P2-Pad2)")
+  (net 3 "Net-(C1-Pad1)")
+  (net 4 "Net-(L1-Pad2)")
+
+  (net_class Default "This is the default net class."
+    (clearance 0.2)
+    (trace_width 0.8382)
+    (via_dia 0.6)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net GND)
+    (add_net "Net-(C1-Pad1)")
+    (add_net "Net-(L1-Pad2)")
+    (add_net "Net-(P2-Pad2)")
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA6EF) (tstamp 590FA7BD)
+    (at 117.856 112.776)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.254 -0.127) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA6F6) (tstamp 590FA7B9)
+    (at 116.078 113.03)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.381 -0.381) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA6FC) (tstamp 590FA7B5)
+    (at 113.792 113.03)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.127 -0.381) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA737) (tstamp 590FA706)
+    (at 104.267 113.157)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.127) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA6FC) (tstamp 590FA702)
+    (at 106.299 113.157)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.127 -0.381) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA6F6) (tstamp 590FA6FE)
+    (at 108.585 113.157)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.381 -0.381) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA72B) (tstamp 590FA6FA)
+    (at 99.949 113.157)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 -0.127) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA730) (tstamp 590FA6F6)
+    (at 101.981 113.157)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0.127 -0.127) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA6EF) (tstamp 590FA6F2)
+    (at 110.363 112.903)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at -0.254 -0.127) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6EE)
+    (at 118.872 111.252)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6EA)
+    (at 118.872 115.062)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6E6)
+    (at 118.872 113.284)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6E2)
+    (at 118.872 117.094)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6DE)
+    (at 116.84 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6DA)
+    (at 118.872 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6D6)
+    (at 83.312 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6D2)
+    (at 85.344 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6CE)
+    (at 89.408 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6CA)
+    (at 87.376 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6C6)
+    (at 96.012 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6C2)
+    (at 98.044 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6BE)
+    (at 93.726 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6BA)
+    (at 91.694 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6B6)
+    (at 115.062 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6B2)
+    (at 102.108 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6AE)
+    (at 100.076 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6AA)
+    (at 106.426 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6A6)
+    (at 104.394 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA6A2)
+    (at 113.03 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA69E)
+    (at 110.744 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA69A)
+    (at 108.712 118.745)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA676)
+    (at 81.28 118.618)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA671)
+    (at 81.28 116.586)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA66D)
+    (at 81.28 112.776)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA669)
+    (at 81.28 114.554)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA665)
+    (at 81.28 110.744)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA661)
+    (at 81.28 102.997)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA65D)
+    (at 81.28 106.807)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA659)
+    (at 81.28 105.029)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA655)
+    (at 81.28 108.839)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA651)
+    (at 90.932 111.887)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA64D)
+    (at 90.932 110.109)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA649)
+    (at 95.631 114.808)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA645)
+    (at 93.599 114.808)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA641)
+    (at 93.472 114.808)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA63D)
+    (at 95.504 114.808)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA639)
+    (at 95.631 107.696)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA635)
+    (at 93.599 107.696)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA631)
+    (at 93.726 107.696)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA62D)
+    (at 95.758 107.696)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA629)
+    (at 111.252 108.966)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA624)
+    (at 106.68 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA620)
+    (at 108.712 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA61C)
+    (at 110.998 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA618)
+    (at 102.362 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA614)
+    (at 104.394 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA597)
+    (at 113.03 108.712)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA592)
+    (at 113.03 104.902)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA58E)
+    (at 113.03 106.68)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA58A)
+    (at 113.03 102.87)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA585)
+    (at 98.044 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA581)
+    (at 100.076 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA57D)
+    (at 102.87 109.22)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA579)
+    (at 100.838 109.22)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA575)
+    (at 109.474 109.22)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA571)
+    (at 113.03 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA56D)
+    (at 107.188 109.22)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA569)
+    (at 105.156 109.22)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA563)
+    (at 89.662 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA55F)
+    (at 91.694 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA55B)
+    (at 96.012 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA557)
+    (at 93.98 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA54C)
+    (at 85.344 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA548)
+    (at 87.376 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA541)
+    (at 83.312 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module MyFootprints:ChipAntenna (layer F.Cu) (tedit 5900F0FB) (tstamp 58AF69C4)
+    (at 117.5512 108.712 270)
+    (path /58E3E9F3)
+    (fp_text reference P2 (at -6.712 2.5512 360) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_01X02 (at -3.612 4.4512 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center -1.1 0) (end -0.9 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.52 -2.25) (end 1.52 3.47) (layer F.SilkS) (width 0.15))
+    (fp_line (start -8.51 -2.26) (end -8.51 3.47) (layer F.SilkS) (width 0.15))
+    (fp_line (start -8.51 3.47) (end -8.49 3.46) (layer F.SilkS) (width 0.15))
+    (fp_line (start -8.5 3.47) (end 1.5 3.47) (layer F.SilkS) (width 0.15))
+    (fp_line (start -8.5 -2.27) (end 1.5 -2.27) (layer F.SilkS) (width 0.15))
+    (pad 2 smd rect (at -3.51 1.22 270) (size 2.8 0.8) (layers F.Cu F.Paste F.Mask)
+      (net 2 "Net-(P2-Pad2)"))
+    (pad 3 smd rect (at -7 0 270) (size 1 2) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd rect (at 0 0 270) (size 1 2) (layers F.Cu F.Paste F.Mask)
+      (net 3 "Net-(C1-Pad1)"))
+    (pad 4 smd rect (at -3.5 -1.22 270) (size 2.8 0.8) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module "VSMA:Vertical SMA" (layer F.Cu) (tedit 590FA882) (tstamp 5901054B)
+    (at 94.488 111.125)
+    (path /58E3EA4E)
+    (fp_text reference P1 (at 0 5.08 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CONN_01X02 (at -6 0 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 2 thru_hole rect (at -3.556 3.556) (size 1.651 1.651) (drill 1.143) (layers *.Cu *.Mask)
+      (net 1 GND))
+    (pad 2 thru_hole rect (at 3.556 -3.556) (size 1.651 1.651) (drill 1.143) (layers *.Cu *.Mask)
+      (net 1 GND))
+    (pad 2 thru_hole rect (at -3.556 -3.556) (size 1.651 1.651) (drill 1.143) (layers *.Cu *.Mask)
+      (net 1 GND))
+    (pad 2 thru_hole rect (at 3.556 3.556) (size 1.651 1.651) (drill 1.143) (layers *.Cu *.Mask)
+      (net 1 GND))
+    (pad 1 thru_hole circle (at 0 0) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask)
+      (net 4 "Net-(L1-Pad2)"))
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 590FA74E) (tstamp 590F6CA3)
+    (at 111.8489 112.3696 270)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /590F6A88)
+    (attr smd)
+    (fp_text reference C1 (at 1.9304 2.2479 540) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 1pF (at 2.0574 -2.5781 360) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 1.9304 2.2479 360) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0 270) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 3 "Net-(C1-Pad1)"))
+    (pad 2 smd rect (at 1.25 0 270) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 590FA6DD) (tstamp 590F6CB4)
+    (at 102.0572 111.125 180)
+    (descr "Capacitor SMD 0805, hand soldering")
+    (tags "capacitor 0805")
+    (path /590F6AD4)
+    (attr smd)
+    (fp_text reference L1 (at -0.0508 3.175 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 4.7nH (at -0.5588 -3.429 180) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at -0.0508 3.175 180) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1 0.62) (end -1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 0.62) (end -1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.62) (end 1 0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.62) (end 1 -0.62) (layer F.Fab) (width 0.1))
+    (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.25 -0.88) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.25 -0.88) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end 2.25 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.25 0.87) (end -2.25 0.87) (layer F.CrtYd) (width 0.05))
+    (pad 1 smd rect (at -1.25 0 180) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 3 "Net-(C1-Pad1)"))
+    (pad 2 smd rect (at 1.25 0 180) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
+      (net 4 "Net-(L1-Pad2)"))
+    (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Misc:Via_Stitch_Dia1.00mm_Drill0.64mm (layer F.Cu) (tedit 590FA537) (tstamp 590FA512)
+    (at 81.28 101.092)
+    (fp_text reference REF** (at 0 0.889) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Via_Stitch_Dia1.00mm_Drill0.64mm (at 0 -0.889) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.64) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (gr_text "2.4 GHz Chip Antenna VSMA" (at 96.4184 102.8446) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_line (start 120 100) (end 80 100) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 120 120) (end 120 100) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 80 120) (end 120 120) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 80 100) (end 80 120) (angle 90) (layer Margin) (width 0.2))
+
+  (segment (start 111.8489 111.1196) (end 103.3126 111.1196) (width 0.8382) (layer F.Cu) (net 3))
+  (segment (start 103.3126 111.1196) (end 103.3072 111.125) (width 0.8382) (layer F.Cu) (net 3) (tstamp 590F724B))
+  (segment (start 117.5512 108.712) (end 117.5512 110.7059) (width 0.8382) (layer F.Cu) (net 3))
+  (segment (start 117.1375 111.1196) (end 111.8489 111.1196) (width 0.8382) (layer F.Cu) (net 3) (tstamp 590F7249))
+  (segment (start 117.5512 110.7059) (end 117.1375 111.1196) (width 0.8382) (layer F.Cu) (net 3) (tstamp 590F7248))
+  (segment (start 100.8072 111.125) (end 94.488 111.125) (width 0.8382) (layer F.Cu) (net 4))
+  (segment (start 94.5134 111.1504) (end 94.488 111.125) (width 0.8382) (layer F.Cu) (net 4) (tstamp 58E3F0DA))
+
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 58AFD327) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 113.792 110.4392) (xy 119.7864 110.4392) (xy 119.7864 119.7864) (xy 80.264 119.7864) (xy 80.264 100.2792)
+        (xy 113.792 100.2792)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 113.665 110.0655) (xy 113.032801 110.0655) (xy 112.93799 109.918159) (xy 112.72579 109.773169) (xy 112.4739 109.72216)
+        (xy 111.2239 109.72216) (xy 110.988583 109.766438) (xy 110.772459 109.90551) (xy 110.663143 110.0655) (xy 104.532191 110.0655)
+        (xy 104.52129 110.048559) (xy 104.30909 109.903569) (xy 104.0572 109.85256) (xy 102.5572 109.85256) (xy 102.321883 109.896838)
+        (xy 102.105759 110.03591) (xy 102.058066 110.105711) (xy 102.02129 110.048559) (xy 101.80909 109.903569) (xy 101.5572 109.85256)
+        (xy 100.0572 109.85256) (xy 99.821883 109.896838) (xy 99.605759 110.03591) (xy 99.581851 110.0709) (xy 95.428042 110.0709)
+        (xy 95.287744 109.930357) (xy 94.769697 109.715245) (xy 94.208764 109.714755) (xy 93.690342 109.928963) (xy 93.293357 110.325256)
+        (xy 93.078245 110.843303) (xy 93.077755 111.404236) (xy 93.291963 111.922658) (xy 93.688256 112.319643) (xy 94.206303 112.534755)
+        (xy 94.767236 112.535245) (xy 95.285658 112.321037) (xy 95.427843 112.1791) (xy 99.578734 112.1791) (xy 99.59311 112.201441)
+        (xy 99.80531 112.346431) (xy 100.0572 112.39744) (xy 101.5572 112.39744) (xy 101.792517 112.353162) (xy 102.008641 112.21409)
+        (xy 102.056334 112.144289) (xy 102.09311 112.201441) (xy 102.30531 112.346431) (xy 102.5572 112.39744) (xy 104.0572 112.39744)
+        (xy 104.292517 112.353162) (xy 104.508641 112.21409) (xy 104.536238 112.1737) (xy 110.664999 112.1737) (xy 110.75981 112.321041)
+        (xy 110.827906 112.367569) (xy 110.685573 112.509902) (xy 110.5889 112.743291) (xy 110.5889 113.33385) (xy 110.74765 113.4926)
+        (xy 111.7219 113.4926) (xy 111.7219 113.4726) (xy 111.9759 113.4726) (xy 111.9759 113.4926) (xy 112.95015 113.4926)
+        (xy 113.1089 113.33385) (xy 113.1089 112.743291) (xy 113.012227 112.509902) (xy 112.87099 112.368664) (xy 112.925341 112.33369)
+        (xy 113.034657 112.1737) (xy 117.1375 112.1737) (xy 117.540887 112.093461) (xy 117.882861 111.864961) (xy 118.296561 111.451261)
+        (xy 118.49759 111.1504) (xy 118.525061 111.109287) (xy 118.6053 110.7059) (xy 118.6053 110.5662) (xy 119.6594 110.5662)
+        (xy 119.6594 119.6594) (xy 80.391 119.6594) (xy 80.391 114.96675) (xy 89.4715 114.96675) (xy 89.4715 115.63281)
+        (xy 89.568173 115.866199) (xy 89.746802 116.044827) (xy 89.980191 116.1415) (xy 90.64625 116.1415) (xy 90.805 115.98275)
+        (xy 90.805 114.808) (xy 91.059 114.808) (xy 91.059 115.98275) (xy 91.21775 116.1415) (xy 91.883809 116.1415)
+        (xy 92.117198 116.044827) (xy 92.295827 115.866199) (xy 92.3925 115.63281) (xy 92.3925 114.96675) (xy 96.5835 114.96675)
+        (xy 96.5835 115.63281) (xy 96.680173 115.866199) (xy 96.858802 116.044827) (xy 97.092191 116.1415) (xy 97.75825 116.1415)
+        (xy 97.917 115.98275) (xy 97.917 114.808) (xy 98.171 114.808) (xy 98.171 115.98275) (xy 98.32975 116.1415)
+        (xy 98.995809 116.1415) (xy 99.229198 116.044827) (xy 99.407827 115.866199) (xy 99.5045 115.63281) (xy 99.5045 114.96675)
+        (xy 99.34575 114.808) (xy 98.171 114.808) (xy 97.917 114.808) (xy 96.74225 114.808) (xy 96.5835 114.96675)
+        (xy 92.3925 114.96675) (xy 92.23375 114.808) (xy 91.059 114.808) (xy 90.805 114.808) (xy 89.63025 114.808)
+        (xy 89.4715 114.96675) (xy 80.391 114.96675) (xy 80.391 113.72919) (xy 89.4715 113.72919) (xy 89.4715 114.39525)
+        (xy 89.63025 114.554) (xy 90.805 114.554) (xy 90.805 113.37925) (xy 91.059 113.37925) (xy 91.059 114.554)
+        (xy 92.23375 114.554) (xy 92.3925 114.39525) (xy 92.3925 113.72919) (xy 96.5835 113.72919) (xy 96.5835 114.39525)
+        (xy 96.74225 114.554) (xy 97.917 114.554) (xy 97.917 113.37925) (xy 98.171 113.37925) (xy 98.171 114.554)
+        (xy 99.34575 114.554) (xy 99.5045 114.39525) (xy 99.5045 113.90535) (xy 110.5889 113.90535) (xy 110.5889 114.495909)
+        (xy 110.685573 114.729298) (xy 110.864201 114.907927) (xy 111.09759 115.0046) (xy 111.56315 115.0046) (xy 111.7219 114.84585)
+        (xy 111.7219 113.7466) (xy 111.9759 113.7466) (xy 111.9759 114.84585) (xy 112.13465 115.0046) (xy 112.60021 115.0046)
+        (xy 112.833599 114.907927) (xy 113.012227 114.729298) (xy 113.1089 114.495909) (xy 113.1089 113.90535) (xy 112.95015 113.7466)
+        (xy 111.9759 113.7466) (xy 111.7219 113.7466) (xy 110.74765 113.7466) (xy 110.5889 113.90535) (xy 99.5045 113.90535)
+        (xy 99.5045 113.72919) (xy 99.407827 113.495801) (xy 99.229198 113.317173) (xy 98.995809 113.2205) (xy 98.32975 113.2205)
+        (xy 98.171 113.37925) (xy 97.917 113.37925) (xy 97.75825 113.2205) (xy 97.092191 113.2205) (xy 96.858802 113.317173)
+        (xy 96.680173 113.495801) (xy 96.5835 113.72919) (xy 92.3925 113.72919) (xy 92.295827 113.495801) (xy 92.117198 113.317173)
+        (xy 91.883809 113.2205) (xy 91.21775 113.2205) (xy 91.059 113.37925) (xy 90.805 113.37925) (xy 90.64625 113.2205)
+        (xy 89.980191 113.2205) (xy 89.746802 113.317173) (xy 89.568173 113.495801) (xy 89.4715 113.72919) (xy 80.391 113.72919)
+        (xy 80.391 107.85475) (xy 89.4715 107.85475) (xy 89.4715 108.52081) (xy 89.568173 108.754199) (xy 89.746802 108.932827)
+        (xy 89.980191 109.0295) (xy 90.64625 109.0295) (xy 90.805 108.87075) (xy 90.805 107.696) (xy 91.059 107.696)
+        (xy 91.059 108.87075) (xy 91.21775 109.0295) (xy 91.883809 109.0295) (xy 92.117198 108.932827) (xy 92.295827 108.754199)
+        (xy 92.3925 108.52081) (xy 92.3925 107.85475) (xy 96.5835 107.85475) (xy 96.5835 108.52081) (xy 96.680173 108.754199)
+        (xy 96.858802 108.932827) (xy 97.092191 109.0295) (xy 97.75825 109.0295) (xy 97.917 108.87075) (xy 97.917 107.696)
+        (xy 98.171 107.696) (xy 98.171 108.87075) (xy 98.32975 109.0295) (xy 98.995809 109.0295) (xy 99.229198 108.932827)
+        (xy 99.407827 108.754199) (xy 99.5045 108.52081) (xy 99.5045 107.85475) (xy 99.34575 107.696) (xy 98.171 107.696)
+        (xy 97.917 107.696) (xy 96.74225 107.696) (xy 96.5835 107.85475) (xy 92.3925 107.85475) (xy 92.23375 107.696)
+        (xy 91.059 107.696) (xy 90.805 107.696) (xy 89.63025 107.696) (xy 89.4715 107.85475) (xy 80.391 107.85475)
+        (xy 80.391 106.61719) (xy 89.4715 106.61719) (xy 89.4715 107.28325) (xy 89.63025 107.442) (xy 90.805 107.442)
+        (xy 90.805 106.26725) (xy 91.059 106.26725) (xy 91.059 107.442) (xy 92.23375 107.442) (xy 92.3925 107.28325)
+        (xy 92.3925 106.61719) (xy 96.5835 106.61719) (xy 96.5835 107.28325) (xy 96.74225 107.442) (xy 97.917 107.442)
+        (xy 97.917 106.26725) (xy 98.171 106.26725) (xy 98.171 107.442) (xy 99.34575 107.442) (xy 99.5045 107.28325)
+        (xy 99.5045 106.61719) (xy 99.407827 106.383801) (xy 99.229198 106.205173) (xy 98.995809 106.1085) (xy 98.32975 106.1085)
+        (xy 98.171 106.26725) (xy 97.917 106.26725) (xy 97.75825 106.1085) (xy 97.092191 106.1085) (xy 96.858802 106.205173)
+        (xy 96.680173 106.383801) (xy 96.5835 106.61719) (xy 92.3925 106.61719) (xy 92.295827 106.383801) (xy 92.117198 106.205173)
+        (xy 91.883809 106.1085) (xy 91.21775 106.1085) (xy 91.059 106.26725) (xy 90.805 106.26725) (xy 90.64625 106.1085)
+        (xy 89.980191 106.1085) (xy 89.746802 106.205173) (xy 89.568173 106.383801) (xy 89.4715 106.61719) (xy 80.391 106.61719)
+        (xy 80.391 100.4062) (xy 113.665 100.4062)
+      )
+    )
+  )
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 58AFD327) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 113.792 110.4392) (xy 119.7864 110.4392) (xy 119.7864 119.7864) (xy 80.264 119.7864) (xy 80.264 100.2792)
+        (xy 113.792 100.2792)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 113.665 110.4392) (xy 113.675006 110.48861) (xy 113.703447 110.530235) (xy 113.745841 110.557515) (xy 113.792 110.5662)
+        (xy 119.6594 110.5662) (xy 119.6594 119.6594) (xy 80.391 119.6594) (xy 80.391 114.96675) (xy 89.4715 114.96675)
+        (xy 89.4715 115.63281) (xy 89.568173 115.866199) (xy 89.746802 116.044827) (xy 89.980191 116.1415) (xy 90.64625 116.1415)
+        (xy 90.805 115.98275) (xy 90.805 114.808) (xy 91.059 114.808) (xy 91.059 115.98275) (xy 91.21775 116.1415)
+        (xy 91.883809 116.1415) (xy 92.117198 116.044827) (xy 92.295827 115.866199) (xy 92.3925 115.63281) (xy 92.3925 114.96675)
+        (xy 96.5835 114.96675) (xy 96.5835 115.63281) (xy 96.680173 115.866199) (xy 96.858802 116.044827) (xy 97.092191 116.1415)
+        (xy 97.75825 116.1415) (xy 97.917 115.98275) (xy 97.917 114.808) (xy 98.171 114.808) (xy 98.171 115.98275)
+        (xy 98.32975 116.1415) (xy 98.995809 116.1415) (xy 99.229198 116.044827) (xy 99.407827 115.866199) (xy 99.5045 115.63281)
+        (xy 99.5045 114.96675) (xy 99.34575 114.808) (xy 98.171 114.808) (xy 97.917 114.808) (xy 96.74225 114.808)
+        (xy 96.5835 114.96675) (xy 92.3925 114.96675) (xy 92.23375 114.808) (xy 91.059 114.808) (xy 90.805 114.808)
+        (xy 89.63025 114.808) (xy 89.4715 114.96675) (xy 80.391 114.96675) (xy 80.391 113.72919) (xy 89.4715 113.72919)
+        (xy 89.4715 114.39525) (xy 89.63025 114.554) (xy 90.805 114.554) (xy 90.805 113.37925) (xy 91.059 113.37925)
+        (xy 91.059 114.554) (xy 92.23375 114.554) (xy 92.3925 114.39525) (xy 92.3925 113.72919) (xy 96.5835 113.72919)
+        (xy 96.5835 114.39525) (xy 96.74225 114.554) (xy 97.917 114.554) (xy 97.917 113.37925) (xy 98.171 113.37925)
+        (xy 98.171 114.554) (xy 99.34575 114.554) (xy 99.5045 114.39525) (xy 99.5045 113.72919) (xy 99.407827 113.495801)
+        (xy 99.229198 113.317173) (xy 98.995809 113.2205) (xy 98.32975 113.2205) (xy 98.171 113.37925) (xy 97.917 113.37925)
+        (xy 97.75825 113.2205) (xy 97.092191 113.2205) (xy 96.858802 113.317173) (xy 96.680173 113.495801) (xy 96.5835 113.72919)
+        (xy 92.3925 113.72919) (xy 92.295827 113.495801) (xy 92.117198 113.317173) (xy 91.883809 113.2205) (xy 91.21775 113.2205)
+        (xy 91.059 113.37925) (xy 90.805 113.37925) (xy 90.64625 113.2205) (xy 89.980191 113.2205) (xy 89.746802 113.317173)
+        (xy 89.568173 113.495801) (xy 89.4715 113.72919) (xy 80.391 113.72919) (xy 80.391 111.404236) (xy 93.077755 111.404236)
+        (xy 93.291963 111.922658) (xy 93.688256 112.319643) (xy 94.206303 112.534755) (xy 94.767236 112.535245) (xy 95.285658 112.321037)
+        (xy 95.682643 111.924744) (xy 95.897755 111.406697) (xy 95.898245 110.845764) (xy 95.684037 110.327342) (xy 95.287744 109.930357)
+        (xy 94.769697 109.715245) (xy 94.208764 109.714755) (xy 93.690342 109.928963) (xy 93.293357 110.325256) (xy 93.078245 110.843303)
+        (xy 93.077755 111.404236) (xy 80.391 111.404236) (xy 80.391 107.85475) (xy 89.4715 107.85475) (xy 89.4715 108.52081)
+        (xy 89.568173 108.754199) (xy 89.746802 108.932827) (xy 89.980191 109.0295) (xy 90.64625 109.0295) (xy 90.805 108.87075)
+        (xy 90.805 107.696) (xy 91.059 107.696) (xy 91.059 108.87075) (xy 91.21775 109.0295) (xy 91.883809 109.0295)
+        (xy 92.117198 108.932827) (xy 92.295827 108.754199) (xy 92.3925 108.52081) (xy 92.3925 107.85475) (xy 96.5835 107.85475)
+        (xy 96.5835 108.52081) (xy 96.680173 108.754199) (xy 96.858802 108.932827) (xy 97.092191 109.0295) (xy 97.75825 109.0295)
+        (xy 97.917 108.87075) (xy 97.917 107.696) (xy 98.171 107.696) (xy 98.171 108.87075) (xy 98.32975 109.0295)
+        (xy 98.995809 109.0295) (xy 99.229198 108.932827) (xy 99.407827 108.754199) (xy 99.5045 108.52081) (xy 99.5045 107.85475)
+        (xy 99.34575 107.696) (xy 98.171 107.696) (xy 97.917 107.696) (xy 96.74225 107.696) (xy 96.5835 107.85475)
+        (xy 92.3925 107.85475) (xy 92.23375 107.696) (xy 91.059 107.696) (xy 90.805 107.696) (xy 89.63025 107.696)
+        (xy 89.4715 107.85475) (xy 80.391 107.85475) (xy 80.391 106.61719) (xy 89.4715 106.61719) (xy 89.4715 107.28325)
+        (xy 89.63025 107.442) (xy 90.805 107.442) (xy 90.805 106.26725) (xy 91.059 106.26725) (xy 91.059 107.442)
+        (xy 92.23375 107.442) (xy 92.3925 107.28325) (xy 92.3925 106.61719) (xy 96.5835 106.61719) (xy 96.5835 107.28325)
+        (xy 96.74225 107.442) (xy 97.917 107.442) (xy 97.917 106.26725) (xy 98.171 106.26725) (xy 98.171 107.442)
+        (xy 99.34575 107.442) (xy 99.5045 107.28325) (xy 99.5045 106.61719) (xy 99.407827 106.383801) (xy 99.229198 106.205173)
+        (xy 98.995809 106.1085) (xy 98.32975 106.1085) (xy 98.171 106.26725) (xy 97.917 106.26725) (xy 97.75825 106.1085)
+        (xy 97.092191 106.1085) (xy 96.858802 106.205173) (xy 96.680173 106.383801) (xy 96.5835 106.61719) (xy 92.3925 106.61719)
+        (xy 92.295827 106.383801) (xy 92.117198 106.205173) (xy 91.883809 106.1085) (xy 91.21775 106.1085) (xy 91.059 106.26725)
+        (xy 90.805 106.26725) (xy 90.64625 106.1085) (xy 89.980191 106.1085) (xy 89.746802 106.205173) (xy 89.568173 106.383801)
+        (xy 89.4715 106.61719) (xy 80.391 106.61719) (xy 80.391 100.4062) (xy 113.665 100.4062)
+      )
+    )
+  )
+)
