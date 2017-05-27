@@ -525,16 +525,6 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib device) (part LED_ALT)
-      (description "LED generic, alternativ symbol")
-      (footprints
-        (fp LED*))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED_ALT))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
     (libpart (lib regul) (part LM2574)
       (fields
         (field (name Reference) U)

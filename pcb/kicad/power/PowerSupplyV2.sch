@@ -1235,11 +1235,11 @@ Wire Wire Line
 	5350 3250 5500 3250
 Text Label 4850 2950 0    60   ~ 0
 MT2
-Text Label 4850 3400 0    60   ~ 0
+Text Label 7550 6050 2    60   ~ 0
 MT1
-Text Label 3350 2600 0    60   ~ 0
+Text Label 8550 5300 0    60   ~ 0
 ACLOAD
-Text Label 3300 3600 0    60   ~ 0
+Text Label 8250 6250 0    60   ~ 0
 ACNEUTRAL
 $Comp
 L R R12

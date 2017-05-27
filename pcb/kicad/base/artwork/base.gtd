@@ -8,7 +8,7 @@ $Environment
 	OverlayMode	No
 	ShowErrors	No
 	ViewComposites	No
-	OrthoSnap	No
+	OrthoSnap	Yes
 	SnapAngle	45.0000
 	ActiveLayer	1
 	CurrentDcode	10
