@@ -683,7 +683,7 @@ $EndComp
 Text Label 1775 7325 0    60   ~ 0
 +5V
 Text Notes 5750 2075 0    60   ~ 0
-LP_GPIO_3, 4, 22, 23 configured\nwith internal pull-up resistors.\nAll other GPIOs configured\nwith internal pull-down resistors.
+LP_GPIO_3, 4, 5, 22, 23 configured\nwith internal pull-up resistors.\nAll other GPIOs configured\nwith internal pull-down resistors.
 $Comp
 L CONN_02X10 H1
 U 1 1 58BBB586
@@ -796,7 +796,7 @@ F 3 "" H 8950 5275 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 8150 7650 0    60   ~ 0
-May 25, 2017
+May 26, 2017
 Text Notes 10600 7650 0    60   ~ 0
 1.1
 Text Label 9650 4975 0    30   ~ 0
