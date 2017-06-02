@@ -1,4 +1,4 @@
-update=5/2/2017 05:46:12 AM
+update=6/1/2017 12:19:38 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=../../lib;C:/Uroarbrunnr/Kicad;../../lib.pretty;C:/Uroarbrunnr/Kicad/library
@@ -62,13 +72,3 @@ LibName30=valves
 LibName31=misc
 LibName32=uCs
 LibName33=coin_cells
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
