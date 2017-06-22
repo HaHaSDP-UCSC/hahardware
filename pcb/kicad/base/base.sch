@@ -355,9 +355,9 @@ F 3 "" H 5925 4675 50  0000 C CNN
 $EndComp
 Text Notes 900  1650 0    60   ~ 0
 Place C10 as close as possible to pin 4.\nPlace C11 as close as possible to pin 48.\nPlace C12 as close as possible to pin 1.\nPlace C13 as close as possible to pin 2.
-Text Label 5750 2900 0    30   ~ 0
+Text Label 5750 3325 0    30   ~ 0
 UART_RTS
-Text Label 5750 2850 0    30   ~ 0
+Text Label 5750 3275 0    30   ~ 0
 UART_CTS
 $Comp
 L CONN_01X02 P1
@@ -451,21 +451,21 @@ NoConn ~ 4300 4350
 NoConn ~ 4350 4350
 NoConn ~ 4525 4350
 NoConn ~ 4575 4350
-Text Label 5750 2800 0    30   ~ 0
-UART_TX
-Text Label 5750 2750 0    30   ~ 0
-UART_RX
-Text Label 5750 3125 0    30   ~ 0
-DISP_B4
-Text Label 5750 3175 0    30   ~ 0
-DISP_B5
 Text Label 5750 3225 0    30   ~ 0
+UART_TX
+Text Label 5750 3175 0    30   ~ 0
+UART_RX
+Text Label 5750 2850 0    30   ~ 0
+DISP_B4
+Text Label 5750 2900 0    30   ~ 0
+DISP_B5
+Text Label 5750 2950 0    30   ~ 0
 DISP_B6
-Text Label 5750 3275 0    30   ~ 0
+Text Label 5750 3000 0    30   ~ 0
 DISP_B7
-Text Label 5750 3075 0    30   ~ 0
+Text Label 5750 2800 0    30   ~ 0
 DISP_E
-Text Label 5750 3025 0    30   ~ 0
+Text Label 5750 2750 0    30   ~ 0
 DISP_RS
 $Comp
 L Antenna_Shield AE1
@@ -491,7 +491,7 @@ F 3 "" H 1350 2500 50  0000 C CNN
 $EndComp
 Text Label 6225 5425 2    30   ~ 0
 +5V_DEBUG
-Text Label 5750 3325 0    30   ~ 0
+Text Label 5750 3050 0    30   ~ 0
 DISP_BRIGHT
 Text Label 7950 2400 2    30   ~ 0
 DISP_RS
@@ -979,10 +979,19 @@ Text Label 3325 7325 0    30   ~ 0
 LIGHT_SIG
 Text Label 5750 3450 0    30   ~ 0
 LIGHT_SIG
+$Comp
+L C_Small C7
+U 1 1 594AE168
+P 3850 2800
+F 0 "C7" V 3950 2750 50  0000 L CNN
+F 1 "1.0uF" V 3750 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3850 2800 50  0001 C CNN
+F 3 "" H 3850 2800 50  0000 C CNN
+	1    3850 2800
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	6725 5225 6725 5325
-Wire Wire Line
-	6725 5325 6725 5425
+	6725 4625 6725 5425
 Wire Wire Line
 	5250 1475 5250 2150
 Wire Wire Line
@@ -1176,8 +1185,6 @@ Wire Wire Line
 	5850 2300 5750 2300
 Wire Wire Line
 	5750 2300 5750 2450
-Wire Wire Line
-	1450 2800 3950 2800
 Connection ~ 5750 2350
 Connection ~ 5750 2400
 Wire Wire Line
@@ -1190,4 +1197,6 @@ Wire Wire Line
 	3900 3700 3900 3600
 Wire Wire Line
 	3725 3750 3950 3750
+Wire Wire Line
+	1450 2800 3750 2800
 $EndSCHEMATC
